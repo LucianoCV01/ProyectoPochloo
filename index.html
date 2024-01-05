@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Productos</title>
+</head>
+<body>
+
+    <form id="formularioProductos">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+        </div>
+        <div>
+            <label for="categoria">Categoría:</label>
+            <input type="text" id="categoria" required>
+        </div>
+        <div>
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" required></textarea>
+        </div>
+        <div>
+            <label for="publicado">Publicado:</label>
+            <input type="checkbox" id="publicado">
+        </div>
+        <div>
+            <label for="destacado">Destacado:</label>
+            <input type="checkbox" id="destacado">
+        </div>
+        <div>
+            <label for="imagen">Imagen URL:</label>
+            <input type="text" id="imagen" required>
+        </div>
+        <div>
+            <label for="url">URL:</label>
+            <input type="text" id="url" required>
+        </div>
+        <button type="button" id="botonAgregar">Agregar Producto</button>
+    </form>
+
+    <!-- Incluir tu script JS aquí -->
+    <script src="js/index.js"></script>
+</body>
+</html>
