@@ -1,0 +1,34 @@
+[
+    {
+        "codigo": "000",
+        "nombre": "Barbie",
+        "categoria": "Comedia",
+        "detalles": "poiuytresdxfcgvhbjkmlñ",
+        "publicado": 1,
+        "destacado": 1
+    },
+    {
+        "codigo": "001",
+        "nombre": "La Monja II",
+        "categoria": "Terror",
+        "detalles": "1 cagada pero está la hermana de la vera farmiga y la amamamos",
+        "publicado": 0,
+        "destacado": 0
+    },
+    {
+        "codigo": "002",
+        "nombre": "Totoro",
+        "categoria": "Animación",
+        "detalles": "re linda que decirte",
+        "publicado": 1,
+        "destacado": 0
+    },
+    {
+        "codigo": "003",
+        "nombre": "El Pianista",
+        "categoria": "Drama histórico",
+        "detalles": "De mis favs pero ni me acuerdo",
+        "publicado": 1,
+        "destacado": 0
+    }
+]
