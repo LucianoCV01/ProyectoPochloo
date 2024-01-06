@@ -52,17 +52,23 @@ const mostrarPeliculasEnTabla = () =>
         div.appendChild(b2)
         div.appendChild(b3)
         
+        let checkbox = document.createElement("input")
+        checkbox.type = "checkbox"
+       
+
         td1.textContent = arregloPeliculas[i].codigo
         td2.textContent = arregloPeliculas[i].nombre
         td3.textContent = arregloPeliculas[i].categoria
         td4.textContent = arregloPeliculas[i].detalles
         if(arregloPeliculas[i].publicado)
         {
-            td5.textContent = "Sí"
+            checkbox.checked = true
+
         }else{
-            td5.textContent = "No"
+            checkbox.checked = false
         }
         
+        td5.appendChild(checkbox)
         td6.appendChild(div)
         tr.appendChild(td1)
         tr.appendChild(td2)
@@ -73,6 +79,9 @@ const mostrarPeliculasEnTabla = () =>
         tbody.appendChild(tr)
 
         b1.addEventListener("click", () => {eliminarPelicula(i)})
+        b2.addEventListener("click", () => {modificarPelicula(i)})
+        b3.addEventListener("click", () => {destacarPelicula(i)})
+        checkbox.addEventListener("click", () => {publicarPelicula(i, checkbox)})
     }
 }
 
@@ -86,6 +95,17 @@ const eliminarPelicula = (posicion) =>
     mostrarPeliculasEnTabla()
 }
 
-
+const publicarPelicula = (posicion, boton) =>
+{
+    if(boton.checked)
+    {
+        arregloPeliculas[posicion].publicado = 1
+    }else{
+        arregloPeliculas[posicion].publicado = 0
+    }
+    localStorage.setItem("Pelicula", JSON.stringify(arregloPeliculas))
+    console.log(arregloPeliculas)
+    console.log("hola")
+}
 
 
