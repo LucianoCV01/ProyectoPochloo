@@ -16,6 +16,10 @@
     <main>
         <section>
             <h1>Administrar Productos</h1>
+            <!-- Botones para mostrar modales -->
+            <button type="button" class="btn btn-primary" data-bs-target="#miModal"
+                onclick="mostrarModal('Nuevo Producto', null)">Nuevo Producto</button>
+
             <table class="table">
                 <thead>
                     <tr>
@@ -27,73 +31,70 @@
                         <th scope="col">Opciones</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                    </tr>
-                    <tr>
-                        <th scope="row">1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                        <td>@mdo</td>
-                    </tr>
+                <tbody id="tbody">
+
                 </tbody>
             </table>
+
+            <!-- Modal -->
+            <div class="modal fade" id="miModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="staticBackdropLabel" class="modalTitulo"></h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form id="formularioProductos">
+                                <input type="hidden" id="codigo" name="codigo">
+                                <div class="mb-3">
+                                    <label for="nombre" class="form-label">Nombre</label>
+                                    <input type="text" class="form-control" id="nombre" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="categoria" class="form-label">Categoría</label>
+                                    <input type="text" class="form-control" id="categoria" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="descripcion" class="form-label">Descripción</label>
+                                    <textarea id="descripcion" class="form-control" required></textarea>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <label class="form-check-label" for="publicado">Publicado</label>
+                                    <input type="checkbox" class="form-check-input" id="publicado">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <label class="form-check-label" for="destacado">Destacado</label>
+                                    <input type="checkbox" class="form-check-input" id="destacado">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="imagen" class="form-label">Imagen URL</label>
+                                    <input type="text" class="form-control" id="imagen" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="url" class="form-label">URL</label>
+                                    <input type="text" class="form-control" id="url" required>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary" id="modalBtnAccion"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
     </main>
-    <!-- <form id="formularioProductos">
-        <div>
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" required>
-        </div>
-        <div>
-            <label for="categoria">Categoría:</label>
-            <input type="text" id="categoria" required>
-        </div>
-        <div>
-            <label for="descripcion">Descripción:</label>
-            <textarea id="descripcion" required></textarea>
-        </div>
-        <div>
-            <label for="publicado">Publicado:</label>
-            <input type="checkbox" id="publicado">
-        </div>
-        <div>
-            <label for="destacado">Destacado:</label>
-            <input type="checkbox" id="destacado">
-        </div>
-        <div>
-            <label for="imagen">Imagen URL:</label>
-            <input type="text" id="imagen" required>
-        </div>
-        <div>
-            <label for="url">URL:</label>
-            <input type="text" id="url" required>
-        </div>
-        <button type="button" id="botonAgregar">Agregar Producto</button>
-        <button type="button" id="botonActualizar">Actualizar Producto</button>
-    </form> -->
 
     <!-- Script JS -->
+    <script src="js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="js/index.js"></script>
+    <script src="https://kit.fontawesome.com/a7f4659b4f.js" crossorigin="anonymous"></script>
 </body>
 
 </html>
