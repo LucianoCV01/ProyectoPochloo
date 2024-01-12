@@ -1,6 +1,6 @@
 let registro = []
 
-let registroJson = fetch(`../js/registro.json`)
+let registroJson = fetch(`../json/registro.json`)
 .then((resp=>{
     resp.json().then((data=>{
     localStorage.setItem("Registro", JSON.stringify(data))

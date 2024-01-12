@@ -8,7 +8,7 @@ const crearFilasAlta = (usuario, indice) =>
     console.log("sucede crearFilasAlta")
     return `
         <tr>
-            <td>${usuario.nombre}</td>
+            <td>${usuario.usuario}</td>
             <td>Pendiente</td>
             <td>
             <div>
@@ -25,18 +25,17 @@ const crearFilasAlta = (usuario, indice) =>
     
 }
 
-const mostrarAltaEnTabla = () =>
-{
-    // bodyAlta.innerHTML = ""
+document.addEventListener('DOMContentLoaded', function() {
+
+    bodyAlta.innerHTML = ""
     for (let i = 0; i < registro.length; i++) {
         
         let filaAlta = crearFilasAlta(registro[i], i)
         bodyAlta.innerHTML += filaAlta
     }
     console.log("sucede mostrarALtaEnTabla")
-}
+})
 
-mostrarAltaEnTabla()
 
 const cambiarIcono = (event) =>
 {
