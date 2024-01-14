@@ -5,7 +5,7 @@ class Producto {
         this.categoria = categoria;
         this.descripcion = descripcion;
         this.publicado = publicado;
-        this.destacado =  destacado || false;
+        this.destacado = destacado || false;
         this.imagen = imagen;
         this.url = url;
     }
@@ -24,6 +24,16 @@ const guardarLocalStorage = (nombreLocalStorage, arregloObjetos) => {
 }
 // const eliminarLocalStorage = () => {}
 // const limpiarLocalStorage = () => {localStorage.clear();}
+
+const cargarLocalStorage = () => {
+    let peliculasJson = fetch(`../json/peliculas.json`)
+        .then((resp => {
+            resp.json().then((data => {
+                guardarLocalStorage("Pelicula", data);
+            }))
+        }))
+        .catch(console.warn)
+}
 
 // FUNCIONES EXTRA
 const generarCodigo = () => {
@@ -46,23 +56,23 @@ const buscarProductoPorCodigo = (codigoBuscado) => {
 const construirFilaTabla = (producto, indice) => {
     return `
         <tr>
-            <td>${producto.codigo}</td>
-            <td>${producto.nombre}</td>
-            <td>${producto.categoria}</td>
-            <td>${producto.descripcion}</td>
-            <td><input type="checkbox" ${producto.publicado ? 'checked' : ''} onchange="publicarPelicula(${producto.codigo})"></td>
-            <td>
+            <td class="p-1">${producto.codigo}</td>
+            <td class="p-2">${producto.nombre}</td>
+            <td class="p-1">${producto.categoria}</td>
+            <td class="p-2">${producto.descripcion}</td>
+            <td class="p-1"><input type="checkbox" ${producto.publicado ? 'checked' : ''} onchange="publicarPelicula(${producto.codigo})"></td>
+            <td class="p-1">
                 <div>
                     <button type="button" class="btn btn-warning" onclick="destacarProducto(${producto.codigo})"><i class="${producto.destacado ? 'fa-solid fa-star' : 'fa-regular fa-star'}"></i></button>
                 </div>
             </td>
-            <td>
+            <td class="p-1">
                 <div>
                     <button type="button" class="btn btn-success" data-bs-target="#miModal"
                     onclick="mostrarModal('Modificar Producto', buscarProductoPorCodigo(${producto.codigo}))"><i class="fa-solid fa-pen-to-square"></i></button>
                 </div>
             </td>
-            <td>
+            <td class="p-1">
                 <div>
                     <button type="button" class="btn btn-danger" onclick="eliminarPelicula(${indice})"><i class="fa-solid fa-trash"></i></button>
                 </div>
@@ -96,19 +106,17 @@ const destacarProducto = (codigoProducto) => {
     productos.forEach(producto => {
         if (codigoProducto === producto.codigo) {
             producto.destacado = true;
-        } else{
+        } else {
             producto.destacado = false;
         }
     });
     guardarLocalStorage("Pelicula", productos);
-    console.log(productos);
     mostrarPeliculasEnTabla();
 }
 const eliminarPelicula = (posicion) => {
     let arregloPeliculas = leerLocalStorage("Pelicula");
     arregloPeliculas.splice(posicion, 1)
     guardarLocalStorage("Pelicula", arregloPeliculas);
-    console.log(productos);
     mostrarPeliculasEnTabla();
 }
 const publicarPelicula = (codigoProducto) => {
@@ -123,10 +131,10 @@ const publicarPelicula = (codigoProducto) => {
         }
     });
     guardarLocalStorage("Pelicula", productos);
-    console.log(productos);
     mostrarPeliculasEnTabla();
 }
 
+cargarLocalStorage();
 mostrarPeliculasEnTabla();
 // MODAL
 let modal
@@ -187,6 +195,5 @@ modalBtnAccion.addEventListener("click", (event) => {
     }
     guardarLocalStorage("Pelicula", productos);
     modal.hide();
-    console.log(productos);
     mostrarPeliculasEnTabla();
 })

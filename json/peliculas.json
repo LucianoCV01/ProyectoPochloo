@@ -1,0 +1,62 @@
+[
+    {
+        "codigo": 1,
+        "nombre": "Barbie",
+        "categoria": "Comedia",
+        "descripcion": "Después de ser expulsada de Barbieland por no ser una muñeca de aspecto perfecto, Barbie parte hacia el mundo humano para encontrar la verdadera felicidad.",
+        "publicado": true,
+        "destacado": true,
+        "imagen": "https://es.web.img2.acsta.net/pictures/23/07/20/11/29/5479684.jpg",
+        "url": "https://youtu.be/zh4KhVSMwtQ?si=ZWPFu_bJDgUEw4PU"
+    },
+    {
+        "codigo": 2,
+        "nombre": "La Monja 2",
+        "categoria": "Terror",
+        "descripcion": "Francia, 1956. El asesinato de un sacerdote provoca que un mal demoníaco se extienda sin control. La hermana Irene deberá enfrentarse, de nuevo, a la monja satánica Valak.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR36kkAn4bPAJL6Bu_2cSrcMZ1vkP9dofNq653Gg5VL85KFVR8R",
+        "url": "https://youtu.be/Em7wEqLzDnE?si=jyda2UHy-4wKnQNh"
+    },
+    {
+        "codigo": 3,
+        "nombre": "El pianista",
+        "categoria": "Bélico",
+        "descripcion": "Un judío polaco, pianista profesional, lucha por la supervivencia en Varsovia frente a la invasión nazi. Después de, gracias a unos amigos, haber evitado la deportación, el pianista debe vivir oculto y constantemente expuesto al peligro.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuLYK843W-Xi7akWLnT-5k337R71TYFJNLKgaQPgTgFupIv-Rg",
+        "url": "https://youtu.be/yDA1mK6v-ME?si=k4kMrH3pFJE9AOTc"
+    },
+    {
+        "codigo": 4,
+        "nombre": "Sonic 2",
+        "categoria": "Aventura",
+        "descripcion": "Sonic y su compañero Tails emprenden un viaje alrededor del mundo en busca de una esmeralda que tiene del poder de destruir civilizaciones.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQre31EeKplZHc5Mtfur-CgF_2bOq9fiHiFA0nY-mLG5BUellCi",
+        "url": "https://youtu.be/2OMixTIRQcY?si=Yet-M4L9tbKaLAii"
+    },
+    {
+        "codigo": 5,
+        "nombre": "The Batman",
+        "categoria": "Acción",
+        "descripcion": "Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entra en conflicto con un asesino en serie conocido como 'el Acertijo'.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrmuWJLypZIsZC7yKIMPxxF45UYkJLv5Kg2i5AFcsWuGJnlMPR",
+        "url": "https://youtu.be/fWQrd6cwJ0A?si=QaVAHqZx0TdWewOX"
+    },
+    {
+        "codigo": 6,
+        "nombre": "Asesinato en el expreso de oriente",
+        "categoria": "Misterio",
+        "descripcion": "Durante un trayecto del lujoso tren Orient-Express se produce un asesinato. Cuando una avalancha detiene el tren, el prestigioso detective belga Hércules Poirot sube al vehículo para investigar quién es el asesino, pero todos los pasajeros parecen sospechosos.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "ihttps://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQmADumYMr0RQjMKaUq6nDjnKkqkmqQ4iE2FBbVeeXccOU_zj8A",
+        "url": "https://youtu.be/GUHLzmB90iw?si=OKyuvJmTvZWid29O"
+    }
+]
