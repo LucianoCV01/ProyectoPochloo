@@ -3,52 +3,86 @@ const bodyAlta = document.getElementById("bodyAlta")
 import registro from "./exportAlta.js";
 
 
-const crearFilasAlta = (usuario, indice) =>
-{
-    console.log("sucede crearFilasAlta")
-    return `
-        <tr>
-            <td>${usuario.usuario}</td>
-            <td>Pendiente</td>
-            <td>
-            <div>
-            <button id="aceptarAlta" onfocus="cambiarIcono(event)" onclick="estadoDeAlta(${indice})">
-            <i class="fa-regular fa-user-check"></i>
-            </button>
-            <button id="rechazarAlta" onfocus="cambiarIcono(event)" onclick="estadoDeAlta(${indice})">
-            <i class="fa-regular fa-user-xmark"></i>
-            </button>
-            </td>
-        </tr>
-    `;
 
-    
+const aceptarAlta = (i) =>
+{
+    registro[i].estado = "Aceptado"
+    localStorage.setItem("Registro", JSON.stringify(registro))
+    mostrarUsuariosEnTabla()
+    console.log("sucede aceptarAlta")
 }
 
-document.addEventListener('DOMContentLoaded', function() {
+const rechazarAlta = (i) =>
+{
+    registro[i].estado = "Rechazado"
+    localStorage.setItem("Registro", JSON.stringify(registro))
+    mostrarUsuariosEnTabla()
+    console.log("Sucede rechazarAlta")
+}
 
+const crearFilasAlta = (usuario, indice) => {
+    
+    const fila = document.createElement("tr");
+    
+    const celdaUsuario = document.createElement("td");
+    celdaUsuario.textContent = usuario.usuario;
+    
+    const celdaEstado = document.createElement("td");
+    celdaEstado.textContent = usuario.estado;
+    
+    const celdaBotones = document.createElement("td");
+    
+    const botonAceptar = document.createElement("button");
+    botonAceptar.className = "col-2";
+    botonAceptar.addEventListener("click", () => aceptarAlta(indice));
+    botonAceptar.innerHTML = '<i class="fa-regular fa-circle-check"></i>';
+    
+    const botonRechazar = document.createElement("button");
+    botonRechazar.className = "col-2";
+    botonRechazar.addEventListener("click", () => rechazarAlta(indice));
+    botonRechazar.innerHTML = '<i class="fa-regular fa-circle-xmark"></i>';
+
+    celdaBotones.appendChild(botonAceptar);
+    celdaBotones.appendChild(botonRechazar);
+    
+    fila.appendChild(celdaUsuario);
+    fila.appendChild(celdaEstado);
+    fila.appendChild(celdaBotones);
+
+    console.log("sucede crearFilasAlta");
+    return fila;
+};
+
+
+const mostrarUsuariosEnTabla = () =>
+{ 
     bodyAlta.innerHTML = ""
     for (let i = 0; i < registro.length; i++) {
         
         let filaAlta = crearFilasAlta(registro[i], i)
-        bodyAlta.innerHTML += filaAlta
+        bodyAlta.appendChild(filaAlta)
     }
+
     console.log("sucede mostrarALtaEnTabla")
-})
-
-
-const cambiarIcono = (event) =>
-{
-    let botonApretado = event.target
-
-    if(botonApretado.id = "aceptarAlta")
-    {
-        botonApretado.innerHTML = ""
-        botonApretado.innerHTML = `<i class="fa-solid fa-user-check"></i>`
-    }else{
-        botonApretado.innerHTML = ""
-        botonApretado.innerHTML = `<i class="fa-solid fa-user-xmark"></i>`
-    }
-
-    console.log("sucede cambiarIcono")
 }
+
+mostrarUsuariosEnTabla()
+
+
+
+// const cambiarIcono = (event) =>
+// {
+//     let botonApretado = event.target
+
+//         if(botonApretado.id === "aceptarAlta")
+//         {
+//            botonApretado.innerHTML = ""
+//            botonApretado.innerHTML = `<i class="fa-solid fa-circle-check"></i>`
+//         }else{
+//            botonApretado.innerHTML = ""
+//            botonApretado.innerHTML = `<i class="fa-solid fa-circle-xmark"></i>`
+//         }
+    
+
+//     console.log("sucede cambiarIcono")
+// }

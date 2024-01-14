@@ -1,22 +1,27 @@
 [
     {
         "usuario":"Susana654",
-        "clave":"alpaquitaclavecina"
+        "clave":"alpaquitaclavecina",
+        "estado":"Pendiente"
     },
     {
         "usuario":"JuanCruz",
-        "clave":"oeidhwidcb"
+        "clave":"oeidhwidcb",
+        "estado":"Pendiente"
     },
     {
         "usuario":"lolalolita",
-        "clave":"pillanalolalolitafumandoenunbar"
+        "clave":"pillanalolalolitafumandoenunbar",
+        "estado":"Pendiente"
     },
     {
         "usuario":"casadepapel88",
-        "clave":"contraseña"
+        "clave":"contraseña",
+        "estado":"Pendiente"
     },
     {
         "usuario":"yo",
-        "clave":"9e38746redgyu"
+        "clave":"9e38746redgyu",
+        "estado":"Pendiente"
     }
 ]
