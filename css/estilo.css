@@ -1,0 +1,18 @@
+
+html, section, main{
+    background-color: rgb(34, 9, 44);
+    background:radial-gradient(circle, rgba(4, 9, 44,1) 0%, rgba(51, 19, 28, 1) 100%);
+    color: whitesmoke;
+    
+}
+
+
+.tablaUsuarios td, .tablaUsuarios th{
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: whitesmoke !important;
+    height: 3rem;
+}
+
+h3{
+    border-bottom: 0.3rem solid whitesmoke;
+}

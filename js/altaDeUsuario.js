@@ -1,27 +1,61 @@
 const bodyAlta = document.getElementById("bodyAlta")
 
-import registro from "./exportAlta.js";
+import registro from "./exportRegistro.js";
 
+import usuario from "./exportUsuario.js"
 
 
 const aceptarAlta = (i) =>
 {
-    registro[i].estado = "Aceptado"
-    registro.push(registro[i])
-    registro.splice(i, 1)
-    localStorage.setItem("Registro", JSON.stringify(registro))
-    mostrarUsuariosEnTabla()
-    console.log("sucede aceptarAlta")
+    Swal.fire({
+        title: "¿Aceptar al usuario " + registro[i].usuario + "?",
+        text: "No podrás revertir esta acción",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Sí, Aceptar"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: "¡Aceptado!",
+            text: "La acción se completó exitosamente",
+            icon: "success"
+          });
+        registro[i].estado = "Aceptado"
+        registro.push(registro[i])
+        registro.splice(i, 1)
+        localStorage.setItem("Registro", JSON.stringify(registro))
+        mostrarUsuariosEnTabla()
+        }
+      });
+    
 }
 
 const rechazarAlta = (i) =>
 {
-    registro[i].estado = "Rechazado"
-    registro.push(registro[i])
-    registro.splice(i, 1)
-    localStorage.setItem("Registro", JSON.stringify(registro))
-    mostrarUsuariosEnTabla()
-    console.log("Sucede rechazarAlta")
+    Swal.fire({
+        title: "¿Rechazar al usuario " + registro[i].usuario + "?",
+        text: "No podrás revertir esta acción",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Sí, Rechazar"
+      }).then((result) => {
+        if (result.isConfirmed) {
+          Swal.fire({
+            title: "¡Rechazado!",
+            text: "La acción se completó exitosamente",
+            icon: "success"
+          });
+          registro[i].estado = "Rechazado"
+          registro.push(registro[i])
+          registro.splice(i, 1)
+          localStorage.setItem("Registro", JSON.stringify(registro))
+          mostrarUsuariosEnTabla()
+        }
+      });
 }
 
 const crearFilasAlta = (usuario, indice) => {
@@ -30,10 +64,10 @@ const crearFilasAlta = (usuario, indice) => {
     
     if(registro[indice].estado === "Aceptado")
     {
-        fila.className = "table-success"
+        fila.style.backgroundColor = "#5cb65e"
     }else{
         if (registro[indice].estado === "Rechazado") {
-            fila.className = "table-danger"
+            fila.style.backgroundColor = "#d9534f"
         }
     }
 
@@ -47,12 +81,12 @@ const crearFilasAlta = (usuario, indice) => {
     
     if (registro[indice].estado === "Pendiente") {
         const botonAceptar = document.createElement("button");
-        botonAceptar.className = "col-2 btn btn-success";
+        botonAceptar.className = "col-4 col-sm-3 m-1 btn btn-success";
         botonAceptar.addEventListener("click", () => aceptarAlta(indice));
         botonAceptar.innerHTML = '<i class="fa-regular fa-circle-check"></i>';
     
         const botonRechazar = document.createElement("button");
-        botonRechazar.className = "col-2 btn btn-danger";
+        botonRechazar.className = "col-4 col-sm-3 btn m-1 btn-danger";
         botonRechazar.addEventListener("click", () => rechazarAlta(indice));
         botonRechazar.innerHTML = '<i class="fa-regular fa-circle-xmark"></i>';
 
@@ -85,22 +119,3 @@ const mostrarUsuariosEnTabla = () =>
 }
 
 mostrarUsuariosEnTabla()
-
-
-
-// const cambiarIcono = (event) =>
-// {
-//     let botonApretado = event.target
-
-//         if(botonApretado.id === "aceptarAlta")
-//         {
-//            botonApretado.innerHTML = ""
-//            botonApretado.innerHTML = `<i class="fa-solid fa-circle-check"></i>`
-//         }else{
-//            botonApretado.innerHTML = ""
-//            botonApretado.innerHTML = `<i class="fa-solid fa-circle-xmark"></i>`
-//         }
-    
-
-//     console.log("sucede cambiarIcono")
-// }

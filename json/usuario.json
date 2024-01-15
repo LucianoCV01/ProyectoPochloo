@@ -1,0 +1,26 @@
+[
+    {
+        "usuario":"lamasbonita123",
+        "clave":"62hb9wcd53bdo109",
+        "tipo":"Comun",
+        "estado":"Aceptado"
+    },
+    {
+        "usuario":"georgito",
+        "clave":"lerloerolsode",
+        "tipo":"Comun",
+        "estado":"Aceptado"
+    },
+    {
+        "usuario":"admin",
+        "clave":"pochloo",
+        "tipo":"Administrador",
+        "estado":"Aceptado"
+    },
+    {
+        "usuario":"comuncito2000",
+        "clave":"peekaboo",
+        "tipo":"Comun",
+        "estado":"Aceptado"
+    }
+]

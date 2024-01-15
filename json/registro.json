@@ -2,26 +2,31 @@
     {
         "usuario":"Susana654",
         "clave":"alpaquitaclavecina",
+        "tipo":"comun",
         "estado":"Pendiente"
     },
     {
         "usuario":"JuanCruz",
         "clave":"oeidhwidcb",
+        "tipo":"comun",
         "estado":"Pendiente"
     },
     {
         "usuario":"lolalolita",
         "clave":"pillanalolalolitafumandoenunbar",
+        "tipo":"comun",
         "estado":"Pendiente"
     },
     {
         "usuario":"casadepapel88",
         "clave":"contraseña",
+        "tipo":"comun",
         "estado":"Pendiente"
     },
     {
         "usuario":"yo",
         "clave":"9e38746redgyu",
+        "tipo":"comun",
         "estado":"Pendiente"
     }
 ]
