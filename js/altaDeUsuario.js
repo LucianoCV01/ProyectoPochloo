@@ -4,6 +4,11 @@ import registro from "./exportRegistro.js";
 
 import usuario from "./exportUsuario.js"
 
+const agregarUsuarioAceptado = (aceptado) =>
+{
+    usuario.push(aceptado)
+    console.log(usuario)
+}
 
 const aceptarAlta = (i) =>
 {
@@ -23,10 +28,13 @@ const aceptarAlta = (i) =>
             icon: "success"
           });
         registro[i].estado = "Aceptado"
+        agregarUsuarioAceptado(registro[i])
         registro.push(registro[i])
         registro.splice(i, 1)
         localStorage.setItem("Registro", JSON.stringify(registro))
+        
         mostrarUsuariosEnTabla()
+        
         }
       });
     
@@ -101,7 +109,6 @@ const crearFilasAlta = (usuario, indice) => {
     fila.appendChild(celdaEstado);
     fila.appendChild(celdaBotones);
 
-    console.log("sucede crearFilasAlta");
     return fila;
 };
 
@@ -110,12 +117,9 @@ const mostrarUsuariosEnTabla = () =>
 { 
     bodyAlta.innerHTML = ""
     for (let i = 0; i < registro.length; i++) {
-        
         let filaAlta = crearFilasAlta(registro[i], i)
         bodyAlta.appendChild(filaAlta)
     }
-
-    console.log("sucede mostrarALtaEnTabla")
 }
 
 mostrarUsuariosEnTabla()
