@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../Css/login.css">
+  <link rel="stylesheet" href="../Js/login.js">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Outfit:wght@100&display=swap');
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="containerMadre">
+    <div class="containerImagen">
+      <img src="../img/Pochloo_Logo.png" alt="Logo con fondo" class="logoP">
+    </div>
+    <div>
+      <form class="container">
+        <div id="containerLogin">
+          <div class="mb-3">
+            <div>
+              <h1 class="text-center my-3"> Logueate y empieza a disfrutar de tus <br> películas y series favoritas</h1>
+            </div>
+            <div>
+              <label for="exampleFormControlInput1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@ejemplo.com"
+                required>
+            </div>
+            <div>
+              <label for="exampleFormControlInput2" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleFormControlInput2" placeholder="********"
+                minlength="8" maxlength="10" required>
+            </div>
+            <div class="botonLogeo">
+              <input class="btn btn-primary" type="submit" value="Logearse">
+            </div>
+          </div>
+        </div>
+      </form>
+
+
+      <div class="my-3 sinCuenta">
+        <div style="color: white;">No tenes cuenta? Registrate aquí:
+          <div class="botonAbrir">
+            <a href="../Html/registro.html">Registrarme!</a>
+          </div>
+
+          <div class="recuperarContraseña">
+            <div>
+              <span>
+                <a href="../Html/recupero.html">
+                  Olvidé mi contraseña
+                </a>
+              </span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

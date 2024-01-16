@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+}
+
+body {
+    font-family: 'Croissant One', serif;
+    font-family: 'Outfit', sans-serif;
+    background: rgb(34, 9, 44);
+    background: radial-gradient(circle, rgba(34, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
+}
+
+.containerRegistro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.subcontainerRegistro {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.containerLogo img {
+    width: 200px;
+    height: auto;
+}
+
+.containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    width: 100vh
+}
