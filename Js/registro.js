@@ -1,3 +1,5 @@
+const usuarioNuevoRegistrado = [];
+
 document.getElementById('botonDeRegistro').addEventListener('click', function(event) {
   event.preventDefault();
   registroDeUsuarios();
@@ -8,6 +10,13 @@ function registroDeUsuarios() {
   const lastname = document.getElementById('apellido').value;
   const mail = document.getElementById('inputEmail').value;
   const pass = document.getElementById('inputPassword').value;
-  console.log(name, lastname, mail, pass);
+  const newUser = {
+    nombre: name,
+    apellido: lastname,
+    email: mail,
+    contraseña: pass
+  };
+  usuarioNuevoRegistrado.push(newUser);
+  console.log("Usuario registrado:", newUser);
+  console.log("Todos los usuarios registrados:", usuarioNuevoRegistrado);
 }
-
