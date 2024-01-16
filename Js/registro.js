@@ -19,4 +19,10 @@ function registroDeUsuarios() {
   usuarioNuevoRegistrado.push(newUser);
   console.log("Usuario registrado:", newUser);
   console.log("Todos los usuarios registrados:", usuarioNuevoRegistrado);
-}
+  const formulario = document.getElementById('formularioDeRegistro');
+  formulario.reset()
+  Swal.fire({
+    icon: 'success',
+    title: 'Registro exitoso',
+    text: 'El usuario se ha registrado correctamente.'}
+  )}
