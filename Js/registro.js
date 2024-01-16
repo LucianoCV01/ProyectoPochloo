@@ -32,3 +32,5 @@ function registroDeUsuarios() {
   )}
 
   export default usuarioNuevoRegistrado
+
+  
