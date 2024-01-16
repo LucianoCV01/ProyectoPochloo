@@ -1,4 +1,5 @@
 const usuarioNuevoRegistrado = [];
+export default usuarioNuevoRegistrado
 
 document.getElementById('botonDeRegistro').addEventListener('click', function(event) {
   event.preventDefault();
@@ -31,6 +32,3 @@ function registroDeUsuarios() {
     text: 'El usuario se ha registrado correctamente.'}
   )}
 
-  export default usuarioNuevoRegistrado
-
-  
