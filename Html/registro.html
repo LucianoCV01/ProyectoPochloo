@@ -24,18 +24,18 @@
                     <input type="text" class="form-control" id="apellido" pattern="[A-Za-zÁ-ú ]{1,20}" required aria-describedby="apellidoHelp">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Dirección de email</label>
-                    <input type="email" class="form-control" id="inputEmail" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" required aria-describedby="emailHelp">
+                    <label for="inputEmail" class="form-label">Dirección de email</label>
+                    <input type="email" class="form-control" id="inputEmail" required aria-describedby="emailHelp">
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <label for="inputPassword" class="form-label">Contraseña</label>
                     <input type="password" class="form-control" id="inputPassword" pattern=".{5,10}" required>
                 </div>
                 <div class="containerLogo">
                     <img src="../img/Pochloo_Logo.png" alt="logo">
                 </div>
                 <div class="containerButton">
-                    <button type="submit" class="btn btn-primary" onclick="registroDeUsuarios()">Registrarme!</button>
+                    <button type="submit" class="btn btn-primary" id="botonDeRegistro">Registrarme!</button>
                 </div>
             </form>
         </div>
@@ -44,5 +44,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="../Js/registro.js"></script>
 </body>
 </html>
