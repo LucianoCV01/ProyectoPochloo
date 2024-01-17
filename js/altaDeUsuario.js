@@ -32,7 +32,7 @@ const aprobarAlta = (i) =>
             icon: "success"
           });
         registro[i].estado = "Aprobado"
-        agregarUsuarioAceptado(registro[i])
+        agregarUsuarioAprobado(registro[i])
         registro.push(registro[i])
         registro.splice(i, 1)
         localStorage.setItem("Registro", JSON.stringify(registro))
@@ -89,30 +89,39 @@ const crearFilasAlta = (usuario, indice) => {
     const celdaUsuario = document.createElement("td");
     celdaUsuario.textContent = usuario.nombre + " " + usuario.apellido
     
+    const celdaEmail = document.createElement("td")
+    celdaEmail.textContent = usuario.email
+    
+
     const celdaEstado = document.createElement("td")
     celdaEstado.textContent = usuario.estado
     
     const celdaBotones = document.createElement("td")
     
+    const divBotones = document.createElement("div")
+    
     if (registro[indice].estado === "Pendiente") {
         const botonAprobar = document.createElement("button")
-        botonAprobar.className = "col-6 col-sm-3 m-1 btn btn-success"
+        botonAprobar.className = "col-9 col-sm-6 col-md-4 m-1 btn btn-success"
         botonAprobar.addEventListener("click", () => aprobarAlta(indice))
         botonAprobar.innerHTML = '<i class="fa-regular fa-circle-check"></i>'
     
         const botonSuspender = document.createElement("button")
-        botonSuspender.className = "col-6 col-sm-3 btn m-1 btn-danger"
+        botonSuspender.className = "col-9 col-sm-6 col-md-4 btn m-1 btn-danger"
         botonSuspender.addEventListener("click", () => suspenderAlta(indice))
         botonSuspender.innerHTML = '<i class="fa-regular fa-circle-xmark"></i>'
 
-        celdaBotones.appendChild(botonAprobar)
-        celdaBotones.appendChild(botonSuspender)
+        divBotones.appendChild(botonAprobar)
+        divBotones.appendChild(botonSuspender)
+
+        celdaBotones.appendChild(divBotones)
     
     }else{
         celdaBotones.textContent = "-"
     }
     
     fila.appendChild(celdaUsuario)
+    fila.appendChild(celdaEmail)
     fila.appendChild(celdaEstado)
     fila.appendChild(celdaBotones)
 
