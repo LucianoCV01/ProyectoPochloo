@@ -4,30 +4,34 @@ import registro from "./exportRegistro.js";
 
 import usuario from "./exportUsuario.js"
 
-const agregarUsuarioAceptado = (aceptado) =>
+
+//FUNCIÓN PARA AGREGAR LOS USUARIOS APROBADOS AL ARREGLO DE USUARIOS QUE YA PUEDEN LOGUEARSE
+const agregarUsuarioAprobado = (aprobado) =>
 {
-    usuario.push(aceptado)
+    usuario.push(aprobado)
     console.log(usuario)
 }
 
-const aceptarAlta = (i) =>
+
+//FUNCIÓN QUE SE EJECUTA AL APRETAR EL BOTÓN DE ACEPTAR USUARIO. CAMBIA SU ESTADO A "ACEPTADO"
+const aprobarAlta = (i) =>
 {
     Swal.fire({
-        title: "¿Aceptar al usuario " + registro[i].usuario + "?",
+        title: "¿Aprobar al usuario " + registro[i].usuario + "?",
         text: "No podrás revertir esta acción",
         icon: "warning",
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
-        confirmButtonText: "Sí, Aceptar"
+        confirmButtonText: "Sí, aprobar"
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire({
-            title: "¡Aceptado!",
+            title: "¡Aprobado!",
             text: "La acción se completó exitosamente",
             icon: "success"
           });
-        registro[i].estado = "Aceptado"
+        registro[i].estado = "Aprobado"
         agregarUsuarioAceptado(registro[i])
         registro.push(registro[i])
         registro.splice(i, 1)
@@ -40,24 +44,25 @@ const aceptarAlta = (i) =>
     
 }
 
-const rechazarAlta = (i) =>
+//FUNCIÓN QUE SE EJECUTA AL APRETAR EL BOTÓN DE SUSPENDER USUARIO. CAMBIA SU ESTADO A "RECHAZADO"
+const suspenderAlta = (i) =>
 {
     Swal.fire({
-        title: "¿Rechazar al usuario " + registro[i].usuario + "?",
+        title: "¿Suspender al usuario " + registro[i].nombre + " "+ registro[i].apellido + "?",
         text: "No podrás revertir esta acción",
         icon: "warning",
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
-        confirmButtonText: "Sí, Rechazar"
+        confirmButtonText: "Sí, suspender"
       }).then((result) => {
         if (result.isConfirmed) {
           Swal.fire({
-            title: "¡Rechazado!",
+            title: "¡Suspendido!",
             text: "La acción se completó exitosamente",
             icon: "success"
           });
-          registro[i].estado = "Rechazado"
+          registro[i].estado = "Suspendido"
           registro.push(registro[i])
           registro.splice(i, 1)
           localStorage.setItem("Registro", JSON.stringify(registro))
@@ -66,53 +71,55 @@ const rechazarAlta = (i) =>
       });
 }
 
+//FUNCIÓN CREADORA DE LAS FILAS DE LAS TABLAS, AGREGANDO INFORMACIÓN DE CADA REGISTRADO Y DOS BOTONES PARA APROBAR Y SUSPENDER SOLICITUD CON SUS RESPECTIVOS EVENTOS
 const crearFilasAlta = (usuario, indice) => {
     
     const fila = document.createElement("tr");
     
-    if(registro[indice].estado === "Aceptado")
+    if(registro[indice].estado === "Aprobado")
     {
         fila.style.backgroundColor = "#5cb65e"
     }else{
-        if (registro[indice].estado === "Rechazado") {
+        if (registro[indice].estado === "Suspendido") {
             fila.style.backgroundColor = "#d9534f"
         }
     }
 
+    
     const celdaUsuario = document.createElement("td");
-    celdaUsuario.textContent = usuario.usuario;
+    celdaUsuario.textContent = usuario.nombre + " " + usuario.apellido
     
-    const celdaEstado = document.createElement("td");
-    celdaEstado.textContent = usuario.estado;
+    const celdaEstado = document.createElement("td")
+    celdaEstado.textContent = usuario.estado
     
-    const celdaBotones = document.createElement("td");
+    const celdaBotones = document.createElement("td")
     
     if (registro[indice].estado === "Pendiente") {
-        const botonAceptar = document.createElement("button");
-        botonAceptar.className = "col-4 col-sm-3 m-1 btn btn-success";
-        botonAceptar.addEventListener("click", () => aceptarAlta(indice));
-        botonAceptar.innerHTML = '<i class="fa-regular fa-circle-check"></i>';
+        const botonAprobar = document.createElement("button")
+        botonAprobar.className = "col-6 col-sm-3 m-1 btn btn-success"
+        botonAprobar.addEventListener("click", () => aprobarAlta(indice))
+        botonAprobar.innerHTML = '<i class="fa-regular fa-circle-check"></i>'
     
-        const botonRechazar = document.createElement("button");
-        botonRechazar.className = "col-4 col-sm-3 btn m-1 btn-danger";
-        botonRechazar.addEventListener("click", () => rechazarAlta(indice));
-        botonRechazar.innerHTML = '<i class="fa-regular fa-circle-xmark"></i>';
+        const botonSuspender = document.createElement("button")
+        botonSuspender.className = "col-6 col-sm-3 btn m-1 btn-danger"
+        botonSuspender.addEventListener("click", () => suspenderAlta(indice))
+        botonSuspender.innerHTML = '<i class="fa-regular fa-circle-xmark"></i>'
 
-        celdaBotones.appendChild(botonAceptar);
-        celdaBotones.appendChild(botonRechazar);
+        celdaBotones.appendChild(botonAprobar)
+        celdaBotones.appendChild(botonSuspender)
     
     }else{
         celdaBotones.textContent = "-"
     }
     
-    fila.appendChild(celdaUsuario);
-    fila.appendChild(celdaEstado);
-    fila.appendChild(celdaBotones);
+    fila.appendChild(celdaUsuario)
+    fila.appendChild(celdaEstado)
+    fila.appendChild(celdaBotones)
 
     return fila;
 };
 
-
+//FUNCIÓN PARA MOSTRAR LAS FILAS CREADAS 
 const mostrarUsuariosEnTabla = () =>
 { 
     bodyAlta.innerHTML = ""

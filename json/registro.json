@@ -1,32 +1,42 @@
 [
     {
-        "usuario":"Susana654",
+        "nombre":"Susana Leonor",
+        "apellido":"Aguirre",
+        "email":"susyaguirre1981@gmail.com",
         "clave":"alpaquitaclavecina",
-        "tipo":"comun",
+        "tipo":"Comun",
         "estado":"Pendiente"
     },
     {
-        "usuario":"JuanCruz",
+        "nombre":"Juan",
+        "apellido":"Cruz",
+        "email":"juancarloscruz1@gmail.com",
         "clave":"oeidhwidcb",
-        "tipo":"comun",
+        "tipo":"Comun",
         "estado":"Pendiente"
     },
     {
-        "usuario":"lolalolita",
+        "nombre":"Olivia",
+        "apellido":"Castañeda",
+        "email":"LolalolitaCast@gmail.com",
         "clave":"pillanalolalolitafumandoenunbar",
-        "tipo":"comun",
+        "tipo":"Comun",
         "estado":"Pendiente"
     },
     {
-        "usuario":"casadepapel88",
-        "clave":"contraseña",
-        "tipo":"comun",
+        "nombre":"Lionel Andres",
+        "apellido":"Messi",
+        "email":"liomessi10@hotmail.com",
+        "clave":"1010101010",
+        "tipo":"Comun",
         "estado":"Pendiente"
     },
     {
-        "usuario":"yo",
+        "nombre":"Catalina del Rosario",
+        "apellido":"Savedra",
+        "email":"catisavedra16@gmail.com",
         "clave":"9e38746redgyu",
-        "tipo":"comun",
+        "tipo":"Comun",
         "estado":"Pendiente"
     }
 ]
