@@ -1,28 +1,11 @@
-/* table, td{
-    border: 0.3rem #872341 solid;
-    text-align: center;
-    border-collapse: collapse;
-    padding: 1rem;
-}
-
-table{
-    margin: 0 auto;
-}
-
-i{
-    margin: 1rem;
-}
-
-button{
-    margin: 0.3rem;
-}
-
-button:hover, button:focus{
-    background-color: #F05941;
-} */
-
-html, section, main{
+html,
+section,
+main {
     background-color: rgb(34, 9, 44);
-    background:radial-gradient(circle, rgba(4, 9, 44,1) 0%, rgba(51, 19, 28, 1) 100%);
+    background: radial-gradient(circle, rgba(4, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
     color: whitesmoke;
+}
+
+.table-light tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05); 
 }

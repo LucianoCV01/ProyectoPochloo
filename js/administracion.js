@@ -22,9 +22,6 @@ const leerLocalStorage = (nombreLocalStorage) => {
 const guardarLocalStorage = (nombreLocalStorage, arregloObjetos) => {
     localStorage.setItem(nombreLocalStorage, JSON.stringify(arregloObjetos));
 }
-// const eliminarLocalStorage = () => {}
-// const limpiarLocalStorage = () => {localStorage.clear();}
-
 const cargarLocalStorage = () => {
     let peliculasJson = fetch(`../json/peliculas.json`)
         .then((resp => {
@@ -60,7 +57,14 @@ const construirFilaTabla = (producto, indice) => {
             <td class="p-2">${producto.nombre}</td>
             <td class="p-1">${producto.categoria}</td>
             <td class="p-2">${producto.descripcion}</td>
-            <td class="p-1"><input type="checkbox" ${producto.publicado ? 'checked' : ''} onchange="publicarPelicula(${producto.codigo})"></td>
+            <td class="p-1">
+                <div>
+                    <button type="button" class="btn btn-secondary" onclick="publicarPelicula(${producto.codigo})">
+                        <i class="${producto.publicado ? 'fa-solid fa-check-square' : 'fa-regular fa-square'}"></i>
+                    </button>
+                </div>
+            </td>
+            
             <td class="p-1">
                 <div>
                     <button type="button" class="btn btn-warning" onclick="destacarProducto(${producto.codigo})"><i class="${producto.destacado ? 'fa-solid fa-star' : 'fa-regular fa-star'}"></i></button>
@@ -88,6 +92,12 @@ const mostrarPeliculasEnTabla = () => {
         tbody.innerHTML += filaHTML;
     }
 };
+const confirmarEliminar = (indice) => {
+    const confirmacion = confirm("¿Estás seguro de eliminar este producto?");
+    if (confirmacion) {
+        eliminarPelicula(indice);
+    }
+}
 // FUNCIONES ADMINISTRACION PRODUCTOS
 const crearProducto = () => {
     const nombre = document.getElementById("nombre").value;
