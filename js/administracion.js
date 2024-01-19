@@ -51,12 +51,14 @@ const buscarProductoPorCodigo = (codigoBuscado) => {
     return null;
 }
 const construirFilaTabla = (producto, indice) => {
+    // Trunca la descripción si excede el límite de caracteres
+    const descripcionTruncada = producto.descripcion.length > 120 ? producto.descripcion.substring(0, 120) + "..." : producto.descripcion;
     return `
         <tr>
             <td class="p-1">${producto.codigo}</td>
             <td class="p-2">${producto.nombre}</td>
             <td class="p-1">${producto.categoria}</td>
-            <td class="p-2">${producto.descripcion}</td>
+            <td class="p-2 pt-3 pb-3 limit-description">${descripcionTruncada}</td>
             <td class="p-1">
                 <div>
                     <button type="button" class="btn btn-secondary" onclick="publicarPelicula(${producto.codigo})">
@@ -78,7 +80,7 @@ const construirFilaTabla = (producto, indice) => {
             </td>
             <td class="p-1">
                 <div>
-                    <button type="button" class="btn btn-danger" onclick="eliminarPelicula(${indice})"><i class="fa-solid fa-trash"></i></button>
+                    <button type="button" class="btn btn-danger" onclick="confirmarEliminar('${producto.nombre}',${indice})"><i class="fa-solid fa-trash"></i></button>
                 </div>
             </td>
         </tr>
@@ -92,12 +94,6 @@ const mostrarPeliculasEnTabla = () => {
         tbody.innerHTML += filaHTML;
     }
 };
-const confirmarEliminar = (indice) => {
-    const confirmacion = confirm("¿Estás seguro de eliminar este producto?");
-    if (confirmacion) {
-        eliminarPelicula(indice);
-    }
-}
 // FUNCIONES ADMINISTRACION PRODUCTOS
 const crearProducto = () => {
     const nombre = document.getElementById("nombre").value;
@@ -144,6 +140,27 @@ const publicarPelicula = (codigoProducto) => {
     mostrarPeliculasEnTabla();
 }
 
+const confirmarEliminar = (nombre, indice) => {
+    Swal.fire({
+        title: "¿Eliminar la película " + nombre + "?",
+        text: "No podrás revertir esta acción",
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonColor: "#3085d6",
+        cancelButtonColor: "#d33",
+        confirmButtonText: "Eliminar"
+    }).then((result) => {
+        if (result.isConfirmed) {
+            Swal.fire({
+                title: "¡Eliminado!",
+                text: "La acción se completó exitosamente",
+                icon: "success"
+            });
+            eliminarPelicula(indice);
+        }
+    });
+}
+
 cargarLocalStorage();
 mostrarPeliculasEnTabla();
 // MODAL
@@ -169,17 +186,25 @@ const mostrarModal = (titulo, datosProducto) => {
     } else {
         // Limpiar el formulario si no hay datos existentes
         document.getElementById('formularioProductos').reset()
+        document.getElementById('publicado').parentElement.style.display = 'block';
+        document.getElementById('destacado').parentElement.style.display = 'none';
         modalBtnAccion.textContent = "Agregar";
     }
     modal.show();
 }
 modalBtnAccion.addEventListener("click", (event) => {
     event.preventDefault();
+    const form = document.getElementById('formularioProductos');
+    form.classList.add('was-validated');
+    if (form.checkValidity() === false) {
+        return;
+    }
+
     let productos = leerLocalStorage("Pelicula");
     let producto = crearProducto();
     if (modalBtnAccion.textContent === "Agregar") {
         if (buscarProductoPorCodigo(producto.codigo) !== null)
-            console.log("Este producto ya se encuentra");
+            alert("Este producto ya se encuentra");
         else {
             if (producto.destacado) {
                 destacarProducto(producto.codigo);
@@ -207,3 +232,13 @@ modalBtnAccion.addEventListener("click", (event) => {
     modal.hide();
     mostrarPeliculasEnTabla();
 })
+
+// Agregar un event listener para el evento 'input' en cada campo del formulario
+const camposFormulario = document.querySelectorAll('#formularioProductos input, #formularioProductos textarea');
+camposFormulario.forEach((campo) => {
+    campo.addEventListener('input', () => {
+        // Al realizar una corrección, quitar las clases de Bootstrap para campos inválidos
+        campo.classList.remove('is-invalid');
+        campo.nextElementSibling.textContent = ''; // Limpiar mensajes de error
+    });
+});
