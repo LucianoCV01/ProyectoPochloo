@@ -1,5 +1,3 @@
-let pelis = []
-
 let pelisJson = fetch(`../json/peliculas.json`)
 .then((resp=>{
     resp.json().then((data=>{
@@ -7,6 +5,8 @@ let pelisJson = fetch(`../json/peliculas.json`)
     }))
 }))
 .catch(console.warn)
+
+
 
 
 

@@ -1,62 +1,302 @@
 [
     {
         "codigo": 1,
-        "nombre": "Barbie",
-        "categoria": "Comedia",
-        "descripcion": "Después de ser expulsada de Barbieland por no ser una muñeca de aspecto perfecto, Barbie parte hacia el mundo humano para encontrar la verdadera felicidad.",
+        "nombre": "Yo soy Simón",
+        "categoria": "Romance",
+        "descripcion": "Todos merecen una gran historia de amor, pero para Simón, de 17 años, esto es un poco complicado. El adolescente gay aún no ha salido del clóset y no conoce la identidad del compañero anónimo de quien se ha enamorado en línea. Resolver ambos problemas será una graciosa y espeluznante aventura que le cambiará la vida.",
         "publicado": true,
-        "destacado": true,
-        "imagen": "https://es.web.img2.acsta.net/pictures/23/07/20/11/29/5479684.jpg",
-        "url": "https://youtu.be/zh4KhVSMwtQ?si=ZWPFu_bJDgUEw4PU"
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/681A25AEDF29B9D250D9A21BCA28DDBFCF0A9A5E1C180B9703B3BF1B574D4153/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/BD1YTzUKC-M?si=3n-s2kh5izViJZos"
     },
     {
         "codigo": 2,
-        "nombre": "La Monja 2",
+        "nombre": "Blair Witch: La bruja de Blair",
         "categoria": "Terror",
-        "descripcion": "Francia, 1956. El asesinato de un sacerdote provoca que un mal demoníaco se extienda sin control. La hermana Irene deberá enfrentarse, de nuevo, a la monja satánica Valak.",
+        "descripcion": "Peter, Ashley, Lisa y James se aventuran a la sprofundidades del bosque Black HIlls en Maryland para investigar la misteriosa desaparición de la hermana de James. Hay quienes creen que el enigma de esta tragedia tiene conexión con la bruja de Blair. A medida que se adentran en el oscuro intricado bosque, comienzan a darse cuenta de que la leyenda es real y más siniestra de lo que imaginaban.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcR36kkAn4bPAJL6Bu_2cSrcMZ1vkP9dofNq653Gg5VL85KFVR8R",
-        "url": "https://youtu.be/Em7wEqLzDnE?si=jyda2UHy-4wKnQNh"
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/AF2F51B7158D61297D80EC6C26D0BE766A6DC43C2D1D165912D9DDA34CDBD40A/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/sjRX2jnjm9g?si=1AQp-hNcDjn-hx4b"
     },
     {
         "codigo": 3,
-        "nombre": "El pianista",
-        "categoria": "Bélico",
-        "descripcion": "Un judío polaco, pianista profesional, lucha por la supervivencia en Varsovia frente a la invasión nazi. Después de, gracias a unos amigos, haber evitado la deportación, el pianista debe vivir oculto y constantemente expuesto al peligro.",
+        "nombre": "Mi abuela es un peligro",
+        "categoria": "Comedia",
+        "descripcion": "Para proteger a una hermosa mujer y a su hijo de un ladrón, al agente Malcolm Turner del FBI se le asigna la operación encubierta de disfrazarse como una obesa anciana para obtener información relacionada con un crimen previo.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTuLYK843W-Xi7akWLnT-5k337R71TYFJNLKgaQPgTgFupIv-Rg",
-        "url": "https://youtu.be/yDA1mK6v-ME?si=k4kMrH3pFJE9AOTc"
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F804F1FA4B7401F0DCAFD49FC0DB2D9CF63CF710588DACB02D51C2AFC02B3F35/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/qbO9DlMBNu4?si=EGk-8HdI77mwHjjt"
     },
     {
         "codigo": 4,
-        "nombre": "Sonic 2",
-        "categoria": "Aventura",
-        "descripcion": "Sonic y su compañero Tails emprenden un viaje alrededor del mundo en busca de una esmeralda que tiene del poder de destruir civilizaciones.",
+        "nombre": "Deadpool",
+        "categoria": "Acción y aventura",
+        "descripcion": "DEADPOOL narra la historia del origen del ex Fuerzas Especiales convertido en mercenario Wade Wilson, quien adopta el alter ego Deadpool después de que un experimento lo deja con extraordinarios y rápidos poderes curativos. Armado con sus nuevas habilidades un oscuro y retorcido sentido del humor, Deadpool va tras el hombre que casi le destruyó la vida.",
         "publicado": true,
-        "destacado": false,
-        "imagen": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQre31EeKplZHc5Mtfur-CgF_2bOq9fiHiFA0nY-mLG5BUellCi",
-        "url": "https://youtu.be/2OMixTIRQcY?si=Yet-M4L9tbKaLAii"
+        "destacado": true,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F4C30DD8F018FA9DB65E015CAE10C66FD72BE870F39D780222629A2A1B2EB765/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/0JnRdfiUMa8?si=n2OnsB2PpTnuvazQ"
     },
     {
         "codigo": 5,
-        "nombre": "The Batman",
-        "categoria": "Acción",
-        "descripcion": "Batman explora la corrupción existente en la ciudad de Gotham y el vínculo de esta con su propia familia. Además, entra en conflicto con un asesino en serie conocido como 'el Acertijo'.",
+        "nombre": "30 noches con mi ex",
+        "categoria": "Comedia",
+        "descripcion": "´El Turbo´, luego de tres años separado de ´La Loba´, acepta, por pedido de la hija que tienen en común, convivir durante 30 días con su exmujer, que viene de una larga internación psiquiátrica. Entonces, esta nueva ´vida en familia´ hará que El Turbo y La Loba revivan los sentimientos de amor y despierte la ilusión de volver a estar juntos",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRrmuWJLypZIsZC7yKIMPxxF45UYkJLv5Kg2i5AFcsWuGJnlMPR",
-        "url": "https://youtu.be/fWQrd6cwJ0A?si=QaVAHqZx0TdWewOX"
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/43AFFA37C9DC7CBE56DB470F638EF0D89EB0398C39BE4A47D4E8EA07AD190CBC/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/IKRwXsCUjfI?si=WPcORiQ7nCS-RCH6"
     },
     {
         "codigo": 6,
-        "nombre": "Asesinato en el expreso de oriente",
-        "categoria": "Misterio",
-        "descripcion": "Durante un trayecto del lujoso tren Orient-Express se produce un asesinato. Cuando una avalancha detiene el tren, el prestigioso detective belga Hércules Poirot sube al vehículo para investigar quién es el asesino, pero todos los pasajeros parecen sospechosos.",
+        "nombre": "BIOS: Mercedes Sosa",
+        "categoria": "Documental",
+        "descripcion": "Abel Pintos explora el legado y la gran influencia de Mercedes Sosa, la mujer que revolucionó el folclore argentino. Así, por medio de entrevistas a músicos e intelectuales que la secundaron en el inicio de su carrera, a sus nietos que conocieron su lado más íntimo y a artistas como Fito Páez y Charly García, Abel reconstruye y homenajea a la figura de Mercedes.",
         "publicado": true,
         "destacado": false,
-        "imagen": "ihttps://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQmADumYMr0RQjMKaUq6nDjnKkqkmqQ4iE2FBbVeeXccOU_zj8A",
-        "url": "https://youtu.be/GUHLzmB90iw?si=OKyuvJmTvZWid29O"
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/327720EEC7BC1F46CEE49B241AF3D4253DC63E6549D3BAB7036DC10A16C63784/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/c43ln3YYpqM?si=axDe5VVo04J_6a_2"
+    },
+    {
+        "codigo": 7,
+        "nombre": "Día de la Independencia",
+        "categoria": "Ciencia Ficción",
+        "descripcion": "Cuando los extraterrestres llegan a la Tierra y amenazan con eliminar a la raza humana, un grupo de sobrevivientes armados solo con tecnología inferior, ingenio y valor trendrá que detenerlos.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/679BD712C0445D5DA15C2BFDDB2130C23C869AF77254343748E665266A0C1976/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/zh4KhVSMwtQ?si=ZWPFu_bJDgUEw4PU"
+    },
+    {
+        "codigo": 8,
+        "nombre": "Armageddon",
+        "categoria": "Acción y aventura",
+        "descripcion": "Cuando la NASA se entera de que la Tierra le quedan 18 días antes de ser pulverizada por un meteorito del tamaño de Texas, tiene una única opción: enviar a un grupo variado de rudos perforador4es de petróleo del asteroide y detonar un explosico nuclear en su centro.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/4965E64FDFBEACFAF6442DBED925D257FE2A300F757CDB6320F94BA59DC1BE91/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/8-8eEniEfgU?si=H0qiGulPIpy1WEZP"
+    },
+    {
+        "codigo": 9,
+        "nombre": "500 días con ella",
+        "categoria": "Romance",
+        "descripcion": "Una poco convencional comedia romántica sobre una mujer que no cree que el amor verdadero exista y el joven que se enamora de ella",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/C5CAB54F2694EBC8EED1219ED2B0EC1EBE718FA04F99E711C11FEB3A6C2798E9/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/PEdNyYpFprw?si=-9-mxKvln3PHY7pe"
+    },
+    {
+        "codigo": 10,
+        "nombre": "Abzurdah",
+        "categoria": "Drama",
+        "descripcion": "Abzurdah cuenta la historia de Cielo, una adolescente de clase media acomodada que conoce por internet a un chico nueve años mayor que ella, de quien se enamora perdidamente y comienza en una obsesión en un mundo adulto que poco comprende del universo adolescente.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F5A2E151E58FE27E534CFDF1267A8B479961527E244DB4716969F9C2F14F8CF1/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/SL_e4tdlYN0?si=zUrUf-OzBFydaSP_"
+    },
+    {
+        "codigo": 11,
+        "nombre": "El cisne negro",
+        "categoria": "Drama",
+        "descripcion": "2010, Natalie Portman ganó el OSCAR a la mejor actriz por su impresionante actuación en esta película de suspenso sensual y psicológica sobre una bailarina de ballet ambiciosa pero frágil y su rival.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/B52F6C7A872F196C11365C83A9CFE966882FD957F49CF4C04F0210A5E7D24AAB/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/pusIwHuaeC4?si=CFmbecG8IgtNnCWm"
+    },
+    {
+        "codigo": 12,
+        "nombre": "Historias Cruzadas",
+        "categoria": "Drama",
+        "descripcion": "En Missisipi durante los años sesenta, una chica de la sociedad sureña pone a su pueblo de cabeza tras entrevistar a mujeres afroamericanas que pasaron toda su vida cuidando familias blancas prominentes.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/2176225899309D3C2B25F156C5489D6E4B92A04F4AC1C8B5D93F03894F922B25/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/jYBeAbwmRWs?si=3PoFBfJMnkDqQugr"
+    }
+    ,{
+        "codigo": 13,
+        "nombre": "Dead poets society",
+        "categoria": "Drama",
+        "descripcion": "Cuando el carismático profesor de Inglés John Keating llega a una preparatoria estricta, sus métodos de enseñanza poco convencionañes dan nueva vida a un plan de estudios impregnado de tradición. Pero Keating pronto descubre que ha provocado la ira de un profesorado que lo desaprueba cuando una tragedia inesperada golpea la escuela.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/EF38CF078096EF3FF42105FE912BCFE5822BFC80AC04224765C3D14F9375BB03/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/ye4KFyWu2do?si=qGsU7gW5gI-SaWwG"
+    },
+    {
+        "codigo": 14,
+        "nombre": "La Favorita",
+        "categoria": "Drama",
+        "descripcion": "A principios del siglo XVIII, en Inglaterra, la relación entre la reina Ana y su amiga cercana, lady Sarah, es amenazada por una sirvienta que planea regresar a sus raíces aristocráticas",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/EF39392DFB85DA9B45DF2A982792BAA560D1E688B6D74953D3698A9372257318/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/fqEl2Z0dHn8?si=bRwJB1nwwUISMuZw"
+    },
+    {
+        "codigo": 15,
+        "nombre": "La la land, una historia de amor",
+        "categoria": "Musical",
+        "descripcion": "Este musical explora la alegría y el dolor de perseguir sueños por medio de la historia de Mia, una aspirante actriz, y Sebastian, un músico de jazz, quienes luchan por sobrevivir en Los Ángeles, una ciudad conocida por aplastar las esperanzas.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/56E433A853B36B927FDB034942B977C6890C9FB954AA6F305994CA7559CCAC6F/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/45s24h98iOc?si=bSZqDml-tR9sQ04b"
+    },
+    {
+        "codigo": 16,
+        "nombre": "Babylon",
+        "categoria": "Comedia",
+        "descripcion": "Babylon es una epopeya sobre ambicipon descomunal y exceso escandaloso que traza el ascenso y la caída de ,últiples personajes en Los Ángeles, durante la década de 1920, una era de decadencia y depravación desenfrenada en los inicios de Hollywood.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/A8A32BBC7259C55EDB7E1B0C9FA911B2024C5EE5C8D9163D84CB45D59A5191EC/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/1waJYhy19Gc?si=M7jS2-zYkQ9HryZG"
+    },
+    {
+        "codigo": 17,
+        "nombre": "Volver al futuro",
+        "categoria": "Ciencia Ficción",
+        "descripcion": "En este clásico de ciencia ficción, el excéntrico inventor Doc Brown convierte un DeLorean en una máquina del tiempo que envía al joven Marty Mcfly 30 años en el pasado, donde debe lograr que sus padres se enamoren y así restaurar la historia.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/8E01EDB3AE3A0199AA77670DBA64AB73E74F509AF78266D380AD83C5502E774B/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/8x0s7U0DBWI?si=AZBCEJdMafkZeeTC"
+    },
+    {
+        "codigo": 18,
+        "nombre": "Volver al futuro II",
+        "categoria": "Ciencia Ficción",
+        "descripcion": "Marty McFly y Doc Brown visitan el año 2015, aparentemente para poder resolver unos pequeños problemas con el futuro de la familia McFly. SIn embargo, cuando regresan al presente, descubren que Hill Valley del año 1985 tiene un presente poco prometedor. Entonces, su única esperanza es regresar otra vez a 1955 y salvar el futuro.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/D3FE6766070590B87683F850476DE26D189FC6AEC58DEF5963D3401BC672CAEC/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/ixLXR27eGCw?si=ZiPo4fBJzADjw79E"
+    },
+    {
+        "codigo": 19,
+        "nombre": "Volver al futuro III",
+        "categoria": "Ciencia Ficción",
+        "descripcion": "La conclusión de la trilogía envía a Marty McFly a realizar una misión de rescate al año 1885, donde debe salvar a Doc Brown de una muerte segura y de las manos de un amor que podría poner en riesgo la línea de tiempo.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/AD90F8171592B47F7D7B54153CFB200014260BB0EB5AAE07A8B197EC4624701C/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/WmBX7CA-AAc?si=n1IgCUGEj9km-iGp"
+    },
+    {
+        "codigo": 20,
+        "nombre": "Al diablo con el diablo",
+        "categoria": "Comedia",
+        "descripcion": "Elliot es un técnico informático desafortunado al que un día se le aparece el diablo en forma de una sensual mujer a proponerle un trato: siete deseos a cambio de su alma. Elliot acepta sin pensar en la posibilidad de que el diablo puede tener un as bajo la manga, y rápidamente su vida queda patas para arriba.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/4997EAC1B80BBF3F84FEB0E13D2377F153B6E33BA073FB284A1D85AA02644D92/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/UaS89Zc95hs?si=NowsHjp-YeH7JAEX"
+    },
+    {
+        "codigo": 21,
+        "nombre": "Guerra de papás 2",
+        "categoria": "Comedia",
+        "descripcion": "Dusty y Brad por fin llevan el asunto de la copaternidad... hasta que a la ciudad llegan los padres de ambos para sembrar caos en toda la familia.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/9C23452C8252740701C4C628C2F9EC8071B79F281AC73199D35B3F033B8AD11A/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/vPIg4nFNbfs?si=TCAERAv1G8sLoXxl"
+    },
+    {
+        "codigo": 22,
+        "nombre": "El diablo viste a la moda",
+        "categoria": "Comedia",
+        "descripcion": "Como asistente de Miranda Priestly, la imposible y demandante editora de una importante revista de modas de Nueva York, la joven Andy Sachs ha conseguido un trabajo que muchas chicas morirías por tener. Desafortunadamente para ella, su celestial puesto como la asistente personal de Miranda podría ¡hasta llevarla a la tumba!",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/110FF005A720DE7F4D53C9CD3218613711D38D356A0B5987E77E141D8045D292/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/vKPI6b4yi2E?si=YC0wLtuqngzEPwYR"
+    },
+    {
+        "codigo": 23,
+        "nombre": "Joy: el nombre del éxito",
+        "categoria": "Drama",
+        "descripcion": "Jennifer Lawrence protagoniza junto a Bradley Cooper y Robert De Niro, en el papel de una mujer que construye una dinastía empresarial en la historia salvaje de David O.Russell sobre una familia de cuatro generaciones.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/5F68DE86E0BB7FC61706FEA0FDF8E5D7A93B98E5F3E56F93904DB593C3812916/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/EEwjKWqnn6Y?si=pqc6EoMn8nN4CXwG"
+    },
+    {
+        "codigo": 24,
+        "nombre": "Los Fockers: La familia de mi esposo",
+        "categoria": "Comedia",
+        "descripcion": "GayLord Greg Focker debe soportar otro humillante encuentro parental tras pedir la mano de su novia, pues ahora es el turno del exagante de la CIA Jack Byrnes y su esposa Dina de viajar a Florida para conocer a los excéntricos padres del prometido y pasar un periodo de tiempo que pondrá a prueba al amor y la familia.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/86E8009AB49498394246FBE7ED4339878C12379B0A4F8F33FF4CA43B8EE3E3B3/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/ma53pywVZrg?si=Mc9VC5L8NgOgS4JZ"
+    },
+    {
+        "codigo": 25,
+        "nombre": "La maldición de Chucky",
+        "categoria": "Terror",
+        "descripcion": "¡Él está de vuelta! Esta vez, cuando un paquete misterioso llega a la casa de Nica, ella no le presta mucha importancia. Sin embargo, después de la misteriosa muerte de su madre, NIca comienza a sospechar que el muñeco parlante y pelirrojo con el que ha estado jugando su sobrina puede ser la clave del derramamiento de sangre y todo el caos.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0B7672E3069E08FB603AB7FFE7624CCB32AF09787FCC4AAC0BD37D8E5726656F/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/FBh3Ff0eFtg?si=CqK7gkKHbLaQW2-m"
+    },
+    {
+        "codigo": 26,
+        "nombre": "Sonríe",
+        "categoria": "Terror",
+        "descripcion": "Tras presenciar un incidente extraño y traumpático que involucra a una paciente, la Dra. Rose Cotter comienza a experimentar sucesos aterradores que no puede explicar. Entonces, ella debe enfrentar su pasado para sobrevivir a su nueva y horrible realidad.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/640279F58BCF25B82ECDAD069A8B3A2E22E269A68951DBFD752610902703E955/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/n42mdgKaGv0?si=0nF1eFyWxS5jpTb4"
+    },
+    {
+        "codigo": 27,
+        "nombre": "Cacería en Venecia",
+        "categoria": "Misterio",
+        "descripcion": "Ambientada en la espeluznante Venecia posterior a la Segunda Guerra Mundial, en la Víspera de Halloween, Cacería en Venecia es un aterrador misterio que presenta el regreso del célebre detective Hércules Poirot. Ahora jubilado y viviendo en un exilio auto-impuesto en Venecia, Poirot acude renuentemente a una sesión espiritista en un palazzo decadente y embrujado. Cuando uno de los invitados es asesinado, el detective se ve envuelto en un siniestro mundo de sombras y secretos.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/091902CB77AEB37F56F89CD0EDA4DD7A30A8B92A5CADBF227C52F4184CE77A2A/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/VXQQE5TEkHQ?si=-KxO5Yw-vNOogzTg"
+    },
+    {
+        "codigo": 28,
+        "nombre": "Asesinato en el Expreso de Oriente",
+        "categoria": "Misterio",
+        "descripcion": "Kenneth Branagh dirige y lidera el elenco estelar, que incluye a Johnny Depp, en este elegante, emocionante y lleno de suspenso misterio basado en la novela más vendida de Agatha Christie.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/A2C4B84580F2D0DA166FB8850EBEA09ECEC7452D45849E9FB91AD80C6DC5570A/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/uAk39coySj8?si=_y94JHDbS-S_ZQBu"
+    },
+    {
+        "codigo": 29,
+        "nombre": "Comer, rezar, amar",
+        "categoria": "Romance",
+        "descripcion": "Liz Gilbert es una mujer moderna que viaja a través del mundo para reencontrarse y reconectar con su verdadero ser. Tras su divorcio, Gilbert se toma un año sabático y se atreve a lo que nunca hizo: salir de su zona de confort. En sus increíbles y exóticos viajes ecperimenta el simple placer de comer en Italia, el poder de rezar en India y, finalmente, la paz interios y el balance de amor en Bali.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0ABB6EC78A58B88974D84958C83A86AD384DF8E37DB9D0779881DF15D4E48AB3/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/gX1cp3qcbAY?si=o8FB8ivMmFjRISju"
+    },
+    {
+        "codigo": 30,
+        "nombre": "Mamma Mia!",
+        "categoria": "Musical",
+        "descripcion": "En esta adaptación cinematográfica del amado musical, una fuerte e independiente dueña de hotel se pepara para organizar la boda de su hija en una idílica isla griega. Los invitados incluyen no solo a sus amigos más queridos, sino que también a tres hombres de su pasadi a quienes su hija invitó en secreto poque sospecha que uno de ellos podría ser su padre.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/C90D2353EDDE9C7863F25FC6C54F88BB11665EFC50DEEF6524BF0FE8CD56722B/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/7URVcVXFPmM?si=UQTlz1f5R3BORSpx"
     }
 ]
