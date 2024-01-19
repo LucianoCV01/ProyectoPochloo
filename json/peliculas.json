@@ -32,7 +32,7 @@
     {
         "codigo": 4,
         "nombre": "Deadpool",
-        "categoria": "Acción y aventura",
+        "categoria": "Acción y Aventura",
         "descripcion": "DEADPOOL narra la historia del origen del ex Fuerzas Especiales convertido en mercenario Wade Wilson, quien adopta el alter ego Deadpool después de que un experimento lo deja con extraordinarios y rápidos poderes curativos. Armado con sus nuevas habilidades un oscuro y retorcido sentido del humor, Deadpool va tras el hombre que casi le destruyó la vida.",
         "publicado": true,
         "destacado": true,
@@ -72,7 +72,7 @@
     {
         "codigo": 8,
         "nombre": "Armageddon",
-        "categoria": "Acción y aventura",
+        "categoria": "Acción y Aventura",
         "descripcion": "Cuando la NASA se entera de que la Tierra le quedan 18 días antes de ser pulverizada por un meteorito del tamaño de Texas, tiene una única opción: enviar a un grupo variado de rudos perforador4es de petróleo del asteroide y detonar un explosico nuclear en su centro.",
         "publicado": true,
         "destacado": false,
@@ -298,5 +298,115 @@
         "destacado": false,
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/C90D2353EDDE9C7863F25FC6C54F88BB11665EFC50DEEF6524BF0FE8CD56722B/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/7URVcVXFPmM?si=UQTlz1f5R3BORSpx"
+    },
+    {
+        "codigo": 31,
+        "nombre": "Amores Asesinos",
+        "categoria": "Drama",
+        "descripcion": "Esta historia, basada en hechos reales, relata los sucesos del año decisivo que ca,bió la vida del poeta y escritor estadounidense Allen Ginsberg para siempre y que supuso la chispa para que iniciara su revolución creativa.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/2C05518D37E00312750601EB081BDB7786E38E83C39BBA256E7B13EAA3CDD57F/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/B46C48LmQxE?si=Y7TQ1o6Pv_UOfRy-"
+    },
+    {
+        "codigo": 32,
+        "nombre": "La forma del agua",
+        "categoria": "Romance",
+        "descripcion": "Del maestro Guillermo del Toro llega este cuento de hadas de otro mundo ambientado en los Estados Unidos de la Guerra Fría de los años 60, donde la vida de una mujer cambia para siempre luego de que descubre un experimento secreto.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/AF4DC0099696CD03175DC3A18FDC20D64CEF561F35569E563448607DEE2AAB65/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/ITqLYivTuh4?si=UeNdedUhHmHOtHuE"
+    },
+    {
+        "codigo": 33,
+        "nombre": "Titanic",
+        "categoria": "Romance",
+        "descripcion": "Las vidas de los pasajeros a bordo del condenado crucero de lujo Titanic se ven antes y durante su lento descenso hacia el Atlántico.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/313C9883C0085FB412D28656A3CC37DCDC46BC11032FD7D5FC61F475FDD86BED/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/tA_qMdzvCvk?si=yyj5NWSgFUHjAAJb"
+    },
+    {
+        "codigo": 34,
+        "nombre": "Alien",
+        "categoria": "Ciencia Ficción",
+        "descripcion": "Dirigido por Ridley Scott, el clásico de ciencia ficción original sigue a Ripley (Sigourney Weaver) investigando un supuesto SOS en un planeta remoto y hace un aterrador descubrimiento.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/FA2BB99244F98D789ED5ED22AFF97514A99DA618455E9660A39B17207454293E/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/jQ5lPt9edzQ?si=FbVeDhpvsVxgUIFp"
+    },
+    {
+        "codigo": 35,
+        "nombre": "12 horas para sobrevivir: El año de la elección",
+        "categoria": "Terror",
+        "descripcion": "El pistolero convertido en guardespaldas Leo Barnes se esfuerza por proteger a la senadora Charlie Roan, quien busca poner fin a la noche de purga, mientras una facción elitista planea asesinarla para mantener viva la traidicional y letal noche.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/910CD9D6C7627FEB1390C1941F627809FF21CCC54F4F79123F9C7DCA1BB2E657/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/z9OfWO1CLlU?si=OslORDko9uXPKlAu"
+    },
+    {
+        "codigo": 36,
+        "nombre": "El sexto sentido",
+        "categoria": "Terror",
+        "descripcion": "La superestrella de Hollywood Bruce Willis aporta una poderosa presencia a un emocionante thriller del escritor-director M. Night Shyamalan que los críticos están llamando una de las más grandes historias de fantasmas jampas filmadas.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/66055FE725284708AF3A716CD52FB40BB68149AC9F8FF70089E7CDECC9A88601/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/zfOdk9JDzSw?si=OLIVFjpQBB_K2Y3I"
+    },
+    {
+        "codigo": 37,
+        "nombre": "Rápido y furioso",
+        "categoria": "Acción y Aventura",
+        "descripcion": "El policía Brian O'Conner debe infiltrarse de forma encubierta en la escena de la scarreras ilegales de Los Ángeles para investigar a una pandilla de ladrones adictos a la velocidad, quienes usan automóviles modificados en sus robos. Una vez allí, Brian se ve envuelto en el mundo del infame conductor callejero Dominic Toretto.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/8CA9DFCBA728E09C99D303D264D5F8ADC0968F1CF9A4EC6A1F6D01BE53A56D4A/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/-oJHZre7XZY?si=ZtkSVFbQ27lFX_vH"
+    },
+    {
+        "codigo": 38,
+        "nombre": "Más rápido y más furioso",
+        "categoria": "Acción y Aventura",
+        "descripcion": "El ex policía en fuga Brian O'Conner ahora se ha involucrado en las ilegales carreras callejeras. De pronto, cuando los agentes federales lo obligan a volver a trabajar de encubierto, las arriesgadas habilidades de O'Conner, que no obedecen ninguna regla, se desatan contra un narcotraficante internacional.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/4B619EC7C93A449D70077E7592799D9067486D5F3D53812BD08181D6237E1933/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/VXItsaRV9hQ?si=-yGV0Dbl12qTbPuU"
+    },
+    {
+        "codigo": 39,
+        "nombre": "Rápido y furioso: Reto Tokio",
+        "categoria": "Acción y Aventura",
+        "descripcion": "Sean Boswell es un competidor de carreras ilegales que tiene problemas con la justicia y ahora intenta comenzar una nueva vida al otro lado del mundo. Allí, su obsesión por las carreras lo lleva directo a colisionar con el bajo mundo japonés.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/037641D73D88F90BE73444C1F8C92B89D7F2DD38FCDD4A50A1F63901B77B5086/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/0ZFlxUIFyNU?si=TrwM5mWip8rIBTzH"
+    },
+    {
+        "codigo": 40,
+        "nombre": "Sing 2: ¡Ven y canta de nuevo!",
+        "categoria": "Animación",
+        "descripcion": "Buster Moon y su elenco estelar de artistas se preparan para presentar su espectáculo escénico más deslumbrante hasta al momento. Solo hay un problema: primero deben persuadir a Clay Callaway, la estrella de rock más solitaria del mundo, para que se una a ellos.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/CA9BE4D10B0F6AD5550BAB485C5E791B6B2097BC9973DAC805DFA9148BEB2A52/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/oGL_p2wrpVs?si=2TASXzSRxZqy9gq4"
+    },
+    {
+        "codigo": 41,
+        "nombre": "Son como niños",
+        "categoria": "Comedia",
+        "descripcion": "30 años después de graduarse de la escuela secundaria, cinco excompañeros de un equipo de baloncesto se reúnen en la casa del lago donde celebraron su mayor victoria para llorar el fallecimiento de su difunto entrenador. En el transcurso del fin de semana, los amigos se dan cuenta de que el hecho de haber madurado y formado familias no significa que hayan perdido esa vieja chispa que tenían.",
+        "publicado": true,
+        "destacado": false,
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/FFA934EFFAD6E017DD8DCF0CE3F3C92E81B119EC255F5E9438553C61600C716C/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "url": "https://youtu.be/yMEDiKD7cyE?si=QAZ1pT0z_A8D0GlE"
     }
 ]

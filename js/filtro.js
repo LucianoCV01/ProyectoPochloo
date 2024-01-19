@@ -6,7 +6,7 @@ Array.from(categorias).forEach(function(element)
     {
         const seleccionado = element.textContent
         localStorage.setItem("Categoria", seleccionado)
-        // window.location.href = "otra_pagina.html"
+        window.location.href = "../html/categoria.html"
     })
     
 })
