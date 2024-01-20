@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.portada{
+    height: 30vw;
+}
+.categoria{
+    background-color: #22092C;
+}
+a{
+    position: relative;
+}
