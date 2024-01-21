@@ -21,14 +21,30 @@ function registroDeUsuarios() {
     tipo: Comun,
     estado: Pendiente
   };
-  usuarioNuevoRegistrado.push(newUser);
-  console.log("Usuario registrado:", newUser);
-  console.log("Todos los usuarios registrados:", usuarioNuevoRegistrado);
-  const formulario = document.getElementById('formularioDeRegistro');
-  formulario.reset()
-  Swal.fire({
-    icon: 'success',
-    title: 'Registro exitoso',
-    text: 'El usuario se ha registrado correctamente.'}
-  )}
-
+  fetch("../json/fakeApiEnzo.json")
+    .then(response => response.json())
+    .then(users => {
+      const usuarioExistente = users.find(usuario => usuario.email === mail);
+      if (usuarioExistente) {
+        Swal.fire({
+          icon: 'error',
+          title: 'Error de registro a Pochloo',
+          text: 'El usuario ya está registrado. Intenta con otro correo electrónico.'
+        });
+      } else {
+        usuarioNuevoRegistrado.push(newUser);
+        console.log("Usuario registrado:", newUser);
+        console.log("Todos los usuarios registrados:", usuarioNuevoRegistrado);
+        const formulario = document.getElementById('formularioDeRegistro');
+        formulario.reset();
+        Swal.fire({
+          icon: 'success',
+          title: 'Registro exitoso',
+          text: 'El usuario se ha registrado correctamente.'
+        });
+      }
+    })
+    .catch(error => {
+      console.error("Error al obtener los datos de la API:", error);
+    });
+}
