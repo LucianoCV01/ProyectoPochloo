@@ -14,3 +14,44 @@ body {
     background: rgb(34, 9, 44);
     background: radial-gradient(circle, rgba(34, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
 }
+
+body {
+    color: aliceblue;
+    font-family: 'Croissant One', serif;
+    font-family: 'Outfit', sans-serif;
+    background: rgb(34, 9, 44);
+    background: radial-gradient(circle, rgba(34, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
+    margin: 0; /* Añadido para eliminar el margen predeterminado del cuerpo */
+}
+
+.containerPrincipal {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 100%;
+}
+
+.containerSecundario {
+    text-align: center;
+}
+
+.containerForm {
+    max-width: 500vh;
+    margin-top: 100px;
+   
+}
+
+.inputRecuperar {
+    width: 100%;
+}
+
+.containerImagen {
+    margin-top: 70px;
+}
+
+.subcontainerImagen {
+    max-width: 200px;
+    margin: auto;
+}
