@@ -27,3 +27,6 @@ function iniciarSesionPochloo() {
         .catch(error => console.log(error)
         );
 }
+
+function recuperarContraseña() {
+    const emailRecuperar = document.getElementById('inputEmailRecuperar').value;}
