@@ -27,6 +27,8 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 80%;
+    max-width: 400px;
 }
 
 .containerLogo {
@@ -37,7 +39,7 @@ body {
 }
 
 .containerLogo img {
-    width: 200px;
+    width: 50%;
     height: auto;
 }
 
@@ -49,5 +51,11 @@ body {
 }
 
 form {
-    width: 100vh
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .subcontainerRegistro {
+        width: 90%;
+    }
 }
