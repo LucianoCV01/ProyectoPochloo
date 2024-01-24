@@ -1,0 +1,42 @@
+[
+    {
+        "nombre":"Susana Leonor",
+        "apellido":"Aguirre",
+        "email":"susyaguirre1981@gmail.com",
+        "clave":"alpaquitaclavecina",
+        "tipo":"Comun",
+        "estado":"Pendiente"
+    },
+    {
+        "nombre":"Juan",
+        "apellido":"Cruz",
+        "email":"juancarloscruz1@gmail.com",
+        "clave":"oeidhwidcb",
+        "tipo":"Comun",
+        "estado":"Pendiente"
+    },
+    {
+        "nombre":"Olivia",
+        "apellido":"Castañeda",
+        "email":"LolalolitaCast@gmail.com",
+        "clave":"pillanalolalolitafumandoenunbar",
+        "tipo":"Comun",
+        "estado":"Pendiente"
+    },
+    {
+        "nombre":"Lionel Andres",
+        "apellido":"Messi",
+        "email":"liomessi10@hotmail.com",
+        "clave":"1010101010",
+        "tipo":"Comun",
+        "estado":"Pendiente"
+    },
+    {
+        "nombre":"Catalina del Rosario",
+        "apellido":"Savedra",
+        "email":"catisavedra16@gmail.com",
+        "clave":"9e38746redgyu",
+        "tipo":"Comun",
+        "estado":"Pendiente"
+    }
+]
