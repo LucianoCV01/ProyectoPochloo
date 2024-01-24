@@ -2,8 +2,8 @@
     {
         "nombre": "Enzo",
         "apellido": "Castro",
-        "email": "enzo@gmail.com",
-        "clave": "Enzo1234",
+        "email": "enzo@mail.com",
+        "clave": "enzo1234",
         "tipo": "",
         "estado": ""
     }

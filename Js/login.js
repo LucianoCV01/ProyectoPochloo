@@ -1,8 +1,31 @@
 const usuariosLogueados = JSON.parse(localStorage.getItem('Usuario'));
 
+document.getElementById('loginForm').addEventListener('submit', function(event) {
+    event.preventDefault();  // Evita el envío tradicional del formulario
+    iniciarSesionPochloo();
+});
+
 function iniciarSesionPochloo() {
     const email = document.getElementById('inputEmail').value;
     const pass = document.getElementById('inputPassword').value;
+
+    if (email.trim() === '' || pass.trim() === '') {
+        Swal.fire({
+            title: "Error al iniciar sesión",
+            text: "Ambos campos deben ser completados.",
+            icon: "error",
+        });
+        return;}
+
+    if (!email.includes('@')) {
+            Swal.fire({
+                title: "Formato de correo incorrecto",
+                text: "Asegúrate de ingresar un correo electrónico válido.",
+                icon: "error",
+            });
+            return;  // Detener la ejecución si la validación falla
+        }
+
     fetch("../json/fakeApiEnzo.json")
         .then(response => response.json())
         .then(DATOS => {
@@ -11,7 +34,7 @@ function iniciarSesionPochloo() {
                 localStorage.setItem("USUARIO" , JSON.stringify(userLogeadoPochloo));
                 Swal.fire({
                     title: "Bienvenido!!!",
-                    text: "Te haz logueado con éxito, bienvenido " +  userLogeadoPochloo.nombre,
+                    text: "Te has logueado con éxito, bienvenido " +  userLogeadoPochloo.nombre,
                     icon: "success",
                 })
                 console.log("El usuario se ha logueado:", userLogeadoPochloo);
@@ -25,8 +48,9 @@ function iniciarSesionPochloo() {
             }
         })
         .catch(error => console.log(error)
-        );
+    );
 }
 
 function recuperarContraseña() {
-    const emailRecuperar = document.getElementById('inputEmailRecuperar').value;}
+    const emailRecuperar = document.getElementById('inputEmailRecuperar').value;
+}
