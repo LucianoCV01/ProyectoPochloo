@@ -1,0 +1,76 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150vh;
+    width: 100%;
+}
+
+.containerMadre {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.containerImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logoP {
+    width: 70%;
+  height: auto;
+}
+
+body {
+    font-family: 'Croissant One', serif;
+    font-family: 'Outfit', sans-serif;
+    background: rgb(34, 9, 44);
+    background: radial-gradient(circle, rgba(34, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
+}
+
+#containerLogin {
+    color: rgb(255, 255, 255);
+}
+#sectionDireccion {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+}
+.sinCuenta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.botonLogeo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5vh;
+}
+.botonAbrir {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.recuperarContraseña {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
