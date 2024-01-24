@@ -73,10 +73,20 @@
                                 </div>
                                 <div class="mb-3">
                                     <label for="categoria" class="form-label">Categoría</label>
-                                    <input type="text" class="form-control" id="categoria" name="categoria"
-                                        minlength="2" maxlength="50" is-invalid required>
-                                    <div class="invalid-feedback">Este campo es obligatorio. Seleccione una categoría.
-                                    </div>
+                                    <select class="form-select" id="categoria" name="categoria" required>
+                                        <option value="" selected disabled>Selecciona una categoría</option>
+                                        <option value="Acción y Aventura">Acción y Aventura</option>
+                                        <option value="Animación">Animación</option>
+                                        <option value="Ciencia Ficción">Ciencia Ficción</option>
+                                        <option value="Comedia">Comedia</option>
+                                        <option value="Documental">Documental</option>
+                                        <option value="Drama">Drama</option>
+                                        <option value="Musical">Musical</option>
+                                        <option value="Misterio">Misterio</option>
+                                        <option value="Terror">Terror</option>
+                                        <option value="Romance">Romance</option>
+                                    </select>
+                                    <div class="invalid-feedback">Este campo es obligatorio. Seleccione una categoría.</div>
                                 </div>
                                 <div class="mb-3">
                                     <label for="descripcion" class="form-label">Descripción</label>
