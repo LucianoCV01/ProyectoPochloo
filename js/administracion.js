@@ -242,3 +242,26 @@ camposFormulario.forEach((campo) => {
         campo.nextElementSibling.textContent = ''; // Limpiar mensajes de error
     });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+    // Default: Show Peliculas section
+    showPeliculas();
+
+    // Button click events
+    document.getElementById("btnPeliculas").addEventListener("click", showPeliculas);
+    document.getElementById("btnUsuarios").addEventListener("click", showUsuarios);
+
+    function showPeliculas() {
+        document.getElementById("adminPeliculas").classList.remove("hidden");
+        document.getElementById("adminUsuarios").classList.add("hidden");
+        document.getElementById("btnPeliculas").classList.add("active");
+        document.getElementById("btnUsuarios").classList.remove("active");
+    }
+
+    function showUsuarios() {
+        document.getElementById("adminPeliculas").classList.add("hidden");
+        document.getElementById("adminUsuarios").classList.remove("hidden");
+        document.getElementById("btnPeliculas").classList.remove("active");
+        document.getElementById("btnUsuarios").classList.add("active");
+    }
+});

@@ -88,6 +88,7 @@ const crearFilasAlta = (usuario, indice) => {
     
     const celdaUsuario = document.createElement("td");
     celdaUsuario.textContent = usuario.nombre + " " + usuario.apellido
+    celdaUsuario.className = "p-4"
     
     const celdaEmail = document.createElement("td")
     celdaEmail.textContent = usuario.email

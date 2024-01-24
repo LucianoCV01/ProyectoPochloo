@@ -12,18 +12,6 @@ body {
 
 .table-light tbody tr:nth-of-type(odd) {
     background-color: rgba(255, 255, 255, 0.05);
-}html, section, main{
-    background-color: rgb(34, 9, 44);
-    background:radial-gradient(circle, rgba(4, 9, 44,1) 0%, rgba(51, 19, 28, 1) 100%);
-    color: whitesmoke;
-    
-}
-
-
-.tablaUsuarios td, .tablaUsuarios th{
-    background-color: rgba(255, 255, 255, 0) !important;
-    color: whitesmoke !important;
-    height: 3rem;
 }
 
 h3{
@@ -50,4 +38,29 @@ h3{
     width: 150px; 
     height: 150px; 
     border-radius: 50%; 
+}
+
+.hidden {
+    display: none;
+}
+
+
+#btnPeliculas {
+    background-color: #872341;
+    border-color: #872341;
+}
+
+#btnUsuarios {
+    background-color: #872341;
+    border-color: #872341;
+}
+
+#btnPeliculas.active, #btnPeliculas:active, .show>#btnPeliculas.dropdown-toggle {
+    background-color: #f05941 !important;
+    border-color: #f05941 !important;
+}
+
+#btnUsuarios.active, #btnUsuarios:active, .show>#btnUsuarios.dropdown-toggle {
+    background-color: #f05941 !important;
+    border-color: #f05941 !important;
 }
