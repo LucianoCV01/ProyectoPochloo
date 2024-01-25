@@ -1,17 +1,39 @@
-main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 150vh;
-    width: 100%;
-}
-
 body {
     color: aliceblue;
     font-family: 'Croissant One', serif;
     font-family: 'Outfit', sans-serif;
-    background: rgb(34, 9, 44);
     background: radial-gradient(circle, rgba(34, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
+    margin: 0;
+    padding: 0;
 }
 
+.containerPrincipal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.containerSecundario {
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    padding: 20px;
+}
+
+.inputRecuperar {
+    width: 50%;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.containerImagen {
+    text-align: center;
+}
+
+.subcontainerImagen {
+    max-width: 200px;
+    margin: auto;
+}
