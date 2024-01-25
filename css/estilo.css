@@ -11,6 +11,10 @@ h1, h2{
 html, section, main{
     background-color: rgb(34, 9, 44);
     background:radial-gradient(circle, rgba(4, 9, 44,1) 0%, rgba(51, 19, 28, 1) 100%);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: whitesmoke;
     
 }
@@ -20,5 +24,11 @@ html, section, main{
     color: whitesmoke;
 }
 
+
+@media (max-width: 840px) {
+    #imgCategoria{
+        width: 360px;
+    }
+}
 
 
