@@ -6,12 +6,13 @@ let btnBuscar = document.getElementById("btnBuscar")
 btnBuscar.addEventListener("click", function(event)
 {
     event.preventDefault
-    
     let busqueda = buscador.value
+
     if(!busqueda == "")
     {
        formBuscador.innerHTML = ""
-       localStorage.setItem("Busqueda", busqueda)
+       let arreglo = [busqueda, "buscador"]
+       localStorage.setItem("Buscar", JSON.stringify(arreglo))
        window.location.href = "../html/busqueda.html"
     }
     
