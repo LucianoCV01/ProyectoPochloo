@@ -18,6 +18,18 @@ main {
     border-radius: 10px;
 }
 
+
+.textoLogin {
+    font-size: 3vw;
+    transition: font-size 0.5s;
+}
+
+@media (max-width: 768px) {
+    .textoLogin {
+        font-size: 6vw;
+    }
+}
+
 .containerImagen {
     display: flex;
     justify-content: center;
