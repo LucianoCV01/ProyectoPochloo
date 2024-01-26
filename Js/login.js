@@ -31,7 +31,7 @@ function iniciarSesionPochloo() {
         .then(DATOS => {
             const userLogeadoPochloo = DATOS.find(usuarioo => usuarioo.email === email && usuarioo.clave === pass);
             if (userLogeadoPochloo) {
-                localStorage.setItem("USUARIO" , JSON.stringify(userLogeadoPochloo));
+                localStorage.setItem("Usuario" , JSON.stringify(userLogeadoPochloo));
                 Swal.fire({
                     title: "Bienvenido!!!",
                     text: "Te has logueado con éxito, bienvenido " +  userLogeadoPochloo.nombre,
