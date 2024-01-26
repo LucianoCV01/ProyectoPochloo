@@ -1,7 +1,7 @@
 const usuariosLogueados = JSON.parse(localStorage.getItem('Usuario'));
 
 document.getElementById('loginForm').addEventListener('submit', function(event) {
-    event.preventDefault();  // Evita el envío tradicional del formulario
+    event.preventDefault();
     iniciarSesionPochloo();
 });
 
@@ -23,7 +23,7 @@ function iniciarSesionPochloo() {
                 text: "Asegúrate de ingresar un correo electrónico válido.",
                 icon: "error",
             });
-            return;  // Detener la ejecución si la validación falla
+            return;
         }
 
     fetch("../json/fakeApiEnzo.json")
