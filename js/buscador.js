@@ -6,7 +6,7 @@ let btnBuscar = document.getElementById("btnBuscar")
 btnBuscar.addEventListener("click", function(event)
 {
     event.preventDefault
-    let busqueda = buscador.value
+    const busqueda = buscador.value
 
     if(!busqueda == "")
     {
