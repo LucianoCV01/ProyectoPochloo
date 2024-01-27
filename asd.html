@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar color de letras según imagen</title>
+</head>
+<body>
+    <canvas id="miCanvas" width="800" height="600"></canvas>
+    <script>
+        // Obtener el contexto del canvas
+        const canvas = document.getElementById('miCanvas');
+        const ctx = canvas.getContext('2d');
+
+        // Cargar la imagen
+        const img = new Image();
+        img.src = 'https://htmlcolorcodes.com/assets/images/color-picker/html-color-codes-color-wheels-analogous-thumb.png';
+
+        img.onload = function() {
+            // Dibujar la imagen en el canvas
+            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+
+            // Obtener el color en una posición específica (por ejemplo, x=100, y=100)
+            const color = obtenerColorEnPosicion(400, 400);
+            const colorInverso = {
+                r: 255 - color.r,
+                g: 255 - color.g,
+                b: 255 - color.b
+            };
+            // Cambiar el color del texto según el color de la imagen
+            const texto = document.createElement('div');
+            texto.textContent = 'Hola, mundo!';
+            texto.style.color = `rgb(${colorInverso.r}, ${colorInverso.g}, ${colorInverso.b})`;
+            document.body.appendChild(texto);
+            console.log(color);
+        };
+
+        // Función para obtener el color en una posición específica del canvas
+        function obtenerColorEnPosicion(x, y) {
+            const pixel = ctx.getImageData(x, y,200, 200).data;
+            return { r: pixel[0], g: pixel[1], b: pixel[2] };
+        }
+    </script>
+</body>
+</html>
