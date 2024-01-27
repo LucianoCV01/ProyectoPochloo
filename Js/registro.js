@@ -59,10 +59,13 @@ function registroDeUsuarios() {
                 Swal.fire({
                     icon: 'success',
                     title: 'Registro Exitoso',
-                    text: 'El usuario se ha registrado correctamente.'
-                });
+                    text: 'El usuario se ha registrado correctamente. Te vamos a direccionar al logueo'
+                });            
+                setTimeout(() => {
+                    window.location.href = '../Html/login.html';}, 2000);
             }
         })
         .catch(error => {
             console.error("Error al obtener los datos de la API:", error);
         });}
+
