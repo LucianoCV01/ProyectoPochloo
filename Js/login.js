@@ -38,6 +38,11 @@ function iniciarSesionPochloo() {
                     icon: "success",
                 })
                 console.log("El usuario se ha logueado:", userLogeadoPochloo);
+
+                setTimeout(() => {
+                    window.location.href = '../index.html';
+                }, 2000);
+
             } else {
                 Swal.fire({
                     title: "Usuario y/o contraseña incorrectos!",
@@ -54,3 +59,4 @@ function iniciarSesionPochloo() {
 function recuperarContraseña() {
     const emailRecuperar = document.getElementById('inputEmailRecuperar').value;
 }
+
