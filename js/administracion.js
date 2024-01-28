@@ -248,8 +248,15 @@ document.addEventListener("DOMContentLoaded", function () {
     showPeliculas();
 
     // Button click events
-    document.getElementById("btnPeliculas").addEventListener("click", showPeliculas);
-    document.getElementById("btnUsuarios").addEventListener("click", showUsuarios);
+    document.getElementById("btnPeliculas").addEventListener("click", function() {
+        showPeliculas();
+        cambiarTitulo("Administrar Películas");
+    });
+    
+    document.getElementById("btnUsuarios").addEventListener("click", function() {
+        showUsuarios();
+        cambiarTitulo("Administrar Usuarios");
+    });
 
     function showPeliculas() {
         document.getElementById("adminPeliculas").classList.remove("hidden");
@@ -264,4 +271,9 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("btnPeliculas").classList.remove("active");
         document.getElementById("btnUsuarios").classList.add("active");
     }
+
+    function cambiarTitulo(titulo) {
+        document.getElementById("contenedorTituloBotones").querySelector("h1").textContent = titulo;
+    }
 });
+
