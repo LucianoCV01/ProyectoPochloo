@@ -13,6 +13,7 @@ function verificarUsuario() {
         .then(users => {
             const usuarioEncontrado = users.find(usuario => usuario.email === email);
             if (usuarioEncontrado) {
+                enviarMaildeRecupero();
                 Swal.fire({
                     icon: 'success',
                     title: 'Usuario Encontrado',
@@ -29,4 +30,16 @@ function verificarUsuario() {
         .catch(error => {
             console.error("Error de la API", error);
         });
+}
+
+function enviarMaildeRecupero() {
+    Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "enzocastro110@gmail.com",
+        Password: "57ABA6E8B636166C5E39FF8D44E96598D009",
+        To: 'enzocastro110@icloud.com',
+        From: "enzocastro110@gmail.com",
+        Subject: "Recupero de contraseña",
+        Body: "Sigue los pasos para recuperar tu contraseña:"
+    }).then();
 }
