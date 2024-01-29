@@ -10,14 +10,14 @@ main {
 }
 
 .containerMadre {
-    margin: 2rem;
+    margin: 6.5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     border: 1px solid rgba(255, 255, 255, 0.5);
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-    border-radius: 10px;
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+    border-radius: 50px;
 }
 
 .containerImagen {
@@ -46,7 +46,7 @@ body {
     display: flex;
     justify-content: end;
     align-items: end;
-    height: 300px;
+    height: 200px;
     width: 100%;
     padding: 10px;
 }
