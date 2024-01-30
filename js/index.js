@@ -36,7 +36,7 @@ if (arrayDeArraysPorCategoria != null){
 arrayDeArraysPorCategoria.forEach(arrayCategoria => {
     if (arrayCategoria.length < 6) return
     //NOMBRE DE LA CATEGORIA
-    const nombreCategoria = '<h1 class="display-5 mt-4 mb-0 fw-bolder ps-3">'+arrayCategoria[0].categoria+'</h1>'
+    const nombreCategoria = '<h1 class="tituloCategoria display-5 mt-4 mb-0 fw-bolder ps-3">'+arrayCategoria[0].categoria+'</h1>'
     //COMIENZO DE PAGINACION
     const carruselInicio = '<!-- COMIENZO DE PAGINACION --> <div id="'+arrayCategoria[0].categoria+'" class="carousel slide" data-bs-touch="true">';
     const contenedorItemsCarruselInicio = ' <div class="carousel-inner"> ';
@@ -57,7 +57,7 @@ arrayDeArraysPorCategoria.forEach(arrayCategoria => {
         }
           for(y=0; y<6 ; y++){
               //COMIENZO DE LA CARD
-              const cardInicio = '<div class="col"><a href="'+arrayCategoria[x].url+'">  <div class="card h-100">'
+              const cardInicio = '<div class="col"><a href="'+arrayCategoria[x].url+'" target="_blank">  <div class="card h-100">'
               //URL DE LA PELICULA
               const cardUrlEImagen= '<img class="" src="'+arrayCategoria[x].imagen+'" class="card-img-top" alt="Imagen de la pelicula '+arrayCategoria[x].nombre+'">'
               //ETIQUETAS NECESARIAS
@@ -100,12 +100,17 @@ const nombrePeliculaDestacada = document.getElementById("nombrePeliculaDestacada
 const descripcionPeliculaDestacada = document.getElementById("descripcionPeliculaDestacada")
 const reproducirPeliculaDestacada = document.getElementById("reproducirPeliculaDestacada")
 
-peliculaDestacada.style.backgroundImage = `url(${obtenerPeliculaDestacada().imagen})`
+peliculaDestacada.style = `background-image: linear-gradient(
+                                              to right,
+                                              rgba(0, 0, 0, 1),
+                                              rgba(0, 0, 0, 0.4),
+                                              rgba(0, 0, 0, 0.25),
+                                              rgba(0, 0, 0, 0)
+                                            ),  
+                                            url(${obtenerPeliculaDestacada().imagen});`
 nombrePeliculaDestacada.textContent =  obtenerPeliculaDestacada().nombre.toUpperCase();
 descripcionPeliculaDestacada.textContent = obtenerPeliculaDestacada().descripcion
 reproducirPeliculaDestacada.addEventListener("click",(event)=>{
   event.preventDefault();
   window.open(obtenerPeliculaDestacada().url).focus
 })
-
-console.log(reproducirPeliculaDestacada);
