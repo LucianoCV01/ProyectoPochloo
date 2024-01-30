@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;900&display=swap');
+
+*{
+    font-family: 'Outfit', sans-serif;
+}
+
+h1, h2{
+    font-weight: 900;
+}
+
+html, section, main{
+    background-color: rgb(34, 9, 44);
+    background:radial-gradient(circle, rgba(4, 9, 44,1) 0%, rgba(51, 19, 28, 1) 100%);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: whitesmoke;
+    
+}
+
+.btn{
+    background-color: #BE3144;
+    color: whitesmoke;
+}
+
+
+@media (max-width: 840px) {
+    #imgCategoria{
+        width: 360px;
+    }
+}
+
+
