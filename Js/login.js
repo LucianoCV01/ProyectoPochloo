@@ -1,10 +1,12 @@
+import usuario from "./export.js"
+
 const usuariosLogueados = JSON.parse(localStorage.getItem('Usuario'));
 
 //obtengo los datos con "getelementById"//
-document.getElementById('loginForm').addEventListener('submit', function(event) {
+document.getElementById('botonLogeo').addEventListener('click', function(event) {
     event.preventDefault();
-    iniciarSesionPochloo();
-});
+    iniciarSesionPochloo(); });
+
 
 
 //funcion para iniciar sesión//
@@ -31,10 +33,8 @@ function iniciarSesionPochloo() {
             return;
         }
 
-    fetch("../json/fakeApiEnzo.json")
-        .then(response => response.json()) //aquí convierto la respuesta del fetch en formado de Javascript y luego con el DATOS manejo los datos//
-        .then(DATOS => {
-            const userLogeadoPochloo = DATOS.find(usuarioo => usuarioo.email === email && usuarioo.clave === pass);
+
+            const userLogeadoPochloo = usuario.find(usuarioo => usuarioo.email === email && usuarioo.clave === pass);
             if (userLogeadoPochloo) {
                 localStorage.setItem("Usuario" , JSON.stringify(userLogeadoPochloo)); //al usar el JSON.stringify lo convertimos en formato JSON para el local storage//
                 Swal.fire({
@@ -44,6 +44,7 @@ function iniciarSesionPochloo() {
                 })
                 console.log("El usuario se ha logueado:", userLogeadoPochloo);
 
+                //ahora redirecciono al index//
                 setTimeout(() => {
                     window.location.href = '../index.html';
                 }, 2000);
@@ -56,10 +57,7 @@ function iniciarSesionPochloo() {
                 })
                 console.log("Este usuario no está en el sistema");
             }
-        })
-        .catch(error => console.log(error)
-    );
-}
+        }
 
 function recuperarContraseña() {
     const emailRecuperar = document.getElementById('inputEmailRecuperar').value;
