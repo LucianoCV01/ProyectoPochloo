@@ -33,14 +33,14 @@
     overflow: hidden;
 }
 .categoria{
-    background-color: #22092C;
+    background: radial-gradient(ellipse, rgba(4, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
 }
 a{
     position: relative;
 }
 .carouselControl{
     width: auto!important;
-    background-color: rgba(80, 39, 58, 0.089)!important;
+    /* background-color: rgba(80, 39, 58, 0.089)!important; */
     border-radius: .25em;
 }
 .carousel-item{
@@ -49,6 +49,7 @@ a{
 .col img{
     border-radius: .25em;
     height: 100%;
+    transition: all 0.3s;
 }
 .col img:hover{
     scale : 120%;
@@ -59,7 +60,14 @@ a{
 .card-body{
     display: none;
 }
-
+.fa-lg:hover{
+    scale: 1.2;
+}
+/* #imgpel{
+    position: absolute;
+    top: 0;
+    width: 40vw;
+} */
 @media (width <= 768px) {
     #peliculaDestacada{
         height: 50vw;

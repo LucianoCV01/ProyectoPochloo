@@ -64,15 +64,15 @@ arrayDeArraysPorCategoria.forEach(arrayCategoria => {
               // carruselesPorCategoria.innerHTML += '<div class="col"> <div class="card h-100">'
               // //IMAGEN DE LA PELICULAS
               // carruselesPorCategoria.innerHTML += '<img class="m-3" src="'+arrayCategoria[y].imagen+'" class="card-img-top" alt="Imagen de la pelicula'+arrayCategoria[y].nombre+'">'
-              //CUERPO DE LA CARTA
-              const cardCuerpo = '<div class="card-body">'
-              //BOTONES DEL CUERPO (HOVER)
-              const cardCuerpoTitulo = '<h5 class="card-title text-truncate"></h5>'
-              //TEXTO DEL CUERPO
-              const cardCuerpoTexto = '<p class="card-text text-truncate"></p>'
+              // //CUERPO DE LA CARTA
+              // const cardCuerpo = '<div class="card-body">'
+              // //BOTONES DEL CUERPO (HOVER)
+              // const cardCuerpoTitulo = '<h5 class="card-title text-truncate"></h5>'
+              // //TEXTO DEL CUERPO
+              // const cardCuerpoTexto = '<p class="card-text text-truncate"></p>'
               //CIERRE DE CARD
-              const cardFin= '</div> </div> </a> </div>'
-              const card = cardInicio + cardUrlEImagen + cardCuerpo + cardCuerpoTitulo+ cardCuerpoTexto+ cardFin
+              const cardFin= ' </div> </a> </div>'
+              const card = cardInicio + cardUrlEImagen + cardFin
               conjuntoCard = conjuntoCard + card;
               x ++;
         }
