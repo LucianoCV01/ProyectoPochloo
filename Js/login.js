@@ -1,4 +1,4 @@
-import usuario from "./export.js"
+import usuario from "../Js/exportLogin.js"
 
 const usuariosLogueados = JSON.parse(localStorage.getItem('Usuario'));
 
