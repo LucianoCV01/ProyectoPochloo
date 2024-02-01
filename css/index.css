@@ -1,0 +1,104 @@
+html,
+section,
+main {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(34, 9, 44);
+    background: radial-gradient(circle, rgba(4, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-custom {
+    background-color: #d9412c;
+    color: whitesmoke;
+}
+
+.btn-custom:hover {
+    background-color: #e54c33;
+    border-color: #e54c33;
+    color: var(white);
+}
+
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.25rem rgba(240, 89, 65, 0.25);
+}
+
+.btn-custom:active {
+    background-color: #d9412c;
+    /* 20% más oscuro */
+    border-color: #d9412c;
+    /* 20% más oscuro */
+    color: var(white);
+}
+
+.custom-font-size {
+    font-size: 0.9rem;
+}
+
+.btn-custom:hover {
+    color: black;
+}
+
+a {
+    position: relative;
+}
+
+.carouselControl {
+    width: auto !important;
+    /* background-color: rgba(80, 39, 58, 0.089)!important; */
+    border-radius: .25em;
+}
+
+.carousel-item {
+    padding: 1em;
+}
+
+.col img {
+    border-radius: .25em;
+    height: 100%;
+    transition: all 0.3s;
+}
+
+.col img:hover {
+    scale: 120%;
+}
+
+.card {
+    border: none !important;
+}
+
+.card-body {
+    display: none;
+}
+
+.fa-lg:hover {
+    scale: 1.2;
+}
+
+@media (width <=768px) {
+
+    .fa-lg {
+        font-size: 5vw;
+    }
+
+
+}
+
+@media (768px < width <=992px) {
+    .fa-lg {
+        font-size: 3vw;
+    }
+
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}

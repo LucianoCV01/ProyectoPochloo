@@ -1,0 +1,123 @@
+html,
+section,
+main {
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgb(34, 9, 44);
+    background: radial-gradient(circle, rgba(4, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table-light tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+h3 {
+    border-bottom: 0.3rem solid whitesmoke;
+}
+
+
+.carousel-inner img {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    /* Esto evita que las imágenes se deformen */
+}
+
+.team-member {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.team-member img {
+    max-width: 100%;
+    max-height: 100%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.hidden {
+    display: none;
+}
+
+
+#btnPeliculas {
+    background-color: #872341;
+    border-color: #872341;
+}
+
+#btnUsuarios {
+    background-color: #872341;
+    border-color: #872341;
+}
+
+#btnPeliculas.active,
+#btnPeliculas:active,
+.show>#btnPeliculas.dropdown-toggle {
+    background-color: #f05941 !important;
+    border-color: #f05941 !important;
+}
+
+#btnUsuarios.active,
+#btnUsuarios:active,
+.show>#btnUsuarios.dropdown-toggle {
+    background-color: #f05941 !important;
+    border-color: #f05941 !important;
+}
+
+.btn-custom {
+    background-color: #d9412c;
+    color: whitesmoke;
+}
+
+.btn-custom:hover {
+    background-color: #e54c33;
+    border-color: #e54c33;
+    color: var(white);
+}
+
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.25rem rgba(240, 89, 65, 0.25);
+}
+
+.btn-custom:active {
+    background-color: #d9412c;
+    /* 20% más oscuro */
+    border-color: #d9412c;
+    /* 20% más oscuro */
+    color: var(white);
+}
+
+#contenedorTituloBotones {
+    margin: 2.1rem 0.5rem 1.1rem 0.5rem;
+}
+
+#contenedorTituloBotones #btnPeliculas.active,
+#contenedorTituloBotones #btnUsuarios.active,
+#contenedorTituloBotones #btnPeliculas:active,
+#contenedorTituloBotones #btnUsuarios:active,
+#contenedorTituloBotones .show>#btnPeliculas.dropdown-toggle,
+#contenedorTituloBotones .show>#btnUsuarios.dropdown-toggle {
+    background-color: #d9412c !important;
+    border-color: #d9412c !important;
+}
+
+.custom-font-size {
+    font-size: 0.9rem; 
+}
+
+.btn-custom:hover {
+    color: black;
+}

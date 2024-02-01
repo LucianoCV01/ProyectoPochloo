@@ -1,0 +1,34 @@
+[
+    {
+        "nombre":"Pedra Juliana",
+        "apellido":"Argañaraz",
+        "email":"juliarianator@gmail.com",
+        "clave":"dangerouswomanmoonlight",
+        "tipo":"Comun",
+        "estado":"Aprobado"
+    },
+    {
+        "nombre":"Gregorio ",
+        "apellido":"Leguizamón Ortiz",
+        "email":"Gre_LegOrt21@hotmail.com",
+        "clave":"123456789",
+        "tipo":"Comun",
+        "estado":"Aprobado"
+    },
+    {
+        "nombre":"Martina del Pilar",
+        "apellido":"Gutierrez",
+        "email":"martugut2005@gmail.com",
+        "clave":"redvelvet16",
+        "tipo":"Administrador",
+        "estado":"Aprobado"
+    },
+    {
+        "nombre":"Ludmila Valentina",
+        "apellido":"Fernandez",
+        "email":"ludmifernandez@gmail.com",
+        "clave":"chocolatada003yqueso",
+        "tipo":"Comun",
+        "estado":"Aprobado"
+    }
+]
