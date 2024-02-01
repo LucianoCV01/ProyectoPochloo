@@ -1,4 +1,3 @@
-let usuario = []
 
 const traerJson = () =>{
     let usuarioJson = fetch(`../json/usuario.json`)
@@ -11,6 +10,3 @@ const traerJson = () =>{
 }
 
 traerJson()
-usuario = JSON.parse(localStorage.getItem("Usuario"))
-
-export default usuario

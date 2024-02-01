@@ -17,11 +17,11 @@
             <form id="formularioDeRegistro">
                 <div class="mb-3">
                     <label for="nombre" class="form-label">Nombre</label>
-                    <input type="text" class="form-control" id="nombre" pattern="[A-Za-zÁ-ú ]{1,20}" required aria-describedby="nombreHelp">
+                    <input type="text" class="form-control" id="nombre" pattern="[A-Za-zÁ-ú ]{3,25}" required aria-describedby="nombreHelp">
                 </div>
                 <div class="mb-3">
                     <label for="apellido" class="form-label">Apellido</label>
-                    <input type="text" class="form-control" id="apellido" pattern="[A-Za-zÁ-ú ]{1,20}" required aria-describedby="apellidoHelp">
+                    <input type="text" class="form-control" id="apellido" pattern="[A-Za-zÁ-ú ]{3,25}" required aria-describedby="apellidoHelp">
                 </div>
                 <div class="mb-3">
                     <label for="inputEmail" class="form-label">Dirección de email</label>
@@ -29,7 +29,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="inputPassword" class="form-label">Contraseña</label>
-                    <input type="password" class="form-control" id="inputPassword" pattern=".{4,10}" required>
+                    <input type="password" class="form-control" id="inputPassword" pattern=".{4,30}" placeholder="Mínimo 4 caracteres" required>
                 </div>
                 <div class="containerLogo">
                     <img src="../img/Pochloo_Logo.png" alt="logo">
@@ -46,5 +46,6 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../Js/registro.js" type="module"></script>
+    <script src="../Js/exportRegistro.js"></script>
 </body>
 </html>

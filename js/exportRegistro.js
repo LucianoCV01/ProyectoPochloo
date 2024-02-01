@@ -1,5 +1,3 @@
-let registrojson = []
-
 const traerJson = () =>
 {
     let jsonn = fetch(`../json/registro.json`)
@@ -12,19 +10,3 @@ const traerJson = () =>
 } 
 
 traerJson()
-
-let loquevenga = [ {
-    "nombre":"Guillermo",
-    "apellido":"Sanchez",
-    "email":"guillermosancheztuc@gmail.com",
-    "clave":"peekaboo",
-    "tipo":"Comun",
-    "estado":"Pendiente"
-}]
-
-registrojson = JSON.parse(localStorage.getItem("Registro"))
-let registro = [...registrojson, ...loquevenga]
-localStorage.setItem("Registro", JSON.stringify(registro))
-
-
-export default registro

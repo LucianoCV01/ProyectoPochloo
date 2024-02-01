@@ -1,4 +1,5 @@
-const usuarioNuevoRegistrado = [];
+let usuarioNuevoRegistrado = []
+usuarioNuevoRegistrado = JSON.parse(localStorage.getItem('Registro'))
 
 document.getElementById('formularioDeRegistro').addEventListener('submit', function(event) {
     event.preventDefault();
@@ -40,10 +41,8 @@ function registroDeUsuarios() {
         estado: Pendiente
     };
 
-    fetch("../json/fakeApiEnzo.json")
-        .then(response => response.json())
-        .then(users => {
-            const usuarioExistente = users.find(usuario => usuario.email === mail);
+    
+            const usuarioExistente = usuarioNuevoRegistrado.find(usuario => usuario.email === mail);
             if (usuarioExistente) {
                 Swal.fire({
                     icon: 'error',
@@ -52,6 +51,7 @@ function registroDeUsuarios() {
                 });
             } else {
                 usuarioNuevoRegistrado.push(newUser);
+                localStorage.setItem("Registro", JSON.stringify(usuarioNuevoRegistrado))
                 console.log("Usuario registrado:", newUser);
                 console.log("Todos los usuarios registrados:", usuarioNuevoRegistrado);
                 const formulario = document.getElementById('formularioDeRegistro');
@@ -59,10 +59,9 @@ function registroDeUsuarios() {
                 Swal.fire({
                     icon: 'success',
                     title: 'Registro Exitoso',
-                    text: 'El usuario se ha registrado correctamente.'
-                });
+                    text: 'El usuario se ha registrado correctamente. Te vamos a direccionar al logueo'
+                });            
+                setTimeout(() => {
+                    window.location.href = '../Html/login.html';}, 2000);
             }
-        })
-        .catch(error => {
-            console.error("Error al obtener los datos de la API:", error);
-        });}
+        }
