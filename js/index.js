@@ -57,7 +57,7 @@ arrayDeArraysPorCategoria.forEach(arrayCategoria => {
         }
           for(y=0; y<6 ; y++){
               //COMIENZO DE LA CARD
-              const cardInicio = '<div class="col"><a href="'+arrayCategoria[x].url+'" target="_blank">  <div class="card h-100">'
+              const cardInicio = '<div class="col px-2"><a href="'+arrayCategoria[x].url+'" target="_blank" onclick="seleccionarPelicula('+arrayCategoria[x].codigo+')">  <div class="card h-100">'
               //URL DE LA PELICULA
               const cardUrlEImagen= '<img class="" src="'+arrayCategoria[x].imagen+'" class="card-img-top" alt="Imagen de la pelicula '+arrayCategoria[x].nombre+'">'
               //ETIQUETAS NECESARIAS
@@ -99,6 +99,9 @@ const peliculaDestacada = document.getElementById("peliculaDestacada")
 const nombrePeliculaDestacada = document.getElementById("nombrePeliculaDestacada")
 const descripcionPeliculaDestacada = document.getElementById("descripcionPeliculaDestacada")
 const reproducirPeliculaDestacada = document.getElementById("reproducirPeliculaDestacada")
+const logoDestacado = document.getElementById("logoDestacado")
+const datosPeliculaDestacada = document.getElementById("datosPeliculaDestacada")
+
 
 peliculaDestacada.style = `background-image: linear-gradient(
                                               to right,
@@ -107,10 +110,25 @@ peliculaDestacada.style = `background-image: linear-gradient(
                                               rgba(0, 0, 0, 0.25),
                                               rgba(0, 0, 0, 0)
                                             ),  
-                                            url(${obtenerPeliculaDestacada().imagen});`
-nombrePeliculaDestacada.textContent =  obtenerPeliculaDestacada().nombre.toUpperCase();
+                                            url(${obtenerPeliculaDestacada().imagenDestacado});`
+
+//MOSTRAR LOGO O TITULO DE LA PELICULA DESTACADA
+if (obtenerPeliculaDestacada().logo != ""){
+  logoDestacado.src = obtenerPeliculaDestacada().logo
+  logoDestacado.alt = `Logo de la pelicula ${obtenerPeliculaDestacada().nombre}`
+}else{
+  const tituloPeliculaDestacada = document.createElement('h1');
+  tituloPeliculaDestacada.id = "nombrePeliculaDestacada";
+  tituloPeliculaDestacada.textContent = obtenerPeliculaDestacada().nombre.toUpperCase()
+  datosPeliculaDestacada.insertBefore(tituloPeliculaDestacada,logoDestacado);
+}
+  
 descripcionPeliculaDestacada.textContent = obtenerPeliculaDestacada().descripcion
 reproducirPeliculaDestacada.addEventListener("click",(event)=>{
   event.preventDefault();
   window.open(obtenerPeliculaDestacada().url).focus
 })
+
+function seleccionarPelicula(codigoPelicula){
+  localStorage.setItem("peliculaSeleccionada",codigoPelicula);
+}
