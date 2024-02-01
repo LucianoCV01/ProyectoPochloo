@@ -1,6 +1,6 @@
 // const idPelicula = localStorage.getItem('peliculaSeleccionada');
 // console.log('ID de la película seleccionada:', idPelicula);
-const idPelicula = 12;
+const idPelicula = 2;
 
 const leerLocalStorage = (nombreLocalStorage) => {
     let arregloObjetos = JSON.parse(localStorage.getItem(nombreLocalStorage));
@@ -19,17 +19,15 @@ const mostrarPelicula = () => {
     const pelicula = obtenerPelicula(idPelicula);
     const detallePeli = document.getElementById("detallePeli");
 
-    detallePeli.innerHTML += `            <div class="row">
+    detallePeli.innerHTML += `           <div class="row">
     <div class="p-0 col-md-6 order-md-1 order-1 d-flex align-items-center justify-content-center">
-        <div class="img-container">
-            <div class="img-overlay"></div>
-            <img class="img-fluid" src="${pelicula.imagen}" alt="Imagen de la película ${pelicula.nombre}">
-        </div>
+        <img class="img-fluid opacity-75" src="${pelicula.imagen}" alt="Imagen de la película ${pelicula.nombre}">
     </div>
     <div class="col-md-6 order-md-2 order-2">
         <div class="p-3">
             <h1 class="mt-2">${pelicula.nombre}</h1>
-            <span class="badge rounded-pill text-bg-secondary mt-2 mb-4 custom-font-size">${pelicula.categoria}</span>
+            <span
+                class="badge rounded-pill text-bg-secondary mt-2 mb-4 custom-font-size">${pelicula.categoria}</span>
             <p>${pelicula.descripcion}</p>
             <a href="${pelicula.url}" target="_blank" rel="noopener noreferrer">
                 <button class="btn btn-custom"><i class="fa-solid fa-play"></i> Reproducir</button>

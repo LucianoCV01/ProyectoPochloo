@@ -10,6 +10,7 @@ main {
     color: whitesmoke;
     text-decoration: none;
 }
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -38,16 +39,17 @@ body {
 }
 
 .custom-font-size {
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
 }
 
 .btn-custom:hover {
     color: black;
 }
 
-a{
+a {
     position: relative;
 }
+
 .carouselControl {
     width: auto !important;
     /* background-color: rgba(80, 39, 58, 0.089)!important; */
@@ -94,4 +96,9 @@ a{
         font-size: 3vw;
     }
 
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
 }
