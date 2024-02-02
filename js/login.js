@@ -1,3 +1,14 @@
+//función para comprobar si existe una clave en el localstorage
+function existeLocalStorage(clave) {
+    return localStorage.getItem(clave) !== null;
+}
+
+//condicional para eliminar el elemento con clave "Logueado" del localstorage si es que existe
+if(existeLocalStorage("Logueado"))
+{
+    localStorage.removeItem("Logueado")
+}
+
 const usuariosLogueados = JSON.parse(localStorage.getItem('Usuario'));
 
 //obtengo los datos con "getelementById"//

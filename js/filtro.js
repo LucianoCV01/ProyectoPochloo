@@ -14,12 +14,12 @@ let clave = filtro[1]
 
 //AGREGADO DE CLASES DE ESTILO PARA LAS VARIABLES GLOBALES
 divh1.className = "justify-content-start p-4"
-article.className = "d-flex flex-column flex-md-row flex-wrap justify-md-content-evenly"
+article.className = "d-flex flex-column flex-md-row flex-wrap justify-md-content-evenly "
 
 
-function seleccionarPelicula(codigoPelicula){
-    localStorage.setItem("peliculaSeleccionada",codigoPelicula);
-  }
+function seleccionarPelicula(codigoPelicula) {
+    localStorage.setItem("peliculaSeleccionada", codigoPelicula);
+}
 
 //FUNCIÓN PARA TRANSFORMAR CUALQUIER STRING A MINÚSCULAS Y SIN CARACTERES ESPECIALES
 const transformarString = (palabra) => {
@@ -28,8 +28,8 @@ const transformarString = (palabra) => {
 
     for (let i = 0; i < palabra.length; i++) {
         switch (palabra[i]) {
-            case "á": 
-            case "ä": 
+            case "á":
+            case "ä":
             case "ã":
                 transformado += "a"
                 break
@@ -43,9 +43,9 @@ const transformarString = (palabra) => {
             case "î":
                 transformado += "i"
                 break
-                case "ó": 
-                case "ö": 
-                case "õ":
+            case "ó":
+            case "ö":
+            case "õ":
                 transformado += "o"
                 break
             case "ú":
@@ -53,7 +53,7 @@ const transformarString = (palabra) => {
             case "û":
                 transformado += "u"
                 break
-            default:     
+            default:
                 transformado += palabra[i]
         }
     }
@@ -77,20 +77,24 @@ const construirMaquetado = (pelicula) => {
     div.className = "col-md-6 d-flex flex-column align-items-center"
 
     a.href = "../html/detallePelicula.html"
-    a.addEventListener("click", function() {
-         seleccionarPelicula(pelicula.codigo)})
-         
-    img.src = pelicula.imagen
     
+
+    img.src = pelicula.imagen
     img.alt = "Portada de la película " + pelicula.nombre
     img.id = "imgCategoria"
+    
+    
 
     a.appendChild(img)
     div.appendChild(a)
     div.appendChild(nombre)
     article.appendChild(div)
 
-    
+    a.addEventListener("click", function () {
+        seleccionarPelicula(pelicula.codigo)
+    })
+
+
 }
 
 
