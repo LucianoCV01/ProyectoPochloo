@@ -44,7 +44,7 @@ function iniciarSesionPochloo() {
 
                 //ahora redirecciono al index//
                 setTimeout(() => {
-                    window.location.href = '../index.html';
+                    window.location.href = 'html/inicio.html';
                 }, 2000);
 
             } else {

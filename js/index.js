@@ -57,7 +57,7 @@ arrayDeArraysPorCategoria.forEach(arrayCategoria => {
         }
           for(y=0; y<6 ; y++){
               //COMIENZO DE LA CARD
-              const cardInicio = '<div class="col px-2"><a href="html/detallePelicula.html" target="_blank" onclick="seleccionarPelicula('+arrayCategoria[x].codigo+')">  <div class="card h-100">'
+              const cardInicio = '<div class="col px-2"><a href="detallePelicula.html" target="_blank" onclick="seleccionarPelicula('+arrayCategoria[x].codigo+')">  <div class="card h-100">'
               //URL DE LA PELICULA
               const cardUrlEImagen= '<img class="" src="'+arrayCategoria[x].imagen+'" class="card-img-top" alt="Imagen de la pelicula '+arrayCategoria[x].nombre+'">'
               //ETIQUETAS NECESARIAS
