@@ -58,7 +58,7 @@ const carruselRecomendado = document.getElementById("categoria");
 let carrusel = '';
 
 // COMIENZO DE PAGINACION
-if (pelisRecomendadas.length > 0) {
+if (pelisRecomendadas.length > 5) {
     const carruselInicio = '<div id="' + pelisRecomendadas[0].categoria + '" class="carousel slide" data-bs-touch="true">';
     const contenedorItemsCarruselInicio = ' <div class="carousel-inner"> ';
     let conjuntoCarruselItem = "";
@@ -92,7 +92,9 @@ if (pelisRecomendadas.length > 0) {
     // ETIQUETAS PARA CIERRE DEL CARRUSEL
     const carruselFin = '<button class="carousel-control-prev carouselControl" type="button" data-bs-target="#' + pelisRecomendadas[0].categoria + '" data-bs-slide="prev"> <i class="fas fa-arrow-left fa-lg" style="color: #BE3144;"></i> <span class="visually-hidden">Previous</span> </button> <button class="carousel-control-next carouselControl" type="button" data-bs-target="#' + pelisRecomendadas[0].categoria + '" data-bs-slide="next"> <i class="fas fa-arrow-right fa-lg" style="color: #BE3144;"></i> <span class="visually-hidden">Next</span> </button> </div>';
     carrusel = carrusel + carruselInicio + contenedorItemsCarruselInicio + conjuntoCarruselItem + contenedorCarruselesFin + carruselFin;
+} else {
+    // Si no hay más de dos películas recomendadas, muestra un mensaje.
+    carrusel = '<p>No hay recomendaciones por ahora.</p>';
 }
 
 carruselRecomendado.innerHTML = carrusel;
-
