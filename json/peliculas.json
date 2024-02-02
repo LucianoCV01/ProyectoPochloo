@@ -6,7 +6,9 @@
         "descripcion": "Todos merecen una gran historia de amor, pero para Simón, de 17 años, esto es un poco complicado. El adolescente gay aún no ha salido del clóset y no conoce la identidad del compañero anónimo de quien se ha enamorado en línea. Resolver ambos problemas será una graciosa y espeluznante aventura que le cambiará la vida.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/681A25AEDF29B9D250D9A21BCA28DDBFCF0A9A5E1C180B9703B3BF1B574D4153/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/gRNcxGiiEYrAZBaBAwtDN4OeEd0.jpg",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Love%2C_Simon.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/681A25AEDF29B9D250D9A21BCA28DDBFCF0A9A5E1C180B9703B3BF1B574D4153/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/BD1YTzUKC-M?si=3n-s2kh5izViJZos"
     },
     {
@@ -16,7 +18,9 @@
         "descripcion": "Peter, Ashley, Lisa y James se aventuran a la sprofundidades del bosque Black HIlls en Maryland para investigar la misteriosa desaparición de la hermana de James. Hay quienes creen que el enigma de esta tragedia tiene conexión con la bruja de Blair. A medida que se adentran en el oscuro intricado bosque, comienzan a darse cuenta de que la leyenda es real y más siniestra de lo que imaginaban.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/AF2F51B7158D61297D80EC6C26D0BE766A6DC43C2D1D165912D9DDA34CDBD40A/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/t9tfpKE1BKsiDandLTeRci6KioK.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/cs8CelEZw8Mr10wnNIQ5WszYpi3.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/AF2F51B7158D61297D80EC6C26D0BE766A6DC43C2D1D165912D9DDA34CDBD40A/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/sjRX2jnjm9g?si=1AQp-hNcDjn-hx4b"
     },
     {
@@ -26,7 +30,9 @@
         "descripcion": "Para proteger a una hermosa mujer y a su hijo de un ladrón, al agente Malcolm Turner del FBI se le asigna la operación encubierta de disfrazarse como una obesa anciana para obtener información relacionada con un crimen previo.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F804F1FA4B7401F0DCAFD49FC0DB2D9CF63CF710588DACB02D51C2AFC02B3F35/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/qgSwYH5KCgeX3aODgb2qgCsXoTq.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/sG3UxRH74n9EmVeVGxdiNuNgrhm.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F804F1FA4B7401F0DCAFD49FC0DB2D9CF63CF710588DACB02D51C2AFC02B3F35/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/qbO9DlMBNu4?si=EGk-8HdI77mwHjjt"
     },
     {
@@ -35,8 +41,10 @@
         "categoria": "Acción y Aventura",
         "descripcion": "DEADPOOL narra la historia del origen del ex Fuerzas Especiales convertido en mercenario Wade Wilson, quien adopta el alter ego Deadpool después de que un experimento lo deja con extraordinarios y rápidos poderes curativos. Armado con sus nuevas habilidades un oscuro y retorcido sentido del humor, Deadpool va tras el hombre que casi le destruyó la vida.",
         "publicado": true,
-        "destacado": true,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F4C30DD8F018FA9DB65E015CAE10C66FD72BE870F39D780222629A2A1B2EB765/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/rFj9IKlL75B2pXhZA60jkNWvxeW.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/zXyTWeQemn7yfvHLrEWWENkJzmT.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/F4C30DD8F018FA9DB65E015CAE10C66FD72BE870F39D780222629A2A1B2EB765/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/0JnRdfiUMa8?si=n2OnsB2PpTnuvazQ"
     },
     {
@@ -46,7 +54,9 @@
         "descripcion": "´El Turbo´, luego de tres años separado de ´La Loba´, acepta, por pedido de la hija que tienen en común, convivir durante 30 días con su exmujer, que viene de una larga internación psiquiátrica. Entonces, esta nueva ´vida en familia´ hará que El Turbo y La Loba revivan los sentimientos de amor y despierte la ilusión de volver a estar juntos",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/43AFFA37C9DC7CBE56DB470F638EF0D89EB0398C39BE4A47D4E8EA07AD190CBC/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/rl5crwrhPBIbVcdxIaU9TB8kKrE.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/fQrsAGWeJzYYB4ecIt2OvaZzZfg.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/43AFFA37C9DC7CBE56DB470F638EF0D89EB0398C39BE4A47D4E8EA07AD190CBC/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/IKRwXsCUjfI?si=WPcORiQ7nCS-RCH6"
     },
     {
@@ -56,7 +66,9 @@
         "descripcion": "Abel Pintos explora el legado y la gran influencia de Mercedes Sosa, la mujer que revolucionó el folclore argentino. Así, por medio de entrevistas a músicos e intelectuales que la secundaron en el inicio de su carrera, a sus nietos que conocieron su lado más íntimo y a artistas como Fito Páez y Charly García, Abel reconstruye y homenajea a la figura de Mercedes.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/327720EEC7BC1F46CEE49B241AF3D4253DC63E6549D3BAB7036DC10A16C63784/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/9CZOhRxiNoGlaBFYevw0VIdItLh.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/6vLncDy5E5wpgVamzK24hl7ApwU.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/327720EEC7BC1F46CEE49B241AF3D4253DC63E6549D3BAB7036DC10A16C63784/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/c43ln3YYpqM?si=axDe5VVo04J_6a_2"
     },
     {
@@ -66,7 +78,9 @@
         "descripcion": "Cuando los extraterrestres llegan a la Tierra y amenazan con eliminar a la raza humana, un grupo de sobrevivientes armados solo con tecnología inferior, ingenio y valor trendrá que detenerlos.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/679BD712C0445D5DA15C2BFDDB2130C23C869AF77254343748E665266A0C1976/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/uw4SnKFZ453Gxmj5XR5Susj8TNo.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/z1zZlYUkn5LIFsu5dnRD6bH72aR.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/679BD712C0445D5DA15C2BFDDB2130C23C869AF77254343748E665266A0C1976/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/zh4KhVSMwtQ?si=ZWPFu_bJDgUEw4PU"
     },
     {
@@ -76,7 +90,9 @@
         "descripcion": "Cuando la NASA se entera de que la Tierra le quedan 18 días antes de ser pulverizada por un meteorito del tamaño de Texas, tiene una única opción: enviar a un grupo variado de rudos perforador4es de petróleo del asteroide y detonar un explosico nuclear en su centro.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/4965E64FDFBEACFAF6442DBED925D257FE2A300F757CDB6320F94BA59DC1BE91/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/kh3KoeyQpzqScweErLqEmBjNDLr.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/j3neFP0IJzqmYUBUdRvmQVTFcbG.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/4965E64FDFBEACFAF6442DBED925D257FE2A300F757CDB6320F94BA59DC1BE91/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/8-8eEniEfgU?si=H0qiGulPIpy1WEZP"
     },
     {
@@ -86,7 +102,9 @@
         "descripcion": "Una poco convencional comedia romántica sobre una mujer que no cree que el amor verdadero exista y el joven que se enamora de ella",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/C5CAB54F2694EBC8EED1219ED2B0EC1EBE718FA04F99E711C11FEB3A6C2798E9/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/pvEASRjDoqiay9GwgQpYNJGa5LW.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/6f0HtIJMbhV7UjK8yYJdNUn83e0.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/C5CAB54F2694EBC8EED1219ED2B0EC1EBE718FA04F99E711C11FEB3A6C2798E9/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/PEdNyYpFprw?si=-9-mxKvln3PHY7pe"
     },
     {
@@ -96,7 +114,9 @@
         "descripcion": "Abzurdah cuenta la historia de Cielo, una adolescente de clase media acomodada que conoce por internet a un chico nueve años mayor que ella, de quien se enamora perdidamente y comienza en una obsesión en un mundo adulto que poco comprende del universo adolescente.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F5A2E151E58FE27E534CFDF1267A8B479961527E244DB4716969F9C2F14F8CF1/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/peNZduz6TMnA1NbGTGkCjsLACtC.jpg",
+        "logo": "",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F5A2E151E58FE27E534CFDF1267A8B479961527E244DB4716969F9C2F14F8CF1/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/SL_e4tdlYN0?si=zUrUf-OzBFydaSP_"
     },
     {
@@ -106,7 +126,9 @@
         "descripcion": "2010, Natalie Portman ganó el OSCAR a la mejor actriz por su impresionante actuación en esta película de suspenso sensual y psicológica sobre una bailarina de ballet ambiciosa pero frágil y su rival.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/B52F6C7A872F196C11365C83A9CFE966882FD957F49CF4C04F0210A5E7D24AAB/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/2mb5U26kFdmjnWetxk3jEvKtHTR.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/AjcN6DJs1spU9dbdFNXjlknYnDd.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/B52F6C7A872F196C11365C83A9CFE966882FD957F49CF4C04F0210A5E7D24AAB/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/pusIwHuaeC4?si=CFmbecG8IgtNnCWm"
     },
     {
@@ -116,7 +138,9 @@
         "descripcion": "En Missisipi durante los años sesenta, una chica de la sociedad sureña pone a su pueblo de cabeza tras entrevistar a mujeres afroamericanas que pasaron toda su vida cuidando familias blancas prominentes.",
         "publicado": true,
         "destacado": false,
-        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/2176225899309D3C2B25F156C5489D6E4B92A04F4AC1C8B5D93F03894F922B25/scale?width=400&aspectRatio=1.78&format=jpeg",
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/wyvUmyzqGOBDyqLHRSukGDjI7bH.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/4UAe2BJe4eXQ4Pgzv4JiH04cx4W.png",
+        "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/2176225899309D3C2B25F156C5489D6E4B92A04F4AC1C8B5D93F03894F922B25/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/jYBeAbwmRWs?si=3PoFBfJMnkDqQugr"
     }
     ,{
@@ -126,6 +150,8 @@
         "descripcion": "Cuando el carismático profesor de Inglés John Keating llega a una preparatoria estricta, sus métodos de enseñanza poco convencionañes dan nueva vida a un plan de estudios impregnado de tradición. Pero Keating pronto descubre que ha provocado la ira de un profesorado que lo desaprueba cuando una tragedia inesperada golpea la escuela.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/spPwYKBjeVNzBeGQAzwJbzIxQKv.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/jQCFF99eWL73VVxEaqputGtyBGQ.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/EF38CF078096EF3FF42105FE912BCFE5822BFC80AC04224765C3D14F9375BB03/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/ye4KFyWu2do?si=qGsU7gW5gI-SaWwG"
     },
@@ -136,6 +162,8 @@
         "descripcion": "A principios del siglo XVIII, en Inglaterra, la relación entre la reina Ana y su amiga cercana, lady Sarah, es amenazada por una sirvienta que planea regresar a sus raíces aristocráticas",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/qjFtWObxTGSC88BQUkBRgwp3FoQ.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/oRsjOp8TItcuhJfegLpbhQOcTCn.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/EF39392DFB85DA9B45DF2A982792BAA560D1E688B6D74953D3698A9372257318/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/fqEl2Z0dHn8?si=bRwJB1nwwUISMuZw"
     },
@@ -146,6 +174,8 @@
         "descripcion": "Este musical explora la alegría y el dolor de perseguir sueños por medio de la historia de Mia, una aspirante actriz, y Sebastian, un músico de jazz, quienes luchan por sobrevivir en Los Ángeles, una ciudad conocida por aplastar las esperanzas.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/nlPCdZlHtRNcF6C9hzUH4ebmV1w.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/12H6LnjRKTNaxtzKVt4pKAlY4TT.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/56E433A853B36B927FDB034942B977C6890C9FB954AA6F305994CA7559CCAC6F/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/45s24h98iOc?si=bSZqDml-tR9sQ04b"
     },
@@ -156,6 +186,8 @@
         "descripcion": "Babylon es una epopeya sobre ambicipon descomunal y exceso escandaloso que traza el ascenso y la caída de ,últiples personajes en Los Ángeles, durante la década de 1920, una era de decadencia y depravación desenfrenada en los inicios de Hollywood.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/97YB4PkXVl0O4JW0AKZpXQ79ecY.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/7BbmApmo068fbJIDN6yZSf2EYlT.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/A8A32BBC7259C55EDB7E1B0C9FA911B2024C5EE5C8D9163D84CB45D59A5191EC/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/1waJYhy19Gc?si=M7jS2-zYkQ9HryZG"
     },
@@ -166,6 +198,8 @@
         "descripcion": "En este clásico de ciencia ficción, el excéntrico inventor Doc Brown convierte un DeLorean en una máquina del tiempo que envía al joven Marty Mcfly 30 años en el pasado, donde debe lograr que sus padres se enamoren y así restaurar la historia.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/pAFmbrHjFMBzMCgjGyJRoxzaJZl.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/o5EoEjIDqeufoQ7rFofaKyVdUhH.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/8E01EDB3AE3A0199AA77670DBA64AB73E74F509AF78266D380AD83C5502E774B/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/8x0s7U0DBWI?si=AZBCEJdMafkZeeTC"
     },
@@ -176,6 +210,8 @@
         "descripcion": "Marty McFly y Doc Brown visitan el año 2015, aparentemente para poder resolver unos pequeños problemas con el futuro de la familia McFly. SIn embargo, cuando regresan al presente, descubren que Hill Valley del año 1985 tiene un presente poco prometedor. Entonces, su única esperanza es regresar otra vez a 1955 y salvar el futuro.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/skQN2UMQKQnOTmwplcYMx6ZF4jS.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/tnOgMEAeAUQJwrj33vyhyQodReH.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/D3FE6766070590B87683F850476DE26D189FC6AEC58DEF5963D3401BC672CAEC/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/ixLXR27eGCw?si=ZiPo4fBJzADjw79E"
     },
@@ -186,6 +222,8 @@
         "descripcion": "La conclusión de la trilogía envía a Marty McFly a realizar una misión de rescate al año 1885, donde debe salvar a Doc Brown de una muerte segura y de las manos de un amor que podría poner en riesgo la línea de tiempo.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/vKp3NvqBkcjHkCHSGi6EbcP7g4J.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/kFbl2ozPzVS5OYFupMxNIwdPF6P.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/AD90F8171592B47F7D7B54153CFB200014260BB0EB5AAE07A8B197EC4624701C/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/WmBX7CA-AAc?si=n1IgCUGEj9km-iGp"
     },
@@ -196,6 +234,8 @@
         "descripcion": "Elliot es un técnico informático desafortunado al que un día se le aparece el diablo en forma de una sensual mujer a proponerle un trato: siete deseos a cambio de su alma. Elliot acepta sin pensar en la posibilidad de que el diablo puede tener un as bajo la manga, y rápidamente su vida queda patas para arriba.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/mVOXv6hTVH2EbOreh78fUCFtQmC.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/qGNgEVLo9G4AsG1p87WSwZqCoPv.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/4997EAC1B80BBF3F84FEB0E13D2377F153B6E33BA073FB284A1D85AA02644D92/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/UaS89Zc95hs?si=NowsHjp-YeH7JAEX"
     },
@@ -206,6 +246,8 @@
         "descripcion": "Dusty y Brad por fin llevan el asunto de la copaternidad... hasta que a la ciudad llegan los padres de ambos para sembrar caos en toda la familia.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/fQW0kjVo5TRTyszgXfcy8vw5zgu.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/gQa9KtnGU7yW26tuHAyJouWmwQv.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/9C23452C8252740701C4C628C2F9EC8071B79F281AC73199D35B3F033B8AD11A/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/vPIg4nFNbfs?si=TCAERAv1G8sLoXxl"
     },
@@ -216,6 +258,8 @@
         "descripcion": "Como asistente de Miranda Priestly, la imposible y demandante editora de una importante revista de modas de Nueva York, la joven Andy Sachs ha conseguido un trabajo que muchas chicas morirías por tener. Desafortunadamente para ella, su celestial puesto como la asistente personal de Miranda podría ¡hasta llevarla a la tumba!",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/piIdisd6wydVa3qvmSSJIWaCi7I.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/1lSQU8laj4fOUBt4vUj96zH17sD.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/110FF005A720DE7F4D53C9CD3218613711D38D356A0B5987E77E141D8045D292/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/vKPI6b4yi2E?si=YC0wLtuqngzEPwYR"
     },
@@ -226,6 +270,8 @@
         "descripcion": "Jennifer Lawrence protagoniza junto a Bradley Cooper y Robert De Niro, en el papel de una mujer que construye una dinastía empresarial en la historia salvaje de David O.Russell sobre una familia de cuatro generaciones.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/5uhpPdhNSp35JK6u0UaRkheYiQS.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/tPJHgsSvsftx6HSDUWU8h7ncQQy.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/5F68DE86E0BB7FC61706FEA0FDF8E5D7A93B98E5F3E56F93904DB593C3812916/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/EEwjKWqnn6Y?si=pqc6EoMn8nN4CXwG"
     },
@@ -236,6 +282,8 @@
         "descripcion": "Sarah Ashburn es agente del FBI y Shannon Mullins policía de Boston. NO podrían ser mpas incompatibles: Sarah es la y el orden hecha mujer; Shannon, bastante menos rígida y mucho más grosera. Pero encerrar para siempre un narco sanguinario podría convertirlas en compañeras.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/o6MYh5rkGAJ6maEg5r5b1Yiprh3.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/1gZ9XvGANJcUO7enToc8JctITvN.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F956C5676FA85C2D125AAB9F7EDE6059597C56795B8FFDAD13F03FD3BB2D3153/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/CSRSOcRqjjo?si=s8L7xUcy93tc5Ifc"
     },
@@ -246,6 +294,8 @@
         "descripcion": "¡Él está de vuelta! Esta vez, cuando un paquete misterioso llega a la casa de Nica, ella no le presta mucha importancia. Sin embargo, después de la misteriosa muerte de su madre, NIca comienza a sospechar que el muñeco parlante y pelirrojo con el que ha estado jugando su sobrina puede ser la clave del derramamiento de sangre y todo el caos.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/h9pt74NuKn0z5L3RPv3VbCzxGcS.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/aejXIKkxWPYFlIYibmZg0nOktxy.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0B7672E3069E08FB603AB7FFE7624CCB32AF09787FCC4AAC0BD37D8E5726656F/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/FBh3Ff0eFtg?si=CqK7gkKHbLaQW2-m"
     },
@@ -256,6 +306,8 @@
         "descripcion": "Tras presenciar un incidente extraño y traumpático que involucra a una paciente, la Dra. Rose Cotter comienza a experimentar sucesos aterradores que no puede explicar. Entonces, ella debe enfrentar su pasado para sobrevivir a su nueva y horrible realidad.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/6OUKe1UKP3IzMwp182oW7qXLv2e.jpg",
+        "logo": "",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/640279F58BCF25B82ECDAD069A8B3A2E22E269A68951DBFD752610902703E955/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/n42mdgKaGv0?si=0nF1eFyWxS5jpTb4"
     },
@@ -266,6 +318,8 @@
         "descripcion": "Ambientada en la espeluznante Venecia posterior a la Segunda Guerra Mundial, en la Víspera de Halloween, Cacería en Venecia es un aterrador misterio que presenta el regreso del célebre detective Hércules Poirot. Ahora jubilado y viviendo en un exilio auto-impuesto en Venecia, Poirot acude renuentemente a una sesión espiritista en un palazzo decadente y embrujado. Cuando uno de los invitados es asesinado, el detective se ve envuelto en un siniestro mundo de sombras y secretos.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/slE6yIjOeLTLWMAo9qW9nougjqF.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/oLlVOb26OGfMT3ZdqSXRNuT5yYL.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/091902CB77AEB37F56F89CD0EDA4DD7A30A8B92A5CADBF227C52F4184CE77A2A/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/VXQQE5TEkHQ?si=-KxO5Yw-vNOogzTg"
     },
@@ -276,6 +330,8 @@
         "descripcion": "Kenneth Branagh dirige y lidera el elenco estelar, que incluye a Johnny Depp, en este elegante, emocionante y lleno de suspenso misterio basado en la novela más vendida de Agatha Christie.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/pPcg9z8M9AqxZeCHOwjU0Wk4iF8.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/p9Z85vlXNVWkqpDLmCGo0KdporF.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/A2C4B84580F2D0DA166FB8850EBEA09ECEC7452D45849E9FB91AD80C6DC5570A/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/uAk39coySj8?si=_y94JHDbS-S_ZQBu"
     },
@@ -286,6 +342,8 @@
         "descripcion": "Liz Gilbert es una mujer moderna que viaja a través del mundo para reencontrarse y reconectar con su verdadero ser. Tras su divorcio, Gilbert se toma un año sabático y se atreve a lo que nunca hizo: salir de su zona de confort. En sus increíbles y exóticos viajes ecperimenta el simple placer de comer en Italia, el poder de rezar en India y, finalmente, la paz interios y el balance de amor en Bali.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/3Nf4r0bH8rAGa6h6jDErNWno1vB.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/sylK6WSAc8jRqFnJGJpHsXIttp8.svg",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0ABB6EC78A58B88974D84958C83A86AD384DF8E37DB9D0779881DF15D4E48AB3/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/gX1cp3qcbAY?si=o8FB8ivMmFjRISju"
     },
@@ -296,6 +354,8 @@
         "descripcion": "En esta adaptación cinematográfica del amado musical, una fuerte e independiente dueña de hotel se pepara para organizar la boda de su hija en una idílica isla griega. Los invitados incluyen no solo a sus amigos más queridos, sino que también a tres hombres de su pasadi a quienes su hija invitó en secreto poque sospecha que uno de ellos podría ser su padre.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/lV5vLlGkZtSySMraLENUr4Fp2vJ.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/6uRghlW3H0s5xkf8l9GZLBsKzJI.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/C90D2353EDDE9C7863F25FC6C54F88BB11665EFC50DEEF6524BF0FE8CD56722B/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/7URVcVXFPmM?si=UQTlz1f5R3BORSpx"
     },
@@ -306,6 +366,8 @@
         "descripcion": "Esta historia, basada en hechos reales, relata los sucesos del año decisivo que ca,bió la vida del poeta y escritor estadounidense Allen Ginsberg para siempre y que supuso la chispa para que iniciara su revolución creativa.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/9smV8WmJZyW2stRs0IZE9FlZaTZ.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/z6xhp7ApitvsaFM65oLqskm0wpr.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/2C05518D37E00312750601EB081BDB7786E38E83C39BBA256E7B13EAA3CDD57F/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/B46C48LmQxE?si=Y7TQ1o6Pv_UOfRy-"
     },
@@ -316,6 +378,8 @@
         "descripcion": "Del maestro Guillermo del Toro llega este cuento de hadas de otro mundo ambientado en los Estados Unidos de la Guerra Fría de los años 60, donde la vida de una mujer cambia para siempre luego de que descubre un experimento secreto.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/hVYhrKuQNFro6jXHZMn60uYjrIP.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/o0UhzgjUf5FTN0MUyMX4fOI9una.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/AF4DC0099696CD03175DC3A18FDC20D64CEF561F35569E563448607DEE2AAB65/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/ITqLYivTuh4?si=UeNdedUhHmHOtHuE"
     },
@@ -326,6 +390,8 @@
         "descripcion": "Las vidas de los pasajeros a bordo del condenado crucero de lujo Titanic se ven antes y durante su lento descenso hacia el Atlántico.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/9tQEj7j6JDugWqDGvlDkn6Ce5cI.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/rLzHguwcdni9Jam8rMtMlg5XG2D.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/313C9883C0085FB412D28656A3CC37DCDC46BC11032FD7D5FC61F475FDD86BED/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/tA_qMdzvCvk?si=yyj5NWSgFUHjAAJb"
     },
@@ -336,6 +402,8 @@
         "descripcion": "Dirigido por Ridley Scott, el clásico de ciencia ficción original sigue a Ripley (Sigourney Weaver) investigando un supuesto SOS en un planeta remoto y hace un aterrador descubrimiento.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/cEobq5QrnOJjO6giDs8q4RxmMKh.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/hRnm6r4cCcQIRKUfEHgdbIhlhlB.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/FA2BB99244F98D789ED5ED22AFF97514A99DA618455E9660A39B17207454293E/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/jQ5lPt9edzQ?si=FbVeDhpvsVxgUIFp"
     },
@@ -346,6 +414,8 @@
         "descripcion": "En Estados Unidos, el gobierno declara un período de 12 horas en el cual toda actividad delictiva, incluso el asesinato, es legal. En esta noche plagada de violencia, una familia es puesta a prueba a medida que el cruel mundo exterior irrumpe en su hogar.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/w9eilObl2Y0oHzn3500DUhxS12h.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/x1IeUTnG8yjlyBiEWqFRkYgXTLp.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/FBE7AEA7D2EB48FFAF4833B8AF2F9CFF02FE558484EBD1CE8B41904666ED41EE/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/69YJMqxKSfI?si=xCaube7NHWX9sHpQ"
     },
@@ -356,6 +426,8 @@
         "descripcion": "La superestrella de Hollywood Bruce Willis aporta una poderosa presencia a un emocionante thriller del escritor-director M. Night Shyamalan que los críticos están llamando una de las más grandes historias de fantasmas jampas filmadas.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/grG6sAPaJXcm2bHOzzKAFt0xhUn.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/zFDyPiKJLwfWsIJa6cMtWz6fED5.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/66055FE725284708AF3A716CD52FB40BB68149AC9F8FF70089E7CDECC9A88601/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/zfOdk9JDzSw?si=OLIVFjpQBB_K2Y3I"
     },
@@ -366,6 +438,8 @@
         "descripcion": "El policía Brian O'Conner debe infiltrarse de forma encubierta en la escena de la scarreras ilegales de Los Ángeles para investigar a una pandilla de ladrones adictos a la velocidad, quienes usan automóviles modificados en sus robos. Una vez allí, Brian se ve envuelto en el mundo del infame conductor callejero Dominic Toretto.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/3ZiM6gm2XL8qnhZCXsTjixvaH4v.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/xi64G4hpjSGSzO4oGS5YBSnwz3U.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/8CA9DFCBA728E09C99D303D264D5F8ADC0968F1CF9A4EC6A1F6D01BE53A56D4A/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/-oJHZre7XZY?si=ZtkSVFbQ27lFX_vH"
     },
@@ -376,6 +450,8 @@
         "descripcion": "El ex policía en fuga Brian O'Conner ahora se ha involucrado en las ilegales carreras callejeras. De pronto, cuando los agentes federales lo obligan a volver a trabajar de encubierto, las arriesgadas habilidades de O'Conner, que no obedecen ninguna regla, se desatan contra un narcotraficante internacional.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/90ooE5SbUEO0OVJHewNO7pgySb6.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/vYOGKRgeVLKVQKZVJdOy9pZnOHD.svg",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/4B619EC7C93A449D70077E7592799D9067486D5F3D53812BD08181D6237E1933/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/VXItsaRV9hQ?si=-yGV0Dbl12qTbPuU"
     },
@@ -386,6 +462,8 @@
         "descripcion": "Sean Boswell es un competidor de carreras ilegales que tiene problemas con la justicia y ahora intenta comenzar una nueva vida al otro lado del mundo. Allí, su obsesión por las carreras lo lleva directo a colisionar con el bajo mundo japonés.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/gqejSQWoMnYQOHC9OtdWv3Xi2Mj.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/eGq9immtjB3ybUSdDVKgUI596Ju.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/037641D73D88F90BE73444C1F8C92B89D7F2DD38FCDD4A50A1F63901B77B5086/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/0ZFlxUIFyNU?si=TrwM5mWip8rIBTzH"
     },
@@ -396,6 +474,8 @@
         "descripcion": "Buster Moon y su elenco estelar de artistas se preparan para presentar su espectáculo escénico más deslumbrante hasta al momento. Solo hay un problema: primero deben persuadir a Clay Callaway, la estrella de rock más solitaria del mundo, para que se una a ellos.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/sfjnPjCCJ5NIpIEx7x9r14wk7pI.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/woGQe4Hd3XQMrevHr1rYM1TmdDL.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/CA9BE4D10B0F6AD5550BAB485C5E791B6B2097BC9973DAC805DFA9148BEB2A52/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/oGL_p2wrpVs?si=2TASXzSRxZqy9gq4"
     },
@@ -406,6 +486,8 @@
         "descripcion": "30 años después de graduarse de la escuela secundaria, cinco excompañeros de un equipo de baloncesto se reúnen en la casa del lago donde celebraron su mayor victoria para llorar el fallecimiento de su difunto entrenador. En el transcurso del fin de semana, los amigos se dan cuenta de que el hecho de haber madurado y formado familias no significa que hayan perdido esa vieja chispa que tenían.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/kARonxQpuSZdFraTKlCThWOBCtu.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/loneQX4ergxDpwEZfAqqAny45Tv.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/FFA934EFFAD6E017DD8DCF0CE3F3C92E81B119EC255F5E9438553C61600C716C/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/yMEDiKD7cyE?si=QAZ1pT0z_A8D0GlE"
     },
@@ -416,6 +498,8 @@
         "descripcion": "No es otra película de amor se trata de Julia Jones (Alyson Hannigan), una mujer romántica que al fin conoció al hombre de sus sueños, el británico Grant Funkyerdoder (Adam Campbell).",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/vORtOIuQMp3h3DCC6acfv1tsqhy.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/9sj5ovl3PshrkxMlVH4wP1Lyl4B.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/48D2C4EA9178EC8A12E50F2E673D00429A9829858286815E71DDCBB56A80354A/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/GSBG9Ew38aI?si=jfk9uLY85VyCfS-G"
     },
@@ -426,6 +510,8 @@
         "descripcion": "Bruce Nolan, un reportero de televisión que se queja de Dios con demasiada frecuencia, recibe poderes omnipotentes para enseñarle lo difícil que es dirigir el mundo.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/r5YJIeyLI7wjQRWG2dk7qmQciB6.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/xMEwNoSfQJGlsen0hZoYP0xxUI3.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/8CB4467E29F34A7556A608F5253B00D33DCD8564FD0EBFBC68236D7D8B279EB5/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/9jL-CDgE-fY?si=qxbs0VwFldj1ho9M"
     },
@@ -436,6 +522,8 @@
         "descripcion": "En su ferretería y en completa soledad, Roberto vive antrincherado frente al mundo. SIn embargo, un extraño acontecimiento logra sacarlo de su aislamiento: accidentalmente aparece un ciudadano chino que no sabe una palabra en español.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/3hBkpeJ8zeLrPO3yY8JqH9LAxiS.jpg",
+        "logo": "",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/34DF96698489A8AC80A58B1AAAAF6F8C2D889CEB66922B6D6083FE78F0DE2DA8/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/oyFzB104QaE?si=UHbT8vZq1PTWbz4S"
     },
@@ -446,6 +534,8 @@
         "descripcion": "Jessica Spencer, la niña más popular de la preparatoria se despierta en el cuerpo de un fracasado hombre de 30 años. Jessica debe convencer a sus amigas de su identidad y encontrar la manera de regresar a su propio cuerpo.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/d45V3kjzYjO7jejTVnKlqNtSMki.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/8mjQ2tyNyzyJHOf0SaY8Dj8vMHZ.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/FD90DA031742B211887BB572CC1D5618A8EAFBF16282967C3BB5262864EF8EB3/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/Ev7UyBjBkv8?si=nVjxQv7u37TBp9O3"
     },
@@ -456,6 +546,8 @@
         "descripcion": "El infame muñeco asesino con sonrisa diabólica regresa en esta segunda parte en la que sigue la lucha entre el joven Andy Barclay y el muñeco maligno que desea su alma, pues pese a havber sido destruido en su aventura anterior, Chucky renace de las cenizas para continuar su cacería.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/137qBD2clOYmIPLwe0pk2f5F0Ft.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/baF83S2B0ORgAceOrbd3xuQWkSt.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/BB84ED9DEF2CDA48B5AEFF15DD809D2992FF42EEA970F9C3D24EC6EBE5033462/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/QQ578YDz-sQ?si=LOJ4kAhyWgCc0StN"
     },
@@ -466,6 +558,8 @@
         "descripcion": "Tras ocho años desde la última aparición de Chucky, el muñeco regresa, dado que la compañía ´Play Pals´ ha descidido relanzar su conocida línea de juguetes. Esta vez, Chucky buscará vengarse de un adolescente, Andy, que se ha enlistado en una escuela militar.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/4j9srTVUVxcNwJQBTQHwKAEkLRl.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/Iz2r8BOLiD6LcvI50IVdhSUSFN.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/C31437DA2339082BBCCBBF589364A4C5B60AF69CBAC017356540EA2FAF5A01E4/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/3No1jTRSvg8?si=i1UaVeQ9uWsMTJqO"
     },
@@ -476,6 +570,8 @@
         "descripcion": "Chris, un joven negro interpretado por Daniel Kaluuya, visita la casa de campo de la familia de su novia blanca, interpretada por Allison Williams. Conforme avanza el fin de semana, una serie de perturbadores descubrimientos lo llevan a descifrar el real motivo detrás de la invitación; una verdad que jamás imaginó.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/282uXXJMxqEtOWQlu72V01cMgYw.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/xmOS3J8P9bBRSXoFNYo3HviR8c7.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/9B1D882AE5664848C4C0DD3DB46D6DD15A48D378E0759AF194F89A5C8E128033/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/-N9PnUdocAY?si=_pYs0n8Zrv9iJooP"
     },
@@ -486,6 +582,8 @@
         "descripcion": "James Lee Curtis vuelve al icónico papel de Laurie Strode, quien llega a su enfrentamiento final con Michael Myers, la figura enmascarada que le ha perseguido desde que escapó por poco de su ola de asesinatos una noche de Halloween hace cuatro décadas.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/oaMqiKK46Pj9eP3udRrcA9u1PrK.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/mPEaUAP9QDf3PeddJtHh5o9k9Kr.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/9E5C3ED8E1459629808286FF934B603196531B5CAB256FDC62417C1DDD570CD2/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/uyM4e8jbsdI?si=MvwWg7xaKoszkSBO"
     },
@@ -496,6 +594,8 @@
         "descripcion": "Una pareja joven viaja a un lujoso restaurante isleño donde el chef les prepara un menú costoso y opulento. Sin embargo, pronto queda claro que a los comensales les esperan sorpresas impactantes en esta comedia de humor negro escrita por Seth Reiss y Will Tracy, y dirigida por Mark Mylod.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/i7pwdlwMVv63Mv00mk2TrJ4L4Qe.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/bG7sUPwrASsbATYpcZ77ZO37pzF.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/32D33259CFB6D293CD91EEC7152518D951247C874110156662D3F66636853904/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/e0n8hdMh3-k?si=X73fm7bubnXzA5ah"
     },
@@ -506,6 +606,8 @@
         "descripcion": "Aunque Kevin tiene 23 personalidades, hay una que permanece oculta y que busca dominar a las demás. Obligado a secuestrar a unas adolescenter, empieza una guerra por sobrevivir entre todos los que están dentro de él, mientras los muros que los separan comienzan a desmonorarse.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/kEfArFlXYSCftxthwjn91ih3vyW.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/2fh5tzcpChPPXRj9YC57iKVfhbN.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/CF5B2707C4E1FA8F0FEC34AF4D0BA84759584C16EA1F26CD9E659C567BF7A5B3/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/GTnNVq99qdE?si=vz6RpQ95_n0vIOOV"
     },
@@ -516,6 +618,8 @@
         "descripcion": "Tras pasar un tiempo en un hospital psiquiátrico, dos hermanas devotas, Su-mi y SU-yeon, regresan a la casa de su padre y su cruel madastra, donde deben lidiar con el comportamiento desequilibrado de esta y con un fantasma que afecta a su recuperación.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/tM7uHa2Km5gSakooTQsZLwit3PK.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/iQnhVekpsegyg3ObUsFi1ddl0r5.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/76BEB81BC0E81655D93CA52F8A80BC9B174CB240A13CB41A1A64675AFE7B0840/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/64XBjaaExC0?si=V7mh8AVtXsNxJY_t"
     },
@@ -526,6 +630,8 @@
         "descripcion": "Cuando la reportera Ana Steele entrevista al multimillonario Christian Grey, queda atrapada bajo el hechizo de sus juegos intensamente eróticos. Decidida a comprenderlo y curar su alma rota, Steele sucumbe ante el mundo de Grey.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/mgY8An5qVCgLh97KOWeJVJarskL.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/6L3P6O82lWaGOHAmqGJcmvYEMIO.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/DE4097266D60F1D4A97505EB578484C489222C9759F2AE66CEC31E2AB0699BFE/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/JljbOR8RnB4?si=4zkmgQIBIU7iZrba"
     },
@@ -536,6 +642,8 @@
         "descripcion": "Grace va de vacaciones a París junto a su mejor amiga ya su hermanastra, y justo cuando dan su viaje por arruinado, a Grace la confunden con una adinerada mujer de la alta sociedad y el trío es trasladado a Montecarlo, donde viven una aventura inolvidable.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/rzQPrCZNCKe5WRv782w6zNXkxtH.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/sIOLDAS6EFjGo3pL8yvX9sVq1nE.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0ADA67EB541F4483B5758E307DE4663EDCDD1320859C601B28480276A72CBADB/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/9opbXXxLvaM?si=DJuf5-WoTl9hlou-"
     },
@@ -546,6 +654,8 @@
         "descripcion": "Juntos y separados, se puede ver a Dezter y Emma a través de su amistad y sus peleas, sus esperanzas y sus oportunidades perdidas, sus risas y sus lágrimas, mientras viven momentos clave de su relación en sus encuentros cada 15 de julio.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/4gN3BLe8MBS7cykyv4pxspLEc7c.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/hqff7NHUse6nBBk7HSeK0at1OA8.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/363831BA89520BB01998492C6CA733CFB232A3C2A4E70F12A0C144F3D39662E8/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/q3_NWsdPUdc?si=mlDMVo1w55PIwf_w"
     },
@@ -556,6 +666,8 @@
         "descripcion": "Decidida a comenzar de cero, Frances Mayes compra de forma impulsiva una casa en el campo toscano, lanzándose a una aventura que le cambiará la vida, llena de sorpresas, amistades y romance.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/dy516GsG7lvszB47FiotNjLARDY.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/8u9DZj1yTsicab56UBFE6dx6b9M.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/6104CBFA28EEE28DEBEC34D51D1855213FE9B401B18A42FA1AB8AA54B448A3A6/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/-BpxSbYe1fs?si=1ZAkv6DmehKEqllZ"
     },
@@ -566,6 +678,8 @@
         "descripcion": "Las estrellas juveniles Leonardo DiCaprio y Claire Danes personifican a Romeo y Julieta. Trasladando el entorno de sus orígenes isabelinos a una ambientación futurista y sexy, en la realidad urbana actual de las playas de Verona Beach, California. Esta contemporánea versión de ´La gran historia de amor que el mundo ha conocido´, convierte a ´Romeo y Julieta´ de Shakespeare en una obra inolvidable.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/s7ZzRAlwtPAbRTigaVfulFageAa.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/5INKwCGIgyMsfZvGnwcgD1meRBn.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/A37E20964549E097F9863E3C0F228E3B5E325D2D1639AF133B1E4B3B9A1D39EC/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/ivbuYR2J-SI?si=pXye_4nbU2tZDu8R"
     },
@@ -576,6 +690,8 @@
         "descripcion": "En el verano de 1963, dos jóvenes, un granjero y un vaquero de rodeo, forjan una relación muy íntima de manera inesperada. Este lazo es inaceptable en su mundo, lo que genera complicaciones, alegrías y tragedias que darán testimonio del poder dle amor.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/wbKAPK8348GG5OjgJK0ZOPp0fwN.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/9o2cSvFkP2g4V9OJsj3pNeIv0vo.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/B1DB37C10016C7C3E2E1911A83CEB3CC9C1A9E91992C2166E09CA12811993963/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/IV74xmOWSEg?si=KrVbSLPfz7xUc0zr"
     },
@@ -586,6 +702,8 @@
         "descripcion": "Dos mujeres, que acaban de sobrevivir a malas relaciones con hombres, se sienten desesperadas por un cambio de escenario. Entonces, intercambian casas y viajan a diferentes direcciones, una a Londres y la otra a Los Ángeles.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/nhiuJ3jalLJ2n4rEKpGCXLrXCx1.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/hXS9UBOYO7j8Cm2ZEdYTJlkmWn3.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/F8144C1C87D24B3204BE1AA1ED37FEFF6A55EDD61B8C78E03AAF702D6AED6B2E/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/8jZL3G1Mktc?si=qAkEls7JG9HlFszC"
     },
@@ -596,6 +714,8 @@
         "descripcion": "Narra la historia de una valerosa jovencita llamada Liesel, que transforma las vidas de todas las personas de su entorno cuando la envían a vivir con una familia adoptiva en la Alemania de la II Guerra Mundial. Para Liesel, el poder de las palabras y la imaginación se convierten en una forma de escapar de los tumultosos eventos que la rodean, tanto a ella como a toda la gente que conoce y quiere.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/oxbijRUHyGgyfcnPYH3NDhxeesU.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/5yiEpk2I0nSbNzF94EbbVnJdc29.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/008992311B4878391AE9F44BE191584262B4CD3465495520279B8F0A3F144843/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/0sw6eLr5Qn0?si=1SAeixTvIV6T1-sK"
     },
@@ -606,6 +726,8 @@
         "descripcion": "Una familia del barrio de San Isidro se dedica al secuestro y asesinato. Arquímedes, el patriarca, lidera y planifica los operativos, y Alejandro, el hijo mayor, identifica posibles víctimas. La familia vive de los pagos de los familiares de los secuestrados.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/wbA13Xns8EtbIubDOPLl7kCYYA4.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/wn13ptGiiL996MdwXgq7x4DyK7l.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/C5D2E7A1B60A6FCE9D7BA9DF3194A61B2B43D43936EF138A04BE1219DD175365/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/Xdpb7obyt30?si=3N0U-3Hui3B1vjLc"
     },
@@ -616,6 +738,8 @@
         "descripcion": "Un oficinista insomne y un vendedor de jabón canalizan su agresividad en una nueva forma de terapia; el concepto se populariza y se forman clubes de lucha clandestinos en todas las ciudades, hasta que en una excéntrica mujer se interpone en el camino.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/xRyINp9KfMLVjRiO5nCsoRDdvvF.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/pQfb6vBDdASKMxz25rlGjdBbbE.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/BB9366A5334F2F2D57D74C8FE64C7B114FB5C4B04FB76258DA5DA80E596477FC/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/YD5BeUWgsSM?si=rNlUZNEoH5z3u7AS"
     },
@@ -626,6 +750,8 @@
         "descripcion": "´La Pasión de Cristo´ se centra en las últimas doce horas de la vida de Jesús de Nazareth. Jesús reza luego de La última cena y debe resistir las tentaciones de Satanás. Traicionado por Judas Iscariote, Jesús es arrestado y llevado dentro de las murallas de Jerusalén donde los líderes de fariseos lo confrontan con acusaciones de blasfemia. SU juicio resulta en una condena a muerte.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/q4ESbq00WcDU4P1wW2QdTeATQml.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/zL5LIiSbvKUjDOHcNyUJgeKiav5.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/A1AC4DE756B7042C971F0E0E9A275466A2561B3CA65BD266F7E652BBD1D02F2F/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/0FlCSMv5tG8?si=Wdq7HdGpOdvDTkNU"
     },
@@ -637,6 +763,8 @@
         "descripcion": "Una devastadora historia de aprendizaje sobre la relación de un niño con su nuevo padastro abusivo y su madre, quien está maracada emocionalmente.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/6N6VUUR1gzbCkiGpQzvRREv3Od1.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/mypqZrkCfjHTo2DGhY8us7mwGQ0.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/ABE5926474EDE913D8CD8A03D479B521D415DBE29A92B1550E9290C8EF084805/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/nY1nNhQ1anY?si=1ClHTGbaN2PLQscy"
     },
@@ -647,6 +775,8 @@
         "descripcion": "En una remota isla, el empr4esario John Hammond ha construido un parque temático cuya principal atracción son dinosaurios vivos que logró concebir gracias al ADN de mosquitos atrapados en ámbar prehistórico. Sin embargo, el sistema de seguridad falla, por lo que los visitantes ahora deben huir de los dinosaurios depresadores que se encuentran libres.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/ucVxs2vE2eUMKX2FOVSkP2kAq0a.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/2dIBuqA732zaZCwvhd5ErkqXMiV.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0B3F8AFFDF4685DB050768D882A6ACB454922844C49D81FF748B0503FDE27678/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/dLDkNge_AhE?si=5kFwAnUJkn5YD0h-"
     },
@@ -657,6 +787,8 @@
         "descripcion": "El parque temático Jurassic World esconde algo detrás de sus atracciones: un salvaje dinosaurio modificado genéticamente. En cuanto la enorme criatura escapa, el caos se desata en toda la isla.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/aIGIYJTyOkEVUmEd3z5x6diYsFx.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/4IKkOzdAOz6LZWmPjEHlpufblYH.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/548CC613D24FB896E7ECED32668731A51E269ED437C57E2266A4784B9FC60AE8/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/MOblcRRCSYU?si=_K9uXNqdkVlT8P6Y"
     },
@@ -667,6 +799,8 @@
         "descripcion": "El agente J viaja al pasado para poner las cosas en su lugar. Allí, J descubre secretos que se revelarán cuando forme equipo con el joven agente K para salvar a su compañero, a la agencia y al futuro de la humanidad.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/tQ1CvC5vJjBjtb4U3IkNw7RL23c.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/a2iSCAj6s9v578A1sKqkOeV6824.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/7AD197AAE6A281FE67B2AB2C81DD15C4C374E8277DB359A6E46FCE7F2736FFC0/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/wqwmM1-7rSA?si=4Ly7oxkJ80xUBM7a"
     },
@@ -677,6 +811,8 @@
         "descripcion": "Como castigo por haber asesinado al faraón Seti y engañarlo con su mujer, el sacerdote egipcio Imhotep es momificado vivo. Sin embargo, cuando los buscadores de tesoros encuentran sorpresivamente su tumba en 1923, la momia renace.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/nCd8G7C5mbiABQuATgos1OeAshu.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/wN5ECzhPYnphWKPvqrVVmQnGUrC.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/3F0AF440DE4E4AC7A70028E729269E25AEB838419063EF33D8191F0B3B4B2373/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/CT6yWV9e4Ig?si=s-fLsT0iJ9aSsl7n"
     },
@@ -687,6 +823,8 @@
         "descripcion": "En la guerra del hombre contra las máquinas, Kyle Reese es enviado de regreso a 1984 para proteger a Sarah Connor. Sin embargo, hechos inesperados alteran el pasado y amenazan el futuro de la humanidad. Ahora, reese debe unir fuerzas con Sarah y su Guardián para salvar el mundo.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/xEfT5zgSNCLGcq5SJr2TC1rWgDZ.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/wRNPnhR3AcELk7k0nMuXhm4oanB.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/66F2CB5D59E85724DAF83CAF003DEE373ED909C1D318EC6A85BEA54E890E7EC0/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/n7wvaDfa7Wc?si=1vqXesQNYWKDms91"
     }, 
@@ -697,6 +835,8 @@
         "descripcion": "Una anomalía genética permite a David Rice teletransportarse a cualquier lugar, pero descubre que este don ha existido durante siglos y se encuentra en una guera de miles de años de antigüedad.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/1R4DZbEwWTPnRShBumJsOwsfAiB.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/rGcqagSe8MEAw0JqQJZVBuwRIZ5.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/DE0CE6B57D14B5F771D04AAD0751C0878164DA1B1AB38ECDBCD426D9E69B39BD/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/DlK8u6kD7_U?si=QJUUVhFo43tUqX7m"
     },
@@ -707,6 +847,8 @@
         "descripcion": "Luego de un aterrizaje de emergencia en un planeta inexplorado, un joven piloto de la Tierra se une a un ejército rebelde formado por simios, humanos y marginados, que lucha por la libertad. Esto lleva al piloto a descubrir que él es la prevista Segunda Venida del fundador de su mundo.",
         "publicado": true,
         "destacado": false,
+        "imagenDestacado": "https://image.tmdb.org/t/p/original/rF0Y0fYVsNFEvGve8Nq0Ij9EDCM.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/6MBp6uyDB8dVW2w70ETfIDVpiXA.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0D07387FFCAC1692EF48C92010F68688AA8033E2BDBE4F5DBB8B0EB99A04F720/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/YED_w3OXgSk?si=gcsXVoNpVCS-rVi3"
     }

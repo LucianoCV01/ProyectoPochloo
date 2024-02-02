@@ -102,3 +102,119 @@ a {
     width: 100%;
     height: auto;
 }
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.tituloCategoria{
+    font-size: 3vw!important;
+}
+#peliculaDestacada{
+    font-weight: 100;
+    height: 35vw;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: 100vw 55vw;
+}
+#nombrePeliculaDestacada{
+    color: #BE3144;
+    font-size: 4vw;
+    font-weight: 900;
+}
+.datosPeliculaDestacada{
+    font-size: 1.3vw;
+    width: 50%;
+}
+#reproducirPeliculaDestacada{
+    font-size: 1vw;
+    width: 30%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.categoria{
+    background-color: rgb(34, 9, 44);
+    background: radial-gradient(circle, rgba(4, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
+}
+a{
+    position: relative;
+}
+.carouselControl{
+    width: auto!important;
+    /* background-color: rgba(80, 39, 58, 0.089)!important; */
+    border-radius: .25em;
+}
+.carousel-item{
+    padding: 1em;
+}
+.col img{
+    border-radius: .25em;
+    height: 100%;
+    transition: all 0.3s;
+}
+.col img:hover{
+    scale : 110%;
+}
+.card{
+    border: none!important;
+    box-shadow: 0px 5px 10px 0px #000000cc;
+}
+.card-body{
+    display: none;
+}
+.fa-lg:hover{
+    scale: 1.2;
+}
+#logoDestacado{
+    margin-left: 10%;
+    position: relative;
+    /* top: 5%; */
+    width: 20vw;
+}
+@media (width <= 768px) {
+    #peliculaDestacada{
+        height: 50vw;
+    }
+    #reproducirPeliculaDestacada{
+        font-size: 2vw;
+        width: 50%;
+        white-space: nowrap;
+        overflow: auto;
+    }
+    .fa-lg{
+        font-size: 5vw;
+    }
+    #peliculaDestacada{
+        background-size: cover
+    }
+    .tituloCategoria{
+        font-size: 7vw!important;
+    }
+    .col img:hover{
+        scale : 105%;
+    }
+}
+
+@media (768px < width <= 992px) {
+    .col img:hover{
+        scale : 105%;
+    }
+    .fa-lg{
+        font-size: 3vw;
+    }
+    .tituloCategoria{
+        font-size: 5vw!important;
+    }
+}
+
+#imagenPeliDestacada{
+    max-height: 100%!important;
+    filter: opacity(100%);
+    position: absolute;
+    top: 0;
+    max-height: 50%;
+}
