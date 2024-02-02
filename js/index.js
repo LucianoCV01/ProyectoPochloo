@@ -15,7 +15,7 @@
 //     console.log();
 // }
 // localStorage.setItem("peliculas", JSON.stringify(peliculas));
-let peliculas = JSON.parse(localStorage.getItem("Pelicula"));
+const peliculas = JSON.parse(localStorage.getItem("Pelicula"));
 const arrayDeArraysPorCategoria = peliculas.reduce((acumulador, pelicula) => {
   const categoriaExistente = acumulador.find(arr => arr[0].categoria === pelicula.categoria);
 
@@ -50,7 +50,7 @@ arrayDeArraysPorCategoria.forEach(arrayCategoria => {
         let conjuntoCard = "";
         let carruselItem = "";
         if (x === 0){
-           carruselItemInicio = '<div class="carousel-item active"> <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">'
+           carruselItemInicio = '<div class="carousel-item  active"> <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">'
         }
         else{ 
            carruselItemInicio = '<div class="carousel-item"> <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">'
@@ -91,7 +91,13 @@ arrayDeArraysPorCategoria.forEach(arrayCategoria => {
 carruselesPorCategoria.innerHTML = carruseles;
 
 const obtenerPeliculaDestacada = () => {
-  return peliculas.find(pelicula => pelicula.destacado == true)
+  let peliculaDestacada = peliculas.find(pelicula => pelicula.destacado == true)
+  console.log(peliculaDestacada);
+  if(!peliculaDestacada){
+    peliculaDestacada = peliculas[Math.floor(Math.random() * (peliculas.length + 1))]
+  }
+  console.log(peliculaDestacada);
+  return peliculaDestacada
 }
 
 //PELICULA DESTACADA
@@ -102,7 +108,7 @@ const reproducirPeliculaDestacada = document.getElementById("reproducirPeliculaD
 const logoDestacado = document.getElementById("logoDestacado")
 const datosPeliculaDestacada = document.getElementById("datosPeliculaDestacada")
 
-
+const peliculaDestacadaDatos = obtenerPeliculaDestacada();
 peliculaDestacada.style = `background-image: linear-gradient(
                                               to right,
                                               rgba(0, 0, 0, 1),
@@ -110,23 +116,23 @@ peliculaDestacada.style = `background-image: linear-gradient(
                                               rgba(0, 0, 0, 0.25),
                                               rgba(0, 0, 0, 0)
                                             ),  
-                                            url(${obtenerPeliculaDestacada().imagenDestacado});`
+                                            url(${peliculaDestacadaDatos.imagenDestacado});`
 
 //MOSTRAR LOGO O TITULO DE LA PELICULA DESTACADA
-if (obtenerPeliculaDestacada().logo != ""){
-  logoDestacado.src = obtenerPeliculaDestacada().logo
-  logoDestacado.alt = `Logo de la pelicula ${obtenerPeliculaDestacada().nombre}`
+if (peliculaDestacadaDatos.logo != ""){
+  logoDestacado.src = peliculaDestacadaDatos.logo
+  logoDestacado.alt = `Logo de la pelicula ${peliculaDestacadaDatos.nombre}`
 }else{
   const tituloPeliculaDestacada = document.createElement('h1');
   tituloPeliculaDestacada.id = "nombrePeliculaDestacada";
-  tituloPeliculaDestacada.textContent = obtenerPeliculaDestacada().nombre.toUpperCase()
+  tituloPeliculaDestacada.textContent = peliculaDestacadaDatos.nombre.toUpperCase()
   datosPeliculaDestacada.insertBefore(tituloPeliculaDestacada,logoDestacado);
 }
   
-descripcionPeliculaDestacada.textContent = obtenerPeliculaDestacada().descripcion
+descripcionPeliculaDestacada.textContent = peliculaDestacadaDatos.descripcion
 reproducirPeliculaDestacada.addEventListener("click",(event)=>{
   event.preventDefault();
-  window.open(obtenerPeliculaDestacada().url).focus
+  window.open(peliculaDestacadaDatos.url).focus
 })
 
 function seleccionarPelicula(codigoPelicula){

@@ -19,7 +19,7 @@
         "publicado": true,
         "destacado": false,
         "imagenDestacado": "https://image.tmdb.org/t/p/original/t9tfpKE1BKsiDandLTeRci6KioK.jpg",
-        "logo": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Blair-Witch-Project-logo.jpg",
+        "logo": "https://image.tmdb.org/t/p/original/cs8CelEZw8Mr10wnNIQ5WszYpi3.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/AF2F51B7158D61297D80EC6C26D0BE766A6DC43C2D1D165912D9DDA34CDBD40A/scale?width=1200&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/sjRX2jnjm9g?si=1AQp-hNcDjn-hx4b"
     },
@@ -846,7 +846,7 @@
         "categoria": "Ciencia Ficción",
         "descripcion": "Luego de un aterrizaje de emergencia en un planeta inexplorado, un joven piloto de la Tierra se une a un ejército rebelde formado por simios, humanos y marginados, que lucha por la libertad. Esto lleva al piloto a descubrir que él es la prevista Segunda Venida del fundador de su mundo.",
         "publicado": true,
-        "destacado": true,
+        "destacado": false,
         "imagenDestacado": "https://image.tmdb.org/t/p/original/rF0Y0fYVsNFEvGve8Nq0Ij9EDCM.jpg",
         "logo": "https://image.tmdb.org/t/p/original/6MBp6uyDB8dVW2w70ETfIDVpiXA.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/0D07387FFCAC1692EF48C92010F68688AA8033E2BDBE4F5DBB8B0EB99A04F720/scale?width=400&aspectRatio=1.78&format=jpeg",

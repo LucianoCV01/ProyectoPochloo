@@ -47,9 +47,6 @@ a{
 .carousel-item{
     padding: 1em;
 }
-/* .col{
-    padding: 10px!important;
-} */
 .col img{
     border-radius: .25em;
     height: 100%;
@@ -60,6 +57,7 @@ a{
 }
 .card{
     border: none!important;
+    box-shadow: 0px 5px 10px 0px #000000cc;
 }
 .card-body{
     display: none;
