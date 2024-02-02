@@ -35,8 +35,9 @@ const aprobarAlta = (i) =>
           });
         registro[i].estado = "Aprobado"
         agregarUsuarioAprobado(registro[i])
+        registro.push(registro[i])
         registro.splice(i, 1)
-        
+        localStorage.setItem("Registro", JSON.stringify(registro))
         mostrarUsuariosEnTabla()
         
         }

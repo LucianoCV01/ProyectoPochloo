@@ -1,5 +1,10 @@
+function existeLocalStorage(clave) {
+    return localStorage.getItem(clave) !== null;
+}
 
-const traerJson = () =>{
+if(!existeLocalStorage("Usuario"))
+{
+    const traerJson = () =>{
     let usuarioJson = fetch(`../json/usuario.json`)
     .then((resp=>{
     resp.json().then((data=>{
@@ -7,6 +12,8 @@ const traerJson = () =>{
     }))
     }))
     .catch(console.warn)
+    }
+
+    traerJson()
 }
 
-traerJson()
