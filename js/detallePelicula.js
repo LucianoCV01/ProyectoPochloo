@@ -1,6 +1,5 @@
-// const idPelicula = localStorage.getItem('peliculaSeleccionada');
-// console.log('ID de la película seleccionada:', idPelicula);
-const idPelicula = 2;
+const idPelicula = localStorage.getItem('peliculaSeleccionada');
+console.log('ID de la película seleccionada:', idPelicula);
 
 const leerLocalStorage = (nombreLocalStorage) => {
     let arregloObjetos = JSON.parse(localStorage.getItem(nombreLocalStorage));
@@ -11,7 +10,7 @@ const leerLocalStorage = (nombreLocalStorage) => {
 };
 const obtenerPelicula = (codigoPeli) => {
     const productos = leerLocalStorage("Pelicula");
-    const peliculaBuscada = productos.find(producto => producto.codigo === codigoPeli);
+    const peliculaBuscada = productos.find(producto => producto.codigo == codigoPeli);
     return peliculaBuscada;
 };
 
@@ -38,6 +37,11 @@ const mostrarPelicula = () => {
 };
 
 mostrarPelicula();
+
+function seleccionarPelicula(codigoPelicula) {
+    localStorage.setItem("peliculaSeleccionada", codigoPelicula);
+}
+
 const peliculasRecomendadas = () => {
     let peliculas = leerLocalStorage("Pelicula");
     const peliculaSeleccionada = obtenerPelicula(idPelicula);
@@ -72,7 +76,7 @@ if (pelisRecomendadas.length > 5) {
         let conjuntoCard = "";
         for (let y = 0; y < 6; y++) {
             // COMIENZO DE LA CARD
-            const cardInicio = '<div class="col"><a href="' + pelisRecomendadas[x].url + '" target="_blank">  <div class="card h-100">'
+            const cardInicio = '<div class="col"><a href="detallePelicula.html" onclick="seleccionarPelicula(' + pelisRecomendadas[x].codigo + ')">  <div class="card h-100">'
             // URL DE LA PELICULA
             const cardUrlEImagen = '<img class="" src="' + pelisRecomendadas[x].imagen + '" class="card-img-top" alt="Imagen de la pelicula ' + pelisRecomendadas[x].nombre + '">'
             // CIERRE DE CARD
@@ -98,3 +102,4 @@ if (pelisRecomendadas.length > 5) {
 }
 
 carruselRecomendado.innerHTML = carrusel;
+
