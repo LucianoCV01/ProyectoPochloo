@@ -20,41 +20,52 @@
       </style>
 </head>
 <body>
-    <header class="header">
-        <div class="logo">
-            <img src="./img/PochlooLOGO.png" alt="Logo de la marca">
-        </div>
-      <!--Inicio filter-->
-        <section class="d-flex flex-row justify-content-center">
-          <nav class="navbar bg-body-tertiary ">
-            <div class="container-fluid">
-              <form class="d-flex" role="search" id="formBuscador">
-                <input id="buscador" class="form-control me-2" placeholder="Buscar película..." aria-label="Search" required>
-                <button class="btn btn-outline-success" type="submit" id="btnBuscar"><i class="fa-solid fa-magnifying-glass"></i></button>
-              </form>
-            </div>
-          </nav>
-    <div class="dropdown">
-        <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          Categorías
+    
+      <nav class="navbar navbar-expand-lg navbar-light" id="header">
+        <a class="navbar-brand" href="#"><img src="img/PochlooLOGO.png" alt="Logo de la plataforma"></a>
+        <button class="navbar-toggler bg-warning" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item">Animación</a></li>
-          <li><a class="dropdown-item">Acción y Aventura</a></li>
-          <li><a class="dropdown-item">Ciencia Ficción</a></li>
-          <li><a class="dropdown-item">Comedia</a></li>
-          <li><a class="dropdown-item">Documental</a></li>
-          <li><a class="dropdown-item">Drama</a></li>
-          <li><a class="dropdown-item">Musical</a></li>
-          <li><a class="dropdown-item">Misterio</a></li>
-          <li><a class="dropdown-item">Terror</a></li>
-          <li><a class="dropdown-item">Romance</a></li>
-        </ul>
-      </div>
-        </section>
-        
-        
-    </header>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto"></ul>
+            
+            <div class="dropdown mt-4">
+              <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Categorías
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item">Animación</a></li>
+                <li><a class="dropdown-item">Acción y Aventura</a></li>
+                <li><a class="dropdown-item">Ciencia Ficción</a></li>
+                <li><a class="dropdown-item">Comedia</a></li>
+                <li><a class="dropdown-item">Documental</a></li>
+                <li><a class="dropdown-item">Drama</a></li>
+                <li><a class="dropdown-item">Musical</a></li>
+                <li><a class="dropdown-item">Misterio</a></li>
+                <li><a class="dropdown-item">Terror</a></li>
+                <li><a class="dropdown-item">Romance</a></li>
+              </ul>
+            </div>
+            </li>
+          </ul>
+          <form class=" my-2 my-lg-0 mt-4 d-flex flex-row">
+            <input class="form-control mr-sm-2" type="search" placeholder="Buscar Película..." aria-label="Search">
+            <button class="btn m-1" type="submit" id="btnBuscar"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <div>
+            <li class="nav-item">
+            <a class="nav-link">Cerrar Sesión</a>
+          </li>
+          <li>
+            <a class="nav-link" id="adminLink" href="html/administracion.html">Administración</a>
+          </li>
+
+          </div>
+          
+        </div>
+      </nav>
+
 
     <main>
       <div class="containerMadre">
@@ -87,13 +98,13 @@
           <div class="my-3 sinCuenta">
             <div style="color: white;">No tenes cuenta? Registrate aquí:
               <div class="botonAbrir">
-                <a href="./pages/registro.html">Registrarme!</a>
+                <a href="./html/registro.html">Registrarme!</a>
               </div>
     
               <div class="recuperarContraseña">
                 <div>
                   <span>
-                    <a href="./pages/recupero.html">
+                    <a href="./html/recupero.html">
                       Olvidé mi contraseña
                     </a>
                   </span>
@@ -128,32 +139,32 @@
                     <h4>Explorar</h4>
                     <ul>
                         <li><a href="/index.html">Inicio</a></li>
-                        <li><a href="/pages/peliculas.html">Películas</a></li>
-                        <li><a href="/pages/error404.html">Series</a></li>
+                        <li><a href="/html/peliculas.html">Películas</a></li>
+                        <li><a href="/html/error404.html">Series</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Términos de Uso</h4>
                     <ul>
-                        <li><a href="./pages/error404.html" target="_blank">Privacidad</a></li>
-                        <li><a href="./pages/error404.html" target="_blank" >Planes</a></li>
-                        <li><a href="./pages/error404.html" target="_blank" >Formas de Pago</a></li>
+                        <li><a href="./html/error404.html" target="_blank">Privacidad</a></li>
+                        <li><a href="./html/error404.html" target="_blank" >Planes</a></li>
+                        <li><a href="./html/error404.html" target="_blank" >Formas de Pago</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h4>Anuncios</h4>
                     <ul>
-                        <li><a href="./pages/error404.html" target="_blank">Estrenos</a></li>
-                        <li><a href="./pages/error404.html" target="_blank">Blogs</a></li>
-                        <li><a href="./pages/error404.html" target="_blank">Pre Estrenos</a></li>
+                        <li><a href="./html/error404.html" target="_blank">Estrenos</a></li>
+                        <li><a href="./html/error404.html" target="_blank">Blogs</a></li>
+                        <li><a href="./html/error404.html" target="_blank">Pre Estrenos</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                  <h4>Ayuda</h4>
                  <ul>
-                     <li><a href="./pages/error404.html" target="_blank">Contacto</a></li>
-                     <li><a href="./pages/Nosotros.html" target="_blank">Sobre Nosotros</a></li>
-                     <li><a href="./pages/error404.html" target="_blank">Consultas</a></li>
+                     <li><a href="./html/error404.html" target="_blank">Contacto</a></li>
+                     <li><a href="./html/Nosotros.html" target="_blank">Sobre Nosotros</a></li>
+                     <li><a href="./html/error404.html" target="_blank">Consultas</a></li>
                  </ul>
              </div>
                 <div class="footer-col">
