@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/estilo.css">
+    <script src="https://kit.fontawesome.com/a7f4659b4f.js" crossorigin="anonymous"></script>
+    <title>Filtro</title>
+</head>
+<body>
+    <main>
+        <header class="d-flex flex-row justify-content-center">
+          
+
+            <nav class="navbar bg-body-tertiary ">
+                <div class="container-fluid">
+                  <form class="d-flex" role="search" id="formBuscador">
+                    <input id="buscador" class="form-control me-2" placeholder="Buscar película..." aria-label="Search" required>
+                    <button class="btn btn-outline-success" type="submit" id="btnBuscar"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+                </div>
+              </nav>
+        <div class="dropdown">
+            <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Categorías
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item">Animación</a></li>
+              <li><a class="dropdown-item">Acción y Aventura</a></li>
+              <li><a class="dropdown-item">Ciencia Ficción</a></li>
+              <li><a class="dropdown-item">Comedia</a></li>
+              <li><a class="dropdown-item">Documental</a></li>
+              <li><a class="dropdown-item">Drama</a></li>
+              <li><a class="dropdown-item">Musical</a></li>
+              <li><a class="dropdown-item">Misterio</a></li>
+              <li><a class="dropdown-item">Terror</a></li>
+              <li><a class="dropdown-item">Romance</a></li>
+            </ul>
+          </div>
+        </header>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="../js/buscador.js"></script>
+    <script src="../js/categoria.js"></script>
+    <script src="../js/exportPeliculas.js"></script>
+</body>
+</html>

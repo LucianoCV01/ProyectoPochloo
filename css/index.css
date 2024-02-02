@@ -88,9 +88,7 @@ body {
     background-color: rgb(34, 9, 44);
     background: radial-gradient(circle, rgba(4, 9, 44, 1) 0%, rgba(51, 19, 28, 1) 100%);
 }
-a{
-    position: relative;
-}
+
 .carouselControl{
     width: auto!important;
     /* background-color: rgba(80, 39, 58, 0.089)!important; */
