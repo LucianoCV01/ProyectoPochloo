@@ -1,15 +1,17 @@
 const bodyAlta = document.getElementById("bodyAlta")
 
-import registro from "./exportRegistro.js";
+let registro = []
+registro = JSON.parse(localStorage.getItem("Registro")) 
 
-import usuario from "./exportUsuario.js"
+let usuario = []
+usuario = JSON.parse(localStorage.getItem("Usuario")) 
 
 
 //FUNCIÓN PARA AGREGAR LOS USUARIOS APROBADOS AL ARREGLO DE USUARIOS QUE YA PUEDEN LOGUEARSE
 const agregarUsuarioAprobado = (aprobado) =>
 {
     usuario.push(aprobado)
-    console.log(usuario)
+    localStorage.setItem("Usuario", JSON.stringify(usuario))
 }
 
 
@@ -17,7 +19,7 @@ const agregarUsuarioAprobado = (aprobado) =>
 const aprobarAlta = (i) =>
 {
     Swal.fire({
-        title: "¿Aprobar al usuario " + registro[i].usuario + "?",
+        title: "¿Aprobar al usuario " + registro[i].nombre + "?",
         text: "No podrás revertir esta acción",
         icon: "warning",
         showCancelButton: true,
@@ -36,7 +38,6 @@ const aprobarAlta = (i) =>
         registro.push(registro[i])
         registro.splice(i, 1)
         localStorage.setItem("Registro", JSON.stringify(registro))
-        
         mostrarUsuariosEnTabla()
         
         }

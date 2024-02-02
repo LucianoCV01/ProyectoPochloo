@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Css/registro.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Outfit:wght@100&display=swap');
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="containerRegistro">
+        <div class="subcontainerRegistro">
+            <form id="formularioDeRegistro">
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" pattern="[A-Za-zÁ-ú ]{3,25}" required aria-describedby="nombreHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" pattern="[A-Za-zÁ-ú ]{3,25}" required aria-describedby="apellidoHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="inputEmail" class="form-label">Dirección de email</label>
+                    <input type="email" class="form-control" id="inputEmail" required aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                    <label for="inputPassword" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="inputPassword" pattern=".{4,30}" placeholder="Mínimo 4 caracteres" required>
+                </div>
+                <div class="containerLogo">
+                    <img src="../img/Pochloo_Logo.png" alt="logo">
+                </div>
+                <div class="containerButton">
+                    <button type="submit" class="btn btn-primary" id="botonDeRegistro">Registrarme!</button>
+                </div>
+                <div>
+                    <a href="../Html/login.html">login</a>
+                    <a href="../Html/admin.html">Admin</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../Js/registro.js" type="module"></script>
+    <script src="../Js/exportRegistro.js"></script>
+    <script src="../Js/exportRegistro.js"></script>
+    
+</body>
+</html>
