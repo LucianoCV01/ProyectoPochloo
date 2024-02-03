@@ -29,7 +29,6 @@ html {
 }
 
 #header a {
-	font-size: 600;
 	color: #eceff1;
 }
 
@@ -51,6 +50,10 @@ html {
 	background-color: #872341cc;
 	width: 100%;
 
+}
+
+#adminLink:hover, #sesionLink:hover{
+	color: yellow;
 }
 
 .dropdown-menu {

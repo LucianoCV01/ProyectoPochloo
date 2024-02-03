@@ -1,3 +1,22 @@
+//FUNCIÓN PARA COMPROBAR QUE LA PERSONA QUE ACCEDA A LA PÁGINA SEA ADMINISTRADOR
+const comprobarAdmin = () =>
+{
+    let persona = JSON.parse(localStorage.getItem("Logueado"))
+    if(!(persona.tipo == "Administrador"))
+    {
+        Swal.fire({
+            title: "Acceso denegado",
+            text: "Solo administradores pueden acceder a la página",
+            icon: "error",
+        })
+        setTimeout(() => {
+            window.location.href = 'inicio.html';
+        }, 4000);
+    }
+}
+
+comprobarAdmin()
+
 class Producto {
     constructor(codigo, nombre, categoria, descripcion, publicado, destacado, imagen, url) {
         this.codigo = codigo;
@@ -154,7 +173,8 @@ const confirmarEliminar = (nombre, indice) => {
             Swal.fire({
                 title: "¡Eliminado!",
                 text: "La acción se completó exitosamente",
-                icon: "success"
+                icon: "success",
+                showCancelButton: false
             });
             eliminarPelicula(indice);
         }

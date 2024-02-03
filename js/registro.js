@@ -62,6 +62,6 @@ function registroDeUsuarios() {
                     text: 'El usuario se ha registrado correctamente. Te vamos a direccionar al logueo'
                 });            
                 setTimeout(() => {
-                    window.location.href = 'html/login.html';}, 2000);
+                    window.location.href = '../index.html';}, 2000);
             }
         }

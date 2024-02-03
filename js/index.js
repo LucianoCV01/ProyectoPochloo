@@ -1,20 +1,3 @@
-// let categoriasRandom = ["comedia","drama","accion","terror","fantasia","marvel","DC","infantiles","animadas","XXX"]
-// let peliculas = [];
-// for (i=0;i<200;i++){
-//     let peli = {
-//         codigo: "1",
-//         nombre: "titanic",
-//         categoria: categoriasRandom[Math.floor(Math.random() * categoriasRandom.length)],
-//         descripcion: "La trama, una epopeya4 romántica, relata la relación de Jack Dawson y Rose DeWitt Bukater, dos jóvenes que se conocen y se enamoran a bordo del transatlántico RMS Titanic en su viaje inaugural desde Southampton, Inglaterra a Nueva York, EE. UU., en abril de 1912.",
-//         publicado: 2004,
-//         destacado: true,
-//         imagen: "https://occ-0-1700-1740.1.nflxso.net/dnm/api/v6/rkETp35xJVj-6WaffQsS77awykM/AAAABay7tzf1DMf85mYtq9HWeuiiJSYQi7puC_74WRZGfsGalkvFFIShIeD9Y9BeSJGXbG-7qjJSkoZ1VqW4HH232RyUDYiUJkP77vU.webp?r=10e",
-//         url: 'https://www.netflix.com/search?q=titani&jbv=60027711'
-//     }
-//     peliculas.push(peli);
-//     console.log();
-// }
-// localStorage.setItem("peliculas", JSON.stringify(peliculas));
 const peliculas = JSON.parse(localStorage.getItem("Pelicula"));
 const arrayDeArraysPorCategoria = peliculas.reduce((acumulador, pelicula) => {
   const categoriaExistente = acumulador.find(arr => arr[0].categoria === pelicula.categoria);
@@ -92,11 +75,9 @@ carruselesPorCategoria.innerHTML = carruseles;
 
 const obtenerPeliculaDestacada = () => {
   let peliculaDestacada = peliculas.find(pelicula => pelicula.destacado == true)
-  console.log(peliculaDestacada);
   if(!peliculaDestacada){
     peliculaDestacada = peliculas[Math.floor(Math.random() * (peliculas.length + 1))]
   }
-  console.log(peliculaDestacada);
   return peliculaDestacada
 }
 

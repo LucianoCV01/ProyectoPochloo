@@ -3,30 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/Nosotros.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/a7f4659b4f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/Nosotros.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Outfit:wght@100&display=swap');
-      </style>
-    
-    
+    </style>
     <title>Nosotros</title>       
 
 </head>
 <body>
-	<header></header>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" id="header">
+          <a class="navbar-brand" href="inicio.html"><img src="../img/Pochloo_Logo.png" alt="Logo de la plataforma"></a>
+          <button class="navbar-toggler" id="iconoHamburguesa" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Categorías
+                </a>
+                <ul class="dropdown-menu" id="categoriaa"> 
+                    <li><a class="dropdown-item text-light">Animación</a></li>
+                    <li><a class="dropdown-item text-light">Acción y Aventura</a></li>
+                    <li><a class="dropdown-item text-light">Ciencia Ficción</a></li>
+                    <li><a class="dropdown-item text-light">Comedia</a></li>
+                    <li><a class="dropdown-item text-light">Documental</a></li>
+                    <li><a class="dropdown-item text-light">Drama</a></li>
+                    <li><a class="dropdown-item text-light">Musical</a></li>
+                    <li><a class="dropdown-item text-light">Misterio</a></li>
+                    <li><a class="dropdown-item text-light">Terror</a></li>
+                    <li><a class="dropdown-item text-light">Romance</a></li>
+                  </ul>
+              </li>
+              
+              <form class="d-flex" role="search" id="formBuscador">
+                    <input id="buscador" class="form-control me-2" placeholder="Buscar película..." aria-label="Search" required>
+                    <button class="btn" type="submit" id="btnBuscar"><i class="fa-solid fa-magnifying-glass"></i></button>
+                  </form>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" id="sesionLink" href="../index.html">Cerrar Sesión</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="adminLink" href="admin.html">Administración</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 		
    <main>
     <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item">
-                <img src="https://i0.wp.com/cuatrobastardos.com/wp-content/uploads/2023/06/PORTADA.jpg?fit=1200%2C675&ssl=1" class="d-block w-100" alt="superpoder">
-            </div>
-            <div class="carousel-item">
-                <img src="https://lapildorazuldotcom.files.wordpress.com/2022/05/tom-3.jpeg" class="d-block w-100" alt="galaxia">
-            </div>
             <div class="carousel-item active">
-                <img src="https://media.zenfs.com/es/levelup_525/d4da94e450538dbc93e11f1f50b8c8fag" class="d-block w-100" alt="aviones">
+                <img src="https://cinepremiere.com.mx/wp-content/uploads/2023/02/tetris-estreno-taron-edgerton.jpg" class="d-block w-100" alt="superpoder">
+            </div>
+            <div class="carousel-item ">
+                <img src="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/07/el-sen%CC%83or-de-los-anillos-scaled.jpeg?fit=2560%2C1440&quality=50&strip=all&ssl=1" class="d-block w-100" alt="galaxia">
+            </div>
+            <div class="carousel-item">
+                <img src="https://image.api.playstation.com/vulcan/ap/rnd/202306/0113/dff5e6c6b9cdd36b417d13aea5bc7cede609f70a44905ac8.jpg" class="d-block w-100" alt="aviones">
             </div>
         </div>
 
@@ -36,7 +78,7 @@
                     <h2 class = "text-light">Nuestra Historia</h2>
                 
                     <p class="text-light">
-                        FochLoo nacio con la idea de transformar la experiencia digital de nuestros clientes, ofreciéndoles un servicio seguro, flexible y dinámico.
+                        PochLoo nacio con la idea de transformar la experiencia digital de nuestros clientes, ofreciéndoles un servicio seguro, flexible y dinámico.
                        
                         Garantizamos conexiones fijas y móviles de alta velocidad, para acceder desde cualquier dispositivo.Ofrecemos la mejor experiencia de conectividad y entretenimiento.
                          
@@ -48,7 +90,7 @@
                 <div class="col-md-6">
                     <h2 class="text-light">Nuestra Misión</h2>
                     <p class="text-light">
-                        En FochLoo, nuestra misión es ofrecer la mejor experiencia digital de todos los tiempos. Estamos en constante movimiento para mejorar.
+                        En PochLoo, nuestra misión es ofrecer la mejor experiencia digital de todos los tiempos. Estamos en constante movimiento para mejorar.
                 
                         Nuestros principios, valores, fundamentos morales y éticos promueven la transparencia de nuestro accionar. 
                     </p>
@@ -60,37 +102,37 @@
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="team-member p-3">
-                        <img src="/img/Claudio.jpeg" alt="Claudio, miembro del equipo fochloo" class="img-fluid rounded-circle">
+                        <img src="/img/Claudio.jpeg" alt="Claudio, miembro del equipo Pochloo" class="img-fluid rounded-circle">
                         <h3 class="text-light">Claudio Joaquin Armando</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="team-member p-3">
-                        <img src="/img/Enzo.jpeg" alt="Enzo, miembro del equipo fochloo" class="img-fluid rounded-circle">
+                        <img src="/img/Enzo.jpeg" alt="Enzo, miembro del equipo Pochloo" class="img-fluid rounded-circle">
                         <h3 class="text-light">Enzo Castro</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="team-member p-3">
-                        <img src="/img/Ines.jpeg" alt="Ines, miembro del equipo fochloo" class="img-fluid rounded-circle">
+                        <img src="/img/Ines.jpeg" alt="Ines, miembro del equipo Pochloo" class="img-fluid rounded-circle">
                         <h3 class="text-light">Ines Silvana Toledo</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="team-member p-3">
-                        <img src="/img/Luciano.jpeg" alt="Luciano, miembro del equipo fochloo" class="img-fluid rounded-circle">
+                        <img src="/img/Luciano.jpeg" alt="Luciano, miembro del equipo Pochloo" class="img-fluid rounded-circle">
                         <h3 class="text-light">Luciano Cosentino</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="team-member p-3">
-                        <img src="/img/Martina.jpeg" alt="Martina, miembro del equipo fochloo" class="img-fluid rounded-circle">
+                        <img src="/img/Martina.jpeg" alt="Martina, miembro del equipo Pochloo" class="img-fluid rounded-circle">
                         <h3 class="text-light">Martina Gutierrez</h3>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="team-member p-3">
-                        <img src="/img/keyra.jpeg" alt=", keyra del equipo fochloo" class="img-fluid rounded-circle">
+                        <img src="/img/keyra.jpeg" alt=", keyra del equipo Pochloo" class="img-fluid rounded-circle">
                         <h3 class="text-light">Keyra Lima</h3>
                     </div>
                 </div>
@@ -151,5 +193,9 @@
      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
         crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/f8271ebcd6.js" crossorigin="anonymous"></script>
+    <script src="../js/header.js"></script>
+    <script src="../js/buscador.js"></script>
+    <script src="../js/categoria.js"></script>
      </body>
 </html>
