@@ -65,6 +65,14 @@ html {
 	margin-bottom: 2rem;
 }
 
+#categoriaa li:hover{
+	cursor: pointer;
+}
+
+#categoriaa a:hover{
+	color: black!important;
+}
+
 #iconoHamburguesa {
 	background-color: #F05941;
 }
