@@ -5,6 +5,7 @@
     font-family: 'Outfit', sans-serif;
 }
 
+
 body {
     background: linear-gradient(rgba(58, 26, 47, 0.8),rgba(56, 37, 37, 0.8)),url(../img/cine.jpg);
     background-size: cover;
@@ -43,7 +44,6 @@ body {
 }
 
 .data > p > i {
-    color: becrimson;
     margin-right: 10px;
     font-size:25px;
 }
@@ -162,7 +162,7 @@ body {
  }
 
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
     #containerContacto {
         width: 95%;
         display: flex;
