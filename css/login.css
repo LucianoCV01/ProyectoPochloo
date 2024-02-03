@@ -75,7 +75,6 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
 #botonLogeo {
     display: flex;
     justify-content: center;
