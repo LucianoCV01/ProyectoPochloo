@@ -18,13 +18,15 @@ const comprobarAdmin = () =>
 comprobarAdmin()
 
 class Producto {
-    constructor(codigo, nombre, categoria, descripcion, publicado, destacado, imagen, url) {
+    constructor(codigo, nombre, categoria, descripcion, publicado, destacado, imagenDestacado, logo, imagen, url) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.categoria = categoria;
         this.descripcion = descripcion;
         this.publicado = publicado;
         this.destacado = destacado || false;
+        this.imagenDestacado = imagenDestacado || null;
+        this.logo = logo || null;
         this.imagen = imagen;
         this.url = url;
     }
@@ -120,10 +122,12 @@ const crearProducto = () => {
     const descripcion = document.getElementById("descripcion").value;
     const publicado = document.getElementById("publicado").checked;
     const destacado = document.getElementById("destacado").checked;
+    const imagenDestacado = document.getElementById("imagenDestacado").value; // nuevo campo
+    const logo = document.getElementById("logo").value; // nuevo campo
     const imagen = document.getElementById("imagen").value;
     const url = document.getElementById("url").value;
 
-    let producto = new Producto(generarCodigo(), nombre, categoria, descripcion, publicado, destacado, imagen, url);
+    let producto = new Producto(generarCodigo(), nombre, categoria, descripcion, publicado, destacado, imagenDestacado, logo, imagen, url);
     return producto;
 }
 const destacarProducto = (codigoProducto) => {
@@ -198,6 +202,8 @@ const mostrarModal = (titulo, datosProducto) => {
         document.getElementById('descripcion').value = datosProducto.descripcion;
         document.getElementById('publicado').checked = datosProducto.publicado;
         document.getElementById('destacado').checked = datosProducto.destacado;
+        document.getElementById('imagenDestacado').value = datosProducto.imagenDestacado || ""; // nuevo campo
+        document.getElementById('logo').value = datosProducto.logo || ""; // nuevo campo
         document.getElementById('imagen').value = datosProducto.imagen;
         document.getElementById('url').value = datosProducto.url;
         modalBtnAccion.textContent = "Actualizar";
