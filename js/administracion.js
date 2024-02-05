@@ -43,14 +43,20 @@ const leerLocalStorage = (nombreLocalStorage) => {
 const guardarLocalStorage = (nombreLocalStorage, arregloObjetos) => {
     localStorage.setItem(nombreLocalStorage, JSON.stringify(arregloObjetos));
 }
-const cargarLocalStorage = () => {
-    let peliculasJson = fetch(`../json/peliculas.json`)
-        .then((resp => {
-            resp.json().then((data => {
-                guardarLocalStorage("Pelicula", data);
+
+function existeLocalStorage(clave) {
+    return localStorage.getItem(clave) !== null;
+}
+    const cargarLocalStorage = () => {
+        if(!existeLocalStorage("Pelicula")){
+        let peliculasJson = fetch(`../json/peliculas.json`)
+            .then((resp => {
+                resp.json().then((data => {
+                    guardarLocalStorage("Pelicula", data);
+                }))
             }))
-        }))
-        .catch(console.warn)
+            .catch(console.warn)
+    }
 }
 
 // FUNCIONES EXTRA
