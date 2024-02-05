@@ -1,4 +1,7 @@
+//OBTENGO LAS PELICULAS DEL LOCALSTORAGE
 const peliculas = JSON.parse(localStorage.getItem("Pelicula"));
+
+//SEPARO LAS PELICULAS POR CATEGORIA
 const arrayDeArraysPorCategoria = peliculas.reduce((acumulador, pelicula) => {
   if (pelicula.publicado) {
     const categoriaExistente = acumulador.find(arr => arr[0].categoria === pelicula.categoria);
@@ -12,6 +15,7 @@ const arrayDeArraysPorCategoria = peliculas.reduce((acumulador, pelicula) => {
   return acumulador;
 }, []);
 
+
 //OBTENGO EL ID DEL CONTENEDOR DE TODOS LOS CARRUSELES
 const carruselesPorCategoria = document.getElementById("categoria");
 let carruseles = '';
@@ -21,7 +25,7 @@ if (arrayDeArraysPorCategoria != null) {
     if (arrayCategoria.length < 6) return
     //NOMBRE DE LA CATEGORIA
     const nombreCategoria = '<h1 class="tituloCategoria display-5 mt-4 mb-0 fw-bolder ps-3">' + arrayCategoria[0].categoria + '</h1>'
-    //COMIENZO DE PAGINACION
+    //COMIENZO DEL CARRUSEL
     const carruselInicio = '<!-- COMIENZO DE PAGINACION --> <div id="' + arrayCategoria[0].categoria + '" class="carousel slide" data-bs-touch="true">';
     const contenedorItemsCarruselInicio = ' <div class="carousel-inner"> ';
     let conjuntoCarruselItem = "";
@@ -39,22 +43,10 @@ if (arrayDeArraysPorCategoria != null) {
       else {
         carruselItemInicio = '<div class="carousel-item"> <div class="row row-cols-2 row-cols-md-3 row-cols-lg-6 g-4">'
       }
+      //CREACION DE CARDS
       for (y = 0; y < 6; y++) {
-        //COMIENZO DE LA CARD
         const cardInicio = '<div class="col px-2"><a href="detallePelicula.html" target="_blank" onclick="seleccionarPelicula(' + arrayCategoria[x].codigo + ')">  <div class="card h-100">'
-        //URL DE LA PELICULA
         const cardUrlEImagen = '<img class="" src="' + arrayCategoria[x].imagen + '" class="card-img-top" alt="Imagen de la pelicula ' + arrayCategoria[x].nombre + '">'
-        //ETIQUETAS NECESARIAS
-        // carruselesPorCategoria.innerHTML += '<div class="col"> <div class="card h-100">'
-        // //IMAGEN DE LA PELICULAS
-        // carruselesPorCategoria.innerHTML += '<img class="m-3" src="'+arrayCategoria[y].imagen+'" class="card-img-top" alt="Imagen de la pelicula'+arrayCategoria[y].nombre+'">'
-        // //CUERPO DE LA CARTA
-        // const cardCuerpo = '<div class="card-body">'
-        // //BOTONES DEL CUERPO (HOVER)
-        // const cardCuerpoTitulo = '<h5 class="card-title text-truncate"></h5>'
-        // //TEXTO DEL CUERPO
-        // const cardCuerpoTexto = '<p class="card-text text-truncate"></p>'
-        //CIERRE DE CARD
         const cardFin = ' </div> </a> </div>'
         const card = cardInicio + cardUrlEImagen + cardFin
         conjuntoCard = conjuntoCard + card;
@@ -75,6 +67,7 @@ if (arrayDeArraysPorCategoria != null) {
 };
 carruselesPorCategoria.innerHTML = carruseles;
 
+//FUNCION PARA OBTENER LA PELICULA DESTACADA
 const obtenerPeliculaDestacada = () => {
   let peliculaDestacada = peliculas.find(pelicula => pelicula.destacado == true)
   if (!peliculaDestacada || !peliculaDestacada.publicado) {
@@ -112,12 +105,16 @@ if (peliculaDestacadaDatos.logo != "") {
   datosPeliculaDestacada.insertBefore(tituloPeliculaDestacada, logoDestacado);
 }
 
+//DESCRIPCION DE PELICULAS DESTACADA
 descripcionPeliculaDestacada.textContent = peliculaDestacadaDatos.descripcion
+
+//AGREGACION DE EVENTO AL BOTON REPRODUCIR
 reproducirPeliculaDestacada.addEventListener("click", (event) => {
   event.preventDefault();
   window.open(peliculaDestacadaDatos.url).focus
 })
 
+//GUARDADO EN EL LOCALSTORAGE LA PELICULA QUE UNO SELECCIONE DE LAS CATEGORIAS
 function seleccionarPelicula(codigoPelicula) {
   localStorage.setItem("peliculaSeleccionada", codigoPelicula);
 }
