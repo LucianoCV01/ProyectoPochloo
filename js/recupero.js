@@ -20,7 +20,7 @@ function verificarUsuario() {
                     text: 'Se te ha enviado un mail, sigue los pasos para recuperar tu cuenta'
                 });
                 setTimeout(() => {
-                    window.location.href = 'index.html';
+                    window.location.href = '../index.html';
                 }, 1000);
             } else {
                 Swal.fire({
