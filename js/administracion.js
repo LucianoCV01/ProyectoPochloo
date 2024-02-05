@@ -11,7 +11,7 @@ const comprobarAdmin = () =>
         })
         setTimeout(() => {
             window.location.href = 'inicio.html';
-        }, 50);
+        }, 500);
     }
 }
 
