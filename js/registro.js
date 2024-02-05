@@ -52,8 +52,6 @@ function registroDeUsuarios() {
             } else {
                 usuarioNuevoRegistrado.push(newUser);
                 localStorage.setItem("Registro", JSON.stringify(usuarioNuevoRegistrado))
-                console.log("Usuario registrado:", newUser);
-                console.log("Todos los usuarios registrados:", usuarioNuevoRegistrado);
                 const formulario = document.getElementById('formularioDeRegistro');
                 formulario.reset();
                 Swal.fire({

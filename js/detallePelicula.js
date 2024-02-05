@@ -1,5 +1,4 @@
 const idPelicula = localStorage.getItem('peliculaSeleccionada');
-console.log('ID de la película seleccionada:', idPelicula);
 
 const leerLocalStorage = (nombreLocalStorage) => {
     let arregloObjetos = JSON.parse(localStorage.getItem(nombreLocalStorage));

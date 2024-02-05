@@ -9,10 +9,9 @@ const comprobarAdmin = () =>
             text: "Solo administradores pueden acceder a la página",
             icon: "error",
         })
-        console.log(Swal.close());
-        if(Swal.close()){
+        setTimeout(() => {
             window.location.href = 'inicio.html';
-        }
+        }, 1000);
     }
 }
 
@@ -256,9 +255,6 @@ modalBtnAccion.addEventListener("click", (event) => {
             productos[index].destacado = producto.destacado;
             productos[index].imagen = producto.imagen;
             productos[index].url = producto.url;
-        }
-        else {
-            console.log("Error al intentar modificar un producto");
         }
     }
     guardarLocalStorage("Pelicula", productos);

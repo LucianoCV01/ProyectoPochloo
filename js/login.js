@@ -64,7 +64,6 @@ function iniciarSesionPochloo() {
                     text: "Intenta nuevamente",
                     icon: "error",
                 })
-                console.log("Este usuario no está en el sistema");
             }
         }
 
