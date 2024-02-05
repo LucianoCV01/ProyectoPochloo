@@ -147,6 +147,10 @@ ul {
 	padding-left: 8px;
 }
 
+.footer-col ul{
+	padding-left: 0px;
+}
+
 .footer-col .social-links a {
 	display: inline-block;
 	height: 40px;
