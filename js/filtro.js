@@ -125,7 +125,7 @@ const encontrarPeliculaPorCategoria = () => {
     sectionFiltros.appendChild(divh1)
 
     peliculas.forEach(pelicula => {
-        if (buscado == pelicula.categoria) {
+        if (buscado == pelicula.categoria && pelicula.publicado) {
             construirMaquetado(pelicula)
         }
 
@@ -150,18 +150,19 @@ const encontrarPeliculaPorBusqueda = () => {
     peliculas.forEach((pelicula, index) => {
         let nombre = transformarString(pelicula.nombre)
         buscado = transformarString(buscado)
-
+        if (pelicula.publicado){
         if (nombre.startsWith(buscado)) {
-            arrayOrdenados.push(new Unidad(0, index))
-        } else {
-            let arregloPorPalabra = nombre.split(" ")
+                arrayOrdenados.push(new Unidad(0, index))
+            } else {
+                let arregloPorPalabra = nombre.split(" ")
 
-            for (let i = 0; i < arregloPorPalabra.length; i++) {
-                if (arregloPorPalabra[i].startsWith(buscado) && arregloPorPalabra[i].length > 3) {
-                    arrayOrdenados.push(new Unidad(i, index))
-                    i = arregloPorPalabra.length
+                for (let i = 0; i < arregloPorPalabra.length; i++) {
+                    if (arregloPorPalabra[i].startsWith(buscado) && arregloPorPalabra[i].length > 3) {
+                        arrayOrdenados.push(new Unidad(i, index))
+                        i = arregloPorPalabra.length
+                    }
+
                 }
-
             }
         }
     })
