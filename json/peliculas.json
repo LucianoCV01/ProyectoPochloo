@@ -149,9 +149,9 @@
         "categoria": "Drama",
         "descripcion": "Cuando el carismático profesor de Inglés John Keating llega a una preparatoria estricta, sus métodos de enseñanza poco convencionañes dan nueva vida a un plan de estudios impregnado de tradición. Pero Keating pronto descubre que ha provocado la ira de un profesorado que lo desaprueba cuando una tragedia inesperada golpea la escuela.",
         "publicado": true,
-        "destacado": false,
+        "destacado": true,
         "imagenDestacado": "https://image.tmdb.org/t/p/original/spPwYKBjeVNzBeGQAzwJbzIxQKv.jpg",
-        "logo": "https://image.tmdb.org/t/p/original/jQCFF99eWL73VVxEaqputGtyBGQ.png",
+        "logo": "https://picfiles.alphacoders.com/863/86364.png",
         "imagen": "https://prod-ripcut-delivery.disney-plus.net/v1/variant/star/EF38CF078096EF3FF42105FE912BCFE5822BFC80AC04224765C3D14F9375BB03/scale?width=400&aspectRatio=1.78&format=jpeg",
         "url": "https://youtu.be/ye4KFyWu2do?si=qGsU7gW5gI-SaWwG"
     },

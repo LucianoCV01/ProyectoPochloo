@@ -78,6 +78,11 @@ body {
     font-size: 1.3vw;
     width: 50%;
 }
+#logoDestacado{
+    margin-left: 10%;
+    position: relative;
+    max-width: 20vw;
+}
 #reproducirPeliculaDestacada{
     font-size: 1vw;
     width: 30%;
@@ -114,12 +119,6 @@ body {
 }
 .fa-lg:hover{
     scale: 1.2;
-}
-#logoDestacado{
-    margin-left: 10%;
-    position: relative;
-    /* top: 5%; */
-    width: 20vw;
 }
 @media (width <= 768px) {
     #peliculaDestacada{

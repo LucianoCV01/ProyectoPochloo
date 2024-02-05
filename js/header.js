@@ -1,5 +1,5 @@
-let sesionLink = document.getElementById("sesionLink")
-let adminLink = document.getElementById("adminLink")
+const sesionLink = document.getElementById("sesionLink")
+const adminLink = document.getElementById("adminLink")
 
 function existeLocalStorage(clave) {
     return localStorage.getItem(clave) !== null;
