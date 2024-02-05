@@ -9,9 +9,10 @@ const comprobarAdmin = () =>
             text: "Solo administradores pueden acceder a la página",
             icon: "error",
         })
-        setTimeout(() => {
+        console.log(Swal.close());
+        if(Swal.close()){
             window.location.href = 'inicio.html';
-        }, 500);
+        }
     }
 }
 
