@@ -75,19 +75,24 @@ body {
     font-weight: 900;
 }
 .datosPeliculaDestacada{
-    font-size: 1.3vw;
     width: 50%;
+}
+#descripcionPeliculaDestacada{
+    font-size: 1.3vw;
+    overflow-y: scroll;
+    scrollbar-color: transparent transparent;
 }
 #logoDestacado{
     margin-left: 10%;
     position: relative;
-    max-width: 20vw;
+    width: 20vw;
 }
 #reproducirPeliculaDestacada{
     font-size: 1vw;
     width: 30%;
     white-space: nowrap;
-    overflow: hidden;
+    overflow: hidden!important;
+    margin-bottom: 10px;
 }
 .categoria{
     background-color: rgb(34, 9, 44);
@@ -127,7 +132,6 @@ body {
     #reproducirPeliculaDestacada{
         font-size: 2vw;
         width: 50%;
-        white-space: nowrap;
         overflow: auto;
     }
     .fa-lg{
@@ -142,6 +146,19 @@ body {
     .col img:hover{
         scale : 105%;
     }
+    #descripcionPeliculaDestacada{
+        font-size: 2.5vw;
+    }
+    #descripcionPeliculaDestacada::-webkit-scrollbar-thumb {
+        background-color: #ff0000;
+    }
+    #logoDestacado{
+        width: 30vw;
+    }
+    #descripcionPeliculaDestacada{
+        scrollbar-width: thin;
+        scrollbar-color: white transparent;
+    }
 }
 
 @media (768px < width <= 992px) {
@@ -153,6 +170,9 @@ body {
     }
     .tituloCategoria{
         font-size: 5vw!important;
+    }
+    #logoDestacado{
+        width: 25vw;
     }
 }
 
